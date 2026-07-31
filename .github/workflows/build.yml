@@ -1,0 +1,49 @@
+name: Build IPTV M3U
+
+on:
+  schedule:
+    # Every day at 03:00 UTC (06:00 TR)
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build.js"
+      - ".github/workflows/build.yml"
+      - "package.json"
+
+concurrency:
+  group: build-m3u
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate iptv.m3u
+        env:
+          PROXY_BASE: ${{ vars.PROXY_BASE }}
+        run: npm run build
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain iptv.m3u)" ]]; then
+            git add iptv.m3u
+            git commit -m "chore: update iptv.m3u ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          else
+            echo "No changes in iptv.m3u"
+          fi
