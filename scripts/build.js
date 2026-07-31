@@ -15,6 +15,13 @@ const EPG_UPSTREAM_URL =
   process.env.EPG_UPSTREAM_URL ||
   "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz";
 
+// iptv-org public metadata for channel logos (name/alt_names → logo url).
+const IPTVORG_CHANNELS_URL =
+  process.env.IPTVORG_CHANNELS_URL ||
+  "https://iptv-org.github.io/api/channels.json";
+const IPTVORG_LOGOS_URL =
+  process.env.IPTVORG_LOGOS_URL || "https://iptv-org.github.io/api/logos.json";
+
 // Cloudflare Workers proxy base (no trailing slash). Set via GitHub Actions variable.
 const PROXY_BASE = (process.env.PROXY_BASE || "").replace(/\/+$/, "");
 
@@ -228,7 +235,7 @@ function toStreamUrl(item) {
   return item.url;
 }
 
-function toM3U(items, vavooToEpgId) {
+function toM3U(items, vavooToEpgId, logoResolver) {
   const header = `#EXTM3U url-tvg="${escapeAttr(EPG_URL)}" x-tvg-url="${escapeAttr(EPG_URL)}"`;
   const lines = [header];
   for (const it of items) {
@@ -236,7 +243,7 @@ function toM3U(items, vavooToEpgId) {
     const vavooId = it.ids?.id ?? "";
     const name = sanitizeName(it.name);
     if (!name) continue;
-    const logo = it.logo ?? "";
+    const logo = resolveLogo(name, it.logo, logoResolver);
     const group = categorize(name);
     // Route tvg-id to the upstream EPG channel id when we have a match,
     // so TiviMate can bind the guide. Fallback to the Vavoo id.
@@ -248,6 +255,15 @@ function toM3U(items, vavooToEpgId) {
   }
   lines.push("");
   return lines.join("\n");
+}
+
+// iptv-org logo > Vavoo logo > "" (empty). Vavoo mostly returns "" anyway.
+function resolveLogo(name, vavooLogo, logoResolver) {
+  if (logoResolver) {
+    const l = logoResolver(name);
+    if (l) return l;
+  }
+  return vavooLogo || "";
 }
 
 // -- XMLTV EPG -------------------------------------------------------------
@@ -376,7 +392,13 @@ function matchUpstreamId(vavooName, idx) {
   return null;
 }
 
-function toXMLTV(items, vavooToEpgId, upstreamChannels, upstreamProgByChannel) {
+function toXMLTV(
+  items,
+  vavooToEpgId,
+  upstreamChannels,
+  upstreamProgByChannel,
+  logoResolver
+) {
   const seenChannel = new Set();
   const channels = [];
   const programmes = [];
@@ -394,7 +416,9 @@ function toXMLTV(items, vavooToEpgId, upstreamChannels, upstreamProgByChannel) {
     // Prefer upstream display-name + icon when we have a match.
     const upstream = upstreamChannels.get(routedId);
     const displayName = upstream?.names?.[0] || name;
-    const icon = upstream?.icon || it.logo || "";
+    // Logo priority: iptv-org > upstream EPG icon > Vavoo logo > empty
+    const iptvorgLogo = logoResolver ? logoResolver(name) : "";
+    const icon = iptvorgLogo || upstream?.icon || it.logo || "";
     const iconTag = icon ? `\n    <icon src="${xmlEscape(icon)}"/>` : "";
     channels.push(
       `  <channel id="${xmlEscape(routedId)}">\n` +
@@ -429,6 +453,59 @@ function toXMLTV(items, vavooToEpgId, upstreamChannels, upstreamProgByChannel) {
     `${programmes.join("\n")}\n` +
     `</tv>\n`
   );
+}
+
+// -- iptv-org logo index ---------------------------------------------------
+
+async function fetchJson(url) {
+  const res = await fetch(url, { signal: AbortSignal.timeout(60000) });
+  if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
+  return res.json();
+}
+
+async function buildLogoIndex() {
+  const [channels, logos] = await Promise.all([
+    fetchJson(IPTVORG_CHANNELS_URL),
+    fetchJson(IPTVORG_LOGOS_URL),
+  ]);
+  const trChannels = channels.filter((c) => c && c.country === "TR");
+  const trIds = new Set(trChannels.map((c) => c.id));
+
+  // Prefer in_use=true logos; fall back to first available.
+  const chosen = new Map();
+  for (const l of logos) {
+    if (!l || !trIds.has(l.channel) || !l.url) continue;
+    const current = chosen.get(l.channel);
+    if (!current || (l.in_use && !current.in_use)) {
+      chosen.set(l.channel, l);
+    }
+  }
+
+  const idx = new Map();
+  for (const c of trChannels) {
+    const l = chosen.get(c.id);
+    if (!l) continue;
+    const names = [c.name, ...(Array.isArray(c.alt_names) ? c.alt_names : [])];
+    for (const n of names) {
+      if (!n) continue;
+      const k1 = normalizeForMatch(n);
+      const k2 = normalizeStripQuality(k1);
+      if (k1 && !idx.has(k1)) idx.set(k1, l.url);
+      if (k2 && !idx.has(k2)) idx.set(k2, l.url);
+    }
+  }
+  return idx;
+}
+
+function makeLogoResolver(idx) {
+  if (!idx || idx.size === 0) return null;
+  return (vavooName) => {
+    const k1 = normalizeForMatch(vavooName);
+    if (idx.has(k1)) return idx.get(k1);
+    const k2 = normalizeStripQuality(k1);
+    if (idx.has(k2)) return idx.get(k2);
+    return "";
+  };
 }
 
 async function main() {
@@ -477,9 +554,19 @@ async function main() {
     );
   }
 
+  let logoIdx = new Map();
+  try {
+    logoIdx = await buildLogoIndex();
+    console.log(`Logo index: ${logoIdx.size} name keys → iptv-org TR logos`);
+  } catch (err) {
+    console.warn(`Logo index unavailable (${err.message}); logos will be empty.`);
+  }
+  const logoResolver = makeLogoResolver(logoIdx);
+
   const matchIdx = buildMatchIndex(upstreamChannels);
   const vavooToEpgId = new Map();
   let matched = 0;
+  let logoMatched = 0;
   for (const it of items) {
     const vavooId = it?.ids?.id;
     if (!vavooId) continue;
@@ -492,6 +579,7 @@ async function main() {
     } else {
       vavooToEpgId.set(vavooId, vavooId);
     }
+    if (logoResolver && logoResolver(name)) logoMatched++;
   }
   const uniqueMatched = new Set(
     [...vavooToEpgId.values()].filter((id) => upstreamChannels.has(id))
@@ -499,12 +587,21 @@ async function main() {
   console.log(
     `Channel binding: ${matched}/${items.length} Vavoo channels matched upstream (${uniqueMatched} unique upstream channels covered)`
   );
+  console.log(
+    `Logo binding:    ${logoMatched}/${items.length} Vavoo channels matched an iptv-org logo`
+  );
 
-  const m3u = toM3U(items, vavooToEpgId);
+  const m3u = toM3U(items, vavooToEpgId, logoResolver);
   await fs.writeFile(M3U_FILE, m3u, "utf8");
   console.log(`Wrote ${M3U_FILE} (${m3u.length} bytes, ${items.length} channels)`);
 
-  const epg = toXMLTV(items, vavooToEpgId, upstreamChannels, upstreamProgByChannel);
+  const epg = toXMLTV(
+    items,
+    vavooToEpgId,
+    upstreamChannels,
+    upstreamProgByChannel,
+    logoResolver
+  );
   await fs.writeFile(EPG_FILE, epg, "utf8");
   const programmeCount = (epg.match(/<programme /g) || []).length;
   const channelCount = (epg.match(/<channel /g) || []).length;
