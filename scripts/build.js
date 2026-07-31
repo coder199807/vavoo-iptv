@@ -15,6 +15,10 @@ const EPG_UPSTREAM_URL =
   process.env.EPG_UPSTREAM_URL ||
   "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz";
 
+// Optional directory of iptv-org/epg grab outputs (XMLTV per site).
+// Provided by CI when the grab step runs; overrides epgshare01 when a channel is present.
+const IPTVORG_GRAB_DIR = process.env.IPTVORG_GRAB_DIR || "";
+
 // iptv-org public metadata for channel logos (name/alt_names → logo url).
 const IPTVORG_CHANNELS_URL =
   process.env.IPTVORG_CHANNELS_URL ||
@@ -303,6 +307,37 @@ async function fetchUpstreamXmltv(url) {
   return bytes.toString("utf8");
 }
 
+// Load and merge all XMLTV files inside a directory (iptv-org grab output).
+async function loadGrabDir(dir) {
+  const combined = { channels: new Map(), progByChannel: new Map() };
+  if (!dir) return combined;
+  let entries;
+  try {
+    entries = await fs.readdir(dir);
+  } catch {
+    return combined;
+  }
+  for (const f of entries) {
+    if (!f.toLowerCase().endsWith(".xml")) continue;
+    let xml;
+    try {
+      xml = await fs.readFile(path.join(dir, f), "utf8");
+    } catch {
+      continue;
+    }
+    const parsed = parseXmltv(xml);
+    for (const [id, data] of parsed.channels) {
+      if (!combined.channels.has(id)) combined.channels.set(id, data);
+    }
+    for (const p of parsed.programmes) {
+      if (!combined.progByChannel.has(p.channel))
+        combined.progByChannel.set(p.channel, []);
+      combined.progByChannel.get(p.channel).push(p);
+    }
+  }
+  return combined;
+}
+
 // Parse XMLTV via regex (no dependency). Sufficient for well-formed feeds.
 function parseXmltv(xml) {
   const channels = new Map(); // id -> { names[], icon }
@@ -395,6 +430,9 @@ function matchUpstreamId(vavooName, idx) {
 function toXMLTV(
   items,
   vavooToEpgId,
+  idSource,
+  grabChannels,
+  grabProgByChannel,
   upstreamChannels,
   upstreamProgByChannel,
   logoResolver
@@ -413,12 +451,21 @@ function toXMLTV(
     if (seenChannel.has(routedId)) continue;
     seenChannel.add(routedId);
 
-    // Prefer upstream display-name + icon when we have a match.
-    const upstream = upstreamChannels.get(routedId);
-    const displayName = upstream?.names?.[0] || name;
-    // Logo priority: iptv-org > upstream EPG icon > Vavoo logo > empty
+    const src = idSource.get(routedId) || "inline";
+    let sourceCh = null;
+    let sourceProgs = [];
+    if (src === "grab") {
+      sourceCh = grabChannels.get(routedId) || null;
+      sourceProgs = grabProgByChannel.get(routedId) || [];
+    } else if (src === "epgshare01") {
+      sourceCh = upstreamChannels.get(routedId) || null;
+      sourceProgs = upstreamProgByChannel.get(routedId) || [];
+    }
+
+    const displayName = sourceCh?.names?.[0] || name;
+    // Logo priority: iptv-org > EPG source icon > Vavoo logo > empty
     const iptvorgLogo = logoResolver ? logoResolver(name) : "";
-    const icon = iptvorgLogo || upstream?.icon || it.logo || "";
+    const icon = iptvorgLogo || sourceCh?.icon || it.logo || "";
     const iconTag = icon ? `\n    <icon src="${xmlEscape(icon)}"/>` : "";
     channels.push(
       `  <channel id="${xmlEscape(routedId)}">\n` +
@@ -426,9 +473,8 @@ function toXMLTV(
       `  </channel>`
     );
 
-    if (upstream) {
-      const progs = upstreamProgByChannel.get(routedId) || [];
-      for (const p of progs) {
+    if (sourceProgs.length > 0) {
+      for (const p of sourceProgs) {
         programmes.push(
           `  <programme start="${xmlEscape(p.start)}" stop="${xmlEscape(p.stop)}" channel="${xmlEscape(routedId)}">\n    ${p.body}\n  </programme>`
         );
@@ -546,11 +592,26 @@ async function main() {
       upstreamProgByChannel.get(p.channel).push(p);
     }
     console.log(
-      `Upstream EPG: ${upstreamChannels.size} channels, ${parsed.programmes.length} programmes`
+      `Upstream EPG (epgshare01): ${upstreamChannels.size} channels, ${parsed.programmes.length} programmes`
     );
   } catch (err) {
     console.warn(
       `Upstream EPG unavailable (${err.message}); falling back to Vavoo inline EPG only.`
+    );
+  }
+
+  const grab = await loadGrabDir(IPTVORG_GRAB_DIR);
+  if (grab.channels.size > 0) {
+    const grabProgCount = [...grab.progByChannel.values()].reduce(
+      (s, a) => s + a.length,
+      0
+    );
+    console.log(
+      `iptv-org grab: ${grab.channels.size} channels, ${grabProgCount} programmes (dir: ${IPTVORG_GRAB_DIR})`
+    );
+  } else if (IPTVORG_GRAB_DIR) {
+    console.warn(
+      `iptv-org grab dir "${IPTVORG_GRAB_DIR}" empty or missing; only epgshare01 + Vavoo inline will be used.`
     );
   }
 
@@ -563,29 +624,39 @@ async function main() {
   }
   const logoResolver = makeLogoResolver(logoIdx);
 
-  const matchIdx = buildMatchIndex(upstreamChannels);
+  const grabIdx = buildMatchIndex(grab.channels);
+  const upstreamIdx = buildMatchIndex(upstreamChannels);
   const vavooToEpgId = new Map();
-  let matched = 0;
+  const idSource = new Map();
+  let grabMatched = 0;
+  let upstreamMatched = 0;
   let logoMatched = 0;
   for (const it of items) {
     const vavooId = it?.ids?.id;
     if (!vavooId) continue;
     const name = sanitizeName(it.name);
     if (!name) continue;
-    const upstreamId = matchUpstreamId(name, matchIdx);
-    if (upstreamId) {
-      vavooToEpgId.set(vavooId, upstreamId);
-      matched++;
+
+    // Priority: iptv-org grab (real TR descriptions) > epgshare01 (title-only) > Vavoo inline
+    const grabId = matchUpstreamId(name, grabIdx);
+    if (grabId) {
+      vavooToEpgId.set(vavooId, grabId);
+      idSource.set(grabId, "grab");
+      grabMatched++;
     } else {
-      vavooToEpgId.set(vavooId, vavooId);
+      const upstreamId = matchUpstreamId(name, upstreamIdx);
+      if (upstreamId) {
+        vavooToEpgId.set(vavooId, upstreamId);
+        idSource.set(upstreamId, "epgshare01");
+        upstreamMatched++;
+      } else {
+        vavooToEpgId.set(vavooId, vavooId);
+      }
     }
     if (logoResolver && logoResolver(name)) logoMatched++;
   }
-  const uniqueMatched = new Set(
-    [...vavooToEpgId.values()].filter((id) => upstreamChannels.has(id))
-  ).size;
   console.log(
-    `Channel binding: ${matched}/${items.length} Vavoo channels matched upstream (${uniqueMatched} unique upstream channels covered)`
+    `Channel binding: grab=${grabMatched}, epgshare01=${upstreamMatched}, vavoo-only=${items.length - grabMatched - upstreamMatched} (total ${items.length})`
   );
   console.log(
     `Logo binding:    ${logoMatched}/${items.length} Vavoo channels matched an iptv-org logo`
@@ -598,6 +669,9 @@ async function main() {
   const epg = toXMLTV(
     items,
     vavooToEpgId,
+    idSource,
+    grab.channels,
+    grab.progByChannel,
     upstreamChannels,
     upstreamProgByChannel,
     logoResolver
