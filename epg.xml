@@ -548,6 +548,9 @@
     <display-name>BABY TV .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=3820420855.png"/>
   </channel>
+  <channel id="41848652906e4c7a933f55">
+    <display-name>BABY TV .s</display-name>
+  </channel>
   <channel id="27516589959a967260542d">
     <display-name>BABY TV HD .b</display-name>
   </channel>
@@ -723,6 +726,9 @@
   <channel id="26173183867663c6c36018">
     <display-name>BEIN MOVIES ACTION 2 .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=2617318386.png"/>
+  </channel>
+  <channel id="650851542129b8a3280b6">
+    <display-name>BEIN MOVIES ACTION 2 .s</display-name>
   </channel>
   <channel id="2485199152f30b65834b87">
     <display-name>BEIN MOVIES FAMILY .c</display-name>
@@ -974,12 +980,6 @@
   </channel>
   <channel id="1753590086d14bf2945f0e">
     <display-name>BONUS MASAL DIYARI .b</display-name>
-  </channel>
-  <channel id="2703864948c3ea529a2063">
-    <display-name>BOOBA TV .b</display-name>
-  </channel>
-  <channel id="29439742084c66e3a8bcec">
-    <display-name>BOOMERANG .s</display-name>
   </channel>
   <channel id="11743931b356e8661a4d">
     <display-name>BOOMERANG HD .b</display-name>
@@ -1320,6 +1320,9 @@
   </channel>
   <channel id="20954040600611bde9e160">
     <display-name>DISCOVERY ID .b</display-name>
+  </channel>
+  <channel id="972730032fe506471c990">
+    <display-name>DISCOVERY ID .s</display-name>
   </channel>
   <channel id="9700986623c97a7651f69">
     <display-name>DISCOVERY IDX HD .b</display-name>
@@ -2028,6 +2031,10 @@
   <channel id="1781656098069f8c014f2b">
     <display-name>KANAL D FHD .b</display-name>
   </channel>
+  <channel id="13713062708ede849035ef">
+    <display-name>KANAL D HD (H265) .b</display-name>
+    <icon src="https://logo.huhu.to/logo?c=1371306270.png"/>
+  </channel>
   <channel id="113044193323e36b85a648">
     <display-name>KANAL D HD .b</display-name>
   </channel>
@@ -2512,6 +2519,9 @@
     <display-name>NTV .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=3982787280.png"/>
   </channel>
+  <channel id="31645146969d653b3c12ef">
+    <display-name>NTV .s</display-name>
+  </channel>
   <channel id="123731096406a8cd66fdf9">
     <display-name>NTV HABER .s</display-name>
   </channel>
@@ -2662,6 +2672,9 @@
   </channel>
   <channel id="2703806315a67a7c89a263">
     <display-name>POWER T RK T RK E POP .b</display-name>
+  </channel>
+  <channel id="538668348aa4815e4285a">
+    <display-name>POWER TURK .s</display-name>
   </channel>
   <channel id="714196738c6888433546f">
     <display-name>POWER TURK HD .b</display-name>
@@ -2901,6 +2914,12 @@
   </channel>
   <channel id="3828385424290f2ed403d4">
     <display-name>SALON 3 .c</display-name>
+  </channel>
+  <channel id="178779066e5e927c8ea2a">
+    <display-name>SALON 3 HD .b</display-name>
+  </channel>
+  <channel id="915717266d3f2ea348618">
+    <display-name>SALON 3 SINEMAX .s</display-name>
   </channel>
   <channel id="6486691c18ad2d668c4">
     <display-name>SALON 4 HD .b</display-name>
@@ -3539,9 +3558,6 @@
   <channel id="17020398633aafc0a6bc">
     <display-name>TRT EBA ORTAOKUL .s</display-name>
   </channel>
-  <channel id="228765803362ec29207df8">
-    <display-name>TRT EBA ILKOKUL .s</display-name>
-  </channel>
   <channel id="2003703357957a75b3c760">
     <display-name>TRT HABER .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=2003703357.png"/>
@@ -3812,6 +3828,10 @@
     <display-name>TIVI TURK .s</display-name>
     <icon src="https://logo.huhu.to/logo?c=2048436163.png"/>
   </channel>
+  <channel id="7021579547bba092a6b21">
+    <display-name>TIVI TÜRK .c</display-name>
+    <icon src="https://logo.huhu.to/logo?c=702157954.png"/>
+  </channel>
   <channel id="1159899920595e9c441350">
     <display-name>TIVIBU SPOR .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=1159899920.png"/>
@@ -3865,6 +3885,10 @@
     <display-name>TIVIBUSPOR 2 FHD .b</display-name>
     <icon src="https://logo.huhu.to/logo?c=2502606333.png"/>
   </channel>
+  <channel id="1465680660b8cd069bfa4c">
+    <display-name>TIVIBUSPOR 2 HD .b</display-name>
+    <icon src="https://logo.huhu.to/logo?c=1465680660.png"/>
+  </channel>
   <channel id="21863899508f19a672f26d">
     <display-name>TIVIBUSPOR 3 FHD .b</display-name>
     <icon src="https://logo.huhu.to/logo?c=2186389950.png"/>
@@ -3902,15 +3926,6 @@
   <channel id="317434201637fa05adb599">
     <display-name>ULTRA KEMAL SUNAL .b</display-name>
   </channel>
-  <channel id="353794604875208baceee0">
-    <display-name>ULTRA KOMEDI .b</display-name>
-  </channel>
-  <channel id="356356254709757fc813c5">
-    <display-name>ULTRA KORKU .b</display-name>
-  </channel>
-  <channel id="1868001587a3901abe7695">
-    <display-name>ULTRA TURK .b</display-name>
-  </channel>
   <channel id="15664461228f5c7a25a520">
     <display-name>ULTRA IMBD .b</display-name>
   </channel>
@@ -3933,6 +3948,9 @@
   </channel>
   <channel id="32821815116af88acacbb6">
     <display-name>VATAN TV .b</display-name>
+  </channel>
+  <channel id="2730047464284a34ade8a0">
+    <display-name>VATAN TV .s</display-name>
   </channel>
   <channel id="94903312294e3da09f3b7">
     <display-name>VUSLAT TV .c</display-name>
@@ -4387,17 +4405,23 @@
   <programme start="20260731150000 +0000" stop="20260731152500 +0000" channel="64543153093b2057929eb">
     <title>Fórum</title>
   </programme>
-  <programme start="20260731141000 +0000" stop="20260731141200 +0000" channel="382042085583b289bf81e2">
-    <title>Lieder &amp; Rhythmen</title>
-  </programme>
   <programme start="20260731141200 +0000" stop="20260731141600 +0000" channel="382042085583b289bf81e2">
     <title>Crafty Rafty</title>
   </programme>
-  <programme start="20260731141000 +0000" stop="20260731141200 +0000" channel="27516589959a967260542d">
-    <title>Lieder &amp; Rhythmen</title>
+  <programme start="20260731141600 +0000" stop="20260731141900 +0000" channel="382042085583b289bf81e2">
+    <title>Billy Bam Bams Bastelclub</title>
+  </programme>
+  <programme start="20260731141200 +0000" stop="20260731141600 +0000" channel="41848652906e4c7a933f55">
+    <title>Crafty Rafty</title>
+  </programme>
+  <programme start="20260731141600 +0000" stop="20260731141900 +0000" channel="41848652906e4c7a933f55">
+    <title>Billy Bam Bams Bastelclub</title>
   </programme>
   <programme start="20260731141200 +0000" stop="20260731141600 +0000" channel="27516589959a967260542d">
     <title>Crafty Rafty</title>
+  </programme>
+  <programme start="20260731141600 +0000" stop="20260731141900 +0000" channel="27516589959a967260542d">
+    <title>Billy Bam Bams Bastelclub</title>
   </programme>
   <programme start="20260731135000 +0000" stop="20260731150000 +0000" channel="2618455562938e9a0e0faf">
     <title>Changing Planet: Coral Special Sezonul 1 - Episodul 1</title>
@@ -4657,12 +4681,6 @@
   <programme start="20260731144500 +0000" stop="20260731152000 +0000" channel="8585683074b88a84fea71">
     <title>Seans Notları</title>
   </programme>
-  <programme start="20260731135500 +0000" stop="20260731142500 +0000" channel="29439742084c66e3a8bcec">
-    <title>Wyluzuj, Scooby-Doo! 2</title>
-  </programme>
-  <programme start="20260731142500 +0000" stop="20260731144500 +0000" channel="29439742084c66e3a8bcec">
-    <title>Wyluzuj, Scooby-Doo! 2</title>
-  </programme>
   <programme start="20260731135500 +0000" stop="20260731142500 +0000" channel="11743931b356e8661a4d">
     <title>Wyluzuj, Scooby-Doo! 2</title>
   </programme>
@@ -4771,28 +4789,28 @@
   <programme start="20260731141900 +0000" stop="20260731144800 +0000" channel="220576533165e4633695d4">
     <title>Awesome Adventures</title>
   </programme>
-  <programme start="20260731131200 +0000" stop="20260731141200 +0000" channel="315721043612919a3e4725">
-    <title>Fang des Lebens - Der gefährlichste Job Alaskas</title>
-  </programme>
   <programme start="20260731141200 +0000" stop="20260731151500 +0000" channel="315721043612919a3e4725">
     <title>110 Hannover - Im Visier der Polizei</title>
   </programme>
-  <programme start="20260731131200 +0000" stop="20260731141200 +0000" channel="3239529951d63b20c43f8b">
-    <title>Fang des Lebens - Der gefährlichste Job Alaskas</title>
+  <programme start="20260731151500 +0000" stop="20260731161600 +0000" channel="315721043612919a3e4725">
+    <title>110 Hannover - Im Visier der Polizei</title>
   </programme>
   <programme start="20260731141200 +0000" stop="20260731151500 +0000" channel="3239529951d63b20c43f8b">
     <title>110 Hannover - Im Visier der Polizei</title>
   </programme>
-  <programme start="20260731131200 +0000" stop="20260731141200 +0000" channel="1595495667292319e147ce">
-    <title>Fang des Lebens - Der gefährlichste Job Alaskas</title>
+  <programme start="20260731151500 +0000" stop="20260731161600 +0000" channel="3239529951d63b20c43f8b">
+    <title>110 Hannover - Im Visier der Polizei</title>
   </programme>
   <programme start="20260731141200 +0000" stop="20260731151500 +0000" channel="1595495667292319e147ce">
     <title>110 Hannover - Im Visier der Polizei</title>
   </programme>
-  <programme start="20260731131200 +0000" stop="20260731141200 +0000" channel="3928493138c10993284095">
-    <title>Fang des Lebens - Der gefährlichste Job Alaskas</title>
+  <programme start="20260731151500 +0000" stop="20260731161600 +0000" channel="1595495667292319e147ce">
+    <title>110 Hannover - Im Visier der Polizei</title>
   </programme>
   <programme start="20260731141200 +0000" stop="20260731151500 +0000" channel="3928493138c10993284095">
+    <title>110 Hannover - Im Visier der Polizei</title>
+  </programme>
+  <programme start="20260731151500 +0000" stop="20260731161600 +0000" channel="3928493138c10993284095">
     <title>110 Hannover - Im Visier der Polizei</title>
   </programme>
   <programme start="20260731140000 +0000" stop="20260731145500 +0000" channel="26690245101fd09556fb3d">
@@ -4873,17 +4891,23 @@
   <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="20954040600611bde9e160">
     <title>Güneyli Suç Hikayeleri</title>
   </programme>
-  <programme start="20260731134500 +0000" stop="20260731141200 +0000" channel="1161899432db055970dd1d">
-    <title>Der Geist und Molly McGee</title>
+  <programme start="20260731140000 +0000" stop="20260731150000 +0000" channel="972730032fe506471c990">
+    <title>Güneyli Suç Hikayeleri</title>
+  </programme>
+  <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="972730032fe506471c990">
+    <title>Güneyli Suç Hikayeleri</title>
   </programme>
   <programme start="20260731141200 +0000" stop="20260731143900 +0000" channel="1161899432db055970dd1d">
     <title>Yuna &amp; Stitch</title>
   </programme>
-  <programme start="20260731134500 +0000" stop="20260731141200 +0000" channel="3578544716a4cc42d03dcd">
-    <title>Der Geist und Molly McGee</title>
+  <programme start="20260731143900 +0000" stop="20260731150600 +0000" channel="1161899432db055970dd1d">
+    <title>Phineas und Ferb</title>
   </programme>
   <programme start="20260731141200 +0000" stop="20260731143900 +0000" channel="3578544716a4cc42d03dcd">
     <title>Yuna &amp; Stitch</title>
+  </programme>
+  <programme start="20260731143900 +0000" stop="20260731150600 +0000" channel="3578544716a4cc42d03dcd">
+    <title>Phineas und Ferb</title>
   </programme>
   <programme start="20260731140000 +0000" stop="20260731143000 +0000" channel="34228536805e87ad5629aa">
     <title>Greenowie w wielkim mieście</title>
@@ -5275,6 +5299,12 @@
   <programme start="20260731160000 +0000" stop="20260731170000 +0000" channel="1781656098069f8c014f2b">
     <title>Știrile Kanal D</title>
   </programme>
+  <programme start="20260731133000 +0000" stop="20260731160000 +0000" channel="13713062708ede849035ef">
+    <title>Casa iubirii</title>
+  </programme>
+  <programme start="20260731160000 +0000" stop="20260731170000 +0000" channel="13713062708ede849035ef">
+    <title>Știrile Kanal D</title>
+  </programme>
   <programme start="20260731133000 +0000" stop="20260731160000 +0000" channel="113044193323e36b85a648">
     <title>Casa iubirii</title>
   </programme>
@@ -5545,6 +5575,12 @@
   <programme start="20260731141500 +0000" stop="20260731143000 +0000" channel="39827872808e4f8366f192">
     <title>ntv Wirtschaft</title>
   </programme>
+  <programme start="20260731140000 +0000" stop="20260731141500 +0000" channel="31645146969d653b3c12ef">
+    <title>Nachrichten</title>
+  </programme>
+  <programme start="20260731141500 +0000" stop="20260731143000 +0000" channel="31645146969d653b3c12ef">
+    <title>ntv Wirtschaft</title>
+  </programme>
   <programme start="20260731140000 +0000" stop="20260731141500 +0000" channel="3194104127c78eba51ffc7">
     <title>Nachrichten</title>
   </programme>
@@ -5616,6 +5652,12 @@
   </programme>
   <programme start="20260731144500 +0000" stop="20260731145000 +0000" channel="889661020f5c59638da26">
     <title>Reklam</title>
+  </programme>
+  <programme start="20260731140000 +0000" stop="20260731142500 +0000" channel="538668348aa4815e4285a">
+    <title>40 X Pop</title>
+  </programme>
+  <programme start="20260731142500 +0000" stop="20260731143000 +0000" channel="538668348aa4815e4285a">
+    <title>Pop Program</title>
   </programme>
   <programme start="20260731140000 +0000" stop="20260731142500 +0000" channel="714196738c6888433546f">
     <title>40 X Pop</title>
@@ -6502,6 +6544,12 @@
   <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="25026063331fd9c2bab71e">
     <title>No Data</title>
   </programme>
+  <programme start="20260731140000 +0000" stop="20260731150000 +0000" channel="1465680660b8cd069bfa4c">
+    <title>No Data</title>
+  </programme>
+  <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="1465680660b8cd069bfa4c">
+    <title>No Data</title>
+  </programme>
   <programme start="20260731140000 +0000" stop="20260731150000 +0000" channel="21863899508f19a672f26d">
     <title>No Data</title>
   </programme>
@@ -6548,18 +6596,6 @@
     <title>Gün İçinden</title>
   </programme>
   <programme start="20260731120000 +0000" stop="20260731150000 +0000" channel="8854534699ab7cd828f14">
-    <title>Gün İçinden</title>
-  </programme>
-  <programme start="20260731120000 +0000" stop="20260731150000 +0000" channel="8854534699ab7cd828f14">
-    <title>Gün İçinden</title>
-  </programme>
-  <programme start="20260731120000 +0000" stop="20260731150000 +0000" channel="8854534699ab7cd828f14">
-    <title>Gün İçinden</title>
-  </programme>
-  <programme start="20260731120000 +0000" stop="20260731150000 +0000" channel="1917903629c14eaf063f26">
-    <title>Gün İçinden</title>
-  </programme>
-  <programme start="20260731120000 +0000" stop="20260731150000 +0000" channel="1917903629c14eaf063f26">
     <title>Gün İçinden</title>
   </programme>
   <programme start="20260731120000 +0000" stop="20260731150000 +0000" channel="1917903629c14eaf063f26">
