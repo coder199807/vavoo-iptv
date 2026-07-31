@@ -2,12 +2,18 @@
 
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const zlib = require("node:zlib");
 
 const CATALOG_URL = "https://vavoo.to/mediahubmx-catalog.json";
 const GROUP = "Turkey";
 const M3U_FILE = path.join(__dirname, "..", "iptv.m3u");
 const EPG_FILE = path.join(__dirname, "..", "epg.xml");
 const FETCH_TIMEOUT_MS = 20000;
+
+// Upstream free TR EPG (gzipped XMLTV). Matched to Vavoo channels by fuzzy name.
+const EPG_UPSTREAM_URL =
+  process.env.EPG_UPSTREAM_URL ||
+  "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz";
 
 // Cloudflare Workers proxy base (no trailing slash). Set via GitHub Actions variable.
 const PROXY_BASE = (process.env.PROXY_BASE || "").replace(/\/+$/, "");
@@ -162,7 +168,7 @@ const CATEGORY_RULES = [
   },
   {
     name: "Film",
-    re: /SINEMA|S[İI]NEMA|S NEMA|CINEMA|SINEMAX|SINEVIZYON|\bMOVIES?\b|MOVIEMAX|MOVIESMART|BEIN MOVIES|BEIN BOX|BOX OFFICE|\bFX\b|FX HD|YESILCAM|YE ?I ?L ?[ÇC] ?AM|YE ?I ?L ?AM|YEŞ?[İI]LC?AM|GLOBAL BOX|PROTURK|FIX CINEMA|KINGBOX|ARENA BOX|SHOWMAX|SHOW MAX|REAL BOX|SMART BOX|BEST (?:AKSIYON|BILIMKURGU|DRAM|HABABAM|IMBD|KOMEDI|KORKU|LOCA|NETFLIX|SALON|SAVAS|TURK|WESTERN|YESILCAM)|MAX (?:007|AKSIYON|GOLD|ORJINAL|PREMIER|STAR WARS|TURK|VIZYON|WESTERN)|DINAMIK (?:AKSIYON|BILIMKURGU|DRAM|IMBD|KOMEDI|KORKU|TURK|VIZYON|WESTERN|YESILCAM)|DREAM (?:AKSIYON|BEIN OFFICE|BOX|DRAM|KEMAL|KOMEDI|KORKU|LOCA|NETFLIX|SAVAS|WESTERN)|ULTRA (?:AKSIYON|BILIMKURGU|IMBD|KEMAL|KOMEDI|KORKU|TURK)|ENO (?:AKSIYON|VIZYON|WESTERN)|\bLOCA\b|\bSALON\b|\bVIZYON\b|AKSIYON|AKS[İIY]?YON|AKS YON|KOMED[İI]|\bKORKU\b|\bDRAM\b|WESTERN|BILIM ?KURGU|\bSAVAS\b|\bIMBD\b|\bIMDB\b|\bFILM\b|FILMBOX|HORROR|OSCAR|KEMAL SUNAL|\b007\b|\bCINE ?1\b|SIFIR TV|SON C BOOM|\bYERL[İI]\b|SPIDERMAN(?! TV)|ARENA BOX|MOVIE SMART/i,
+    re: /SINEMA|S[İI]NEMA|S NEMA|CINEMA|SINEMAX|SINEVIZYON|\bMOVIES?\b|MOVIEMAX|MOVIESMART|BEIN MOVIES|BEIN BOX|BOX OFFICE|\bFX\b|FX HD|YESILCAM|YE ?I ?L ?[ÇC] ?AM|YE ?I ?L ?AM|YEŞ?[İI]LC?AM|GLOBAL BOX|PROTURK|FIX CINEMA|KINGBOX|ARENA BOX|SHOWMAX|SHOW MAX|REAL BOX|SMART BOX|BEST (?:AKSIYON|BILIMKURGU|DRAM|HABABAM|IMBD|KOMEDI|KORKU|LOCA|NETFLIX|SALON|SAVAS|TURK|WESTERN|YESILCAM)|MAX (?:007|AKSIYON|GOLD|ORJINAL|PREMIER|STAR WARS|TURK|VIZYON|WESTERN)|DINAMIK (?:AKSIYON|BILIMKURGU|DRAM|IMBD|KOMEDI|KORKU|TURK|VIZYON|WESTERN|YESILCAM)|DREAM (?:AKSIYON|BEIN OFFICE|BOX|DRAM|KEMAL|KOMEDI|KORKU|LOCA|NETFLIX|SAVAS|WESTERN)|ULTRA (?:AKSIYON|BILIMKURGU|IMBD|KEMAL|KOMEDI|KORKU|TURK)|ENO (?:AKSIYON|VIZYON|WESTERN)|\bLOCA\b|\bSALON\b|\bVIZYON\b|AKSIYON|AKS[İIY]?YON|AKS YON|KOMED[İI]|\bKORKU\b|\bDRAM\b|WESTERN|BILIM ?KURGU|\bSAVAS\b|\bIMBD\b|\bIMDB\b|\bFILM\b|FILMBOX|HORROR|OSCAR|KEMAL SUNAL|\b007\b|\bCINE ?1\b|SIFIR TV|SON C BOOM|\bYERL[İI]\b|SPIDERMAN(?! TV)|ARENA BOX|MOVIE SMART|\bM ?T[UÜ]RK TV\b|\bM TURK TV\b|\bM T RK TV\b/i,
   },
   {
     name: "Dizi",
@@ -222,18 +228,21 @@ function toStreamUrl(item) {
   return item.url;
 }
 
-function toM3U(items) {
+function toM3U(items, vavooToEpgId) {
   const header = `#EXTM3U url-tvg="${escapeAttr(EPG_URL)}" x-tvg-url="${escapeAttr(EPG_URL)}"`;
   const lines = [header];
   for (const it of items) {
     if (!it || !it.url) continue;
-    const id = it.ids?.id ?? "";
+    const vavooId = it.ids?.id ?? "";
     const name = sanitizeName(it.name);
     if (!name) continue;
     const logo = it.logo ?? "";
     const group = categorize(name);
+    // Route tvg-id to the upstream EPG channel id when we have a match,
+    // so TiviMate can bind the guide. Fallback to the Vavoo id.
+    const tvgId = (vavooToEpgId && vavooToEpgId.get(vavooId)) || vavooId;
     lines.push(
-      `#EXTINF:-1 tvg-id="${escapeAttr(id)}" tvg-name="${escapeAttr(name)}" tvg-logo="${escapeAttr(logo)}" group-title="${escapeAttr(group)}",${name}`
+      `#EXTINF:-1 tvg-id="${escapeAttr(tvgId)}" tvg-name="${escapeAttr(name)}" tvg-logo="${escapeAttr(logo)}" group-title="${escapeAttr(group)}",${name}`
     );
     lines.push(toStreamUrl(it));
   }
@@ -266,36 +275,153 @@ function xmltvTime(sec) {
   );
 }
 
-function toXMLTV(items) {
-  const seen = new Set();
-  const channels = [];
-  const programmes = [];
-  for (const it of items) {
-    const id = it?.ids?.id;
-    if (!id) continue;
-    const name = sanitizeName(it.name);
-    if (!name) continue;
-    if (!seen.has(id)) {
-      seen.add(id);
-      const iconTag = it.logo ? `\n    <icon src="${xmlEscape(it.logo)}"/>` : "";
-      channels.push(
-        `  <channel id="${xmlEscape(id)}">\n` +
-        `    <display-name>${xmlEscape(name)}</display-name>${iconTag}\n` +
-        `  </channel>`
-      );
-    }
-    if (!Array.isArray(it.epg)) continue;
-    for (const p of it.epg) {
-      if (!p || typeof p.start !== "number" || typeof p.stop !== "number") continue;
-      const title = String(p.name ?? "").trim();
-      if (!title) continue;
-      programmes.push(
-        `  <programme start="${xmltvTime(p.start)}" stop="${xmltvTime(p.stop)}" channel="${xmlEscape(id)}">\n` +
-        `    <title>${xmlEscape(title)}</title>\n` +
-        `  </programme>`
-      );
+// -- Upstream EPG (epgshare01 etc.) ----------------------------------------
+
+async function fetchUpstreamXmltv(url) {
+  const res = await fetch(url, { signal: AbortSignal.timeout(60000) });
+  if (!res.ok) throw new Error(`upstream EPG HTTP ${res.status}`);
+  const buf = Buffer.from(await res.arrayBuffer());
+  const isGz =
+    url.toLowerCase().endsWith(".gz") || (buf[0] === 0x1f && buf[1] === 0x8b);
+  const bytes = isGz ? zlib.gunzipSync(buf) : buf;
+  return bytes.toString("utf8");
+}
+
+// Parse XMLTV via regex (no dependency). Sufficient for well-formed feeds.
+function parseXmltv(xml) {
+  const channels = new Map(); // id -> { names[], icon }
+  const programmes = []; // { start, stop, channel, titleXml, descXml, categoryXml }
+
+  const chRe = /<channel\s+id="([^"]+)"[^>]*>([\s\S]*?)<\/channel>/gi;
+  for (const m of xml.matchAll(chRe)) {
+    const id = m[1];
+    const body = m[2];
+    const names = [
+      ...body.matchAll(/<display-name[^>]*>([^<]+)<\/display-name>/gi),
+    ]
+      .map((n) => n[1].trim())
+      .filter(Boolean);
+    const icon = body.match(/<icon\s+src="([^"]+)"/i)?.[1] || "";
+    channels.set(id, { names, icon });
+  }
+
+  const prRe = /<programme\s+([^>]*)>([\s\S]*?)<\/programme>/gi;
+  for (const m of xml.matchAll(prRe)) {
+    const attrs = m[1];
+    const body = m[2];
+    const start = attrs.match(/start="([^"]+)"/i)?.[1];
+    const stop = attrs.match(/stop="([^"]+)"/i)?.[1];
+    const channel = attrs.match(/channel="([^"]+)"/i)?.[1];
+    if (!start || !stop || !channel) continue;
+    programmes.push({ start, stop, channel, body: body.trim() });
+  }
+
+  return { channels, programmes };
+}
+
+// Loose ASCII normalization used ONLY for cross-source name matching.
+function normalizeForMatch(name) {
+  let s = String(name || "")
+    .toUpperCase()
+    .replace(/^\s*4K TR:\s*/i, "")
+    .replace(/\s*\.(?:B|C|S)\b/gi, "")
+    .replace(/\[[^\]]*\]/g, " ")
+    .replace(/\([^\)]*\)/g, " ")
+    // Restore Vavoo's stripped Turkish characters BEFORE ASCII fold.
+    .replace(/\bT RK\b/g, "TURK")
+    .replace(/\bAK T\b/g, "AKIT")
+    .replace(/\bS NEMA\b/g, "SINEMA")
+    .replace(/\bM N KA\b/g, "MINIKA")
+    .replace(/\bOCUK\b/g, "COCUK")
+    .replace(/\bM Z K\b/g, "MUZIK")
+    .replace(/\bBENG\b/g, "BENGU");
+  s = s
+    .replace(/[İI]/g, "I")
+    .replace(/Ü/g, "U")
+    .replace(/Ö/g, "O")
+    .replace(/Ç/g, "C")
+    .replace(/Ş/g, "S")
+    .replace(/Ğ/g, "G")
+    .replace(/[^A-Z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return s;
+}
+
+function normalizeStripQuality(s) {
+  return s
+    .replace(/\b(?:UHD|FHD|HD\+|HD|SD|HEVC|RAW|H265|4K|8K|FEED|LIVE|BACKUP)\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function buildMatchIndex(upstreamChannels) {
+  const idx = new Map();
+  for (const [id, data] of upstreamChannels) {
+    for (const raw of data.names) {
+      const k1 = normalizeForMatch(raw);
+      const k2 = normalizeStripQuality(k1);
+      if (k1 && !idx.has(k1)) idx.set(k1, id);
+      if (k2 && !idx.has(k2)) idx.set(k2, id);
     }
   }
+  return idx;
+}
+
+function matchUpstreamId(vavooName, idx) {
+  const k1 = normalizeForMatch(vavooName);
+  if (idx.has(k1)) return idx.get(k1);
+  const k2 = normalizeStripQuality(k1);
+  if (idx.has(k2)) return idx.get(k2);
+  return null;
+}
+
+function toXMLTV(items, vavooToEpgId, upstreamChannels, upstreamProgByChannel) {
+  const seenChannel = new Set();
+  const channels = [];
+  const programmes = [];
+
+  for (const it of items) {
+    const vavooId = it?.ids?.id;
+    if (!vavooId) continue;
+    const name = sanitizeName(it.name);
+    if (!name) continue;
+
+    const routedId = vavooToEpgId.get(vavooId) || vavooId;
+    if (seenChannel.has(routedId)) continue;
+    seenChannel.add(routedId);
+
+    // Prefer upstream display-name + icon when we have a match.
+    const upstream = upstreamChannels.get(routedId);
+    const displayName = upstream?.names?.[0] || name;
+    const icon = upstream?.icon || it.logo || "";
+    const iconTag = icon ? `\n    <icon src="${xmlEscape(icon)}"/>` : "";
+    channels.push(
+      `  <channel id="${xmlEscape(routedId)}">\n` +
+      `    <display-name>${xmlEscape(displayName)}</display-name>${iconTag}\n` +
+      `  </channel>`
+    );
+
+    if (upstream) {
+      const progs = upstreamProgByChannel.get(routedId) || [];
+      for (const p of progs) {
+        programmes.push(
+          `  <programme start="${xmlEscape(p.start)}" stop="${xmlEscape(p.stop)}" channel="${xmlEscape(routedId)}">\n    ${p.body}\n  </programme>`
+        );
+      }
+    } else if (Array.isArray(it.epg)) {
+      for (const p of it.epg) {
+        if (!p || typeof p.start !== "number" || typeof p.stop !== "number")
+          continue;
+        const title = String(p.name ?? "").trim();
+        if (!title) continue;
+        programmes.push(
+          `  <programme start="${xmltvTime(p.start)}" stop="${xmltvTime(p.stop)}" channel="${xmlEscape(routedId)}">\n    <title>${xmlEscape(title)}</title>\n  </programme>`
+        );
+      }
+    }
+  }
+
   return (
     `<?xml version="1.0" encoding="UTF-8"?>\n` +
     `<tv generator-info-name="vavoo-iptv" generator-info-url="https://github.com/kadirmetin/vavoo-iptv">\n` +
@@ -314,7 +440,8 @@ async function main() {
       "WARNING: PROXY_BASE is empty. Raw vavoo.to URLs will be written; players without VPN may fail."
     );
   }
-  console.log(`EPG URL: ${EPG_URL}`);
+  console.log(`EPG URL (published): ${EPG_URL}`);
+  console.log(`EPG UPSTREAM (source): ${EPG_UPSTREAM_URL}`);
 
   const items = await fetchAll();
   console.log(`Total items: ${items.length}`);
@@ -330,11 +457,54 @@ async function main() {
     return ai < bi ? -1 : ai > bi ? 1 : 0;
   });
 
-  const m3u = toM3U(items);
+  let upstreamChannels = new Map();
+  let upstreamProgByChannel = new Map();
+  try {
+    const xml = await fetchUpstreamXmltv(EPG_UPSTREAM_URL);
+    const parsed = parseXmltv(xml);
+    upstreamChannels = parsed.channels;
+    for (const p of parsed.programmes) {
+      if (!upstreamProgByChannel.has(p.channel))
+        upstreamProgByChannel.set(p.channel, []);
+      upstreamProgByChannel.get(p.channel).push(p);
+    }
+    console.log(
+      `Upstream EPG: ${upstreamChannels.size} channels, ${parsed.programmes.length} programmes`
+    );
+  } catch (err) {
+    console.warn(
+      `Upstream EPG unavailable (${err.message}); falling back to Vavoo inline EPG only.`
+    );
+  }
+
+  const matchIdx = buildMatchIndex(upstreamChannels);
+  const vavooToEpgId = new Map();
+  let matched = 0;
+  for (const it of items) {
+    const vavooId = it?.ids?.id;
+    if (!vavooId) continue;
+    const name = sanitizeName(it.name);
+    if (!name) continue;
+    const upstreamId = matchUpstreamId(name, matchIdx);
+    if (upstreamId) {
+      vavooToEpgId.set(vavooId, upstreamId);
+      matched++;
+    } else {
+      vavooToEpgId.set(vavooId, vavooId);
+    }
+  }
+  const uniqueMatched = new Set(
+    [...vavooToEpgId.values()].filter((id) => upstreamChannels.has(id))
+  ).size;
+  console.log(
+    `Channel binding: ${matched}/${items.length} Vavoo channels matched upstream (${uniqueMatched} unique upstream channels covered)`
+  );
+
+  const m3u = toM3U(items, vavooToEpgId);
   await fs.writeFile(M3U_FILE, m3u, "utf8");
   console.log(`Wrote ${M3U_FILE} (${m3u.length} bytes, ${items.length} channels)`);
 
-  const epg = toXMLTV(items);
+  const epg = toXMLTV(items, vavooToEpgId, upstreamChannels, upstreamProgByChannel);
   await fs.writeFile(EPG_FILE, epg, "utf8");
   const programmeCount = (epg.match(/<programme /g) || []).length;
   const channelCount = (epg.match(/<channel /g) || []).length;
