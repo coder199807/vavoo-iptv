@@ -14,11 +14,11 @@
   </channel>
   <channel id="24.TV.tr">
     <display-name>24 TV</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3822901239.png"/>
+    <icon src="https://i.imgur.com/8FO41es.png"/>
   </channel>
   <channel id="360.HD.tr">
     <display-name>360 HD</display-name>
-    <icon src="https://logo.huhu.to/logo?c=865410951.png"/>
+    <icon src="https://i.imgur.com/agn47sQ.png"/>
   </channel>
   <channel id="1893598000587432322459">
     <display-name>360 PLUS .s</display-name>
@@ -28,15 +28,18 @@
   </channel>
   <channel id="A.HABER.HD.tr">
     <display-name>A HABER HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png"/>
   </channel>
   <channel id="A2.HD.tr">
     <display-name>A2 HD</display-name>
   </channel>
   <channel id="AKİT.TV.tr">
     <display-name>AKİT TV</display-name>
+    <icon src="https://i.imgur.com/oGto929.png"/>
   </channel>
   <channel id="ATV.HD.tr">
     <display-name>ATV HD</display-name>
+    <icon src="https://i.imgur.com/HyVUwFC.png"/>
   </channel>
   <channel id="175831345619066ec797e8">
     <display-name>4K TR: BABYTV .b</display-name>
@@ -46,27 +49,37 @@
   </channel>
   <channel id="BEYAZ.TV.HD.tr">
     <display-name>BEYAZ TV HD</display-name>
+    <icon src="https://i.imgur.com/uykIdML.png"/>
   </channel>
   <channel id="BLOOMBERG.HT.HD.tr">
     <display-name>BLOOMBERG HT HD</display-name>
+    <icon src="https://i.imgur.com/bmkXfIE.png"/>
   </channel>
   <channel id="3510107618b4bd2dc6657d">
     <display-name>4K TR: BOOMERANG .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/>
   </channel>
   <channel id="CNN.TÜRK.HD.tr">
     <display-name>CNN TÜRK HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/CNN_T%C3%BCrk_logo.svg/960px-CNN_T%C3%BCrk_logo.svg.png"/>
   </channel>
   <channel id="41034540643b582da308f">
     <display-name>4K TR: DA VINCI .b</display-name>
   </channel>
   <channel id="DMAX.HD.tr">
     <display-name>DMAX HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png"/>
   </channel>
   <channel id="42666830256873dd1e7fac">
     <display-name>4K TR: DREAM T RK .b</display-name>
+    <icon src="https://i.imgur.com/vJ8VaZi.png"/>
   </channel>
   <channel id="1709129189f694bdd416ac">
     <display-name>4K TR: DUCK TV HD .b</display-name>
+  </channel>
+  <channel id="4017734592f45fd8456678">
+    <display-name>4K TR: DISCOVERY CHANNEL HD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
   </channel>
   <channel id="6492287228e9a72f932b5">
     <display-name>4K TR: DISNEY JUNIOR .b</display-name>
@@ -86,32 +99,36 @@
   <channel id="41172279629184f8c9c408">
     <display-name>4K TR: EUROSPORT 2 HD .b</display-name>
   </channel>
-  <channel id="1944695268eb5e2a66f22">
-    <display-name>4K TR: EXXEN TV .b</display-name>
-  </channel>
   <channel id="3730681078c11a26802932">
     <display-name>4K TR: FB TV .b</display-name>
+    <icon src="https://i.imgur.com/qBVqtYd.png"/>
   </channel>
   <channel id="268701784160a0471a069f">
     <display-name>4K TR: FLASH TV .b</display-name>
+    <icon src="https://i.imgur.com/L0NHKBM.png"/>
   </channel>
   <channel id="FX.HD.tr">
     <display-name>FX HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png"/>
   </channel>
   <channel id="11966263871c480a66a299">
     <display-name>4K TR: HABER GLOBAL HD .b</display-name>
+    <icon src="https://i.imgur.com/fu6XeGS.png"/>
   </channel>
   <channel id="4253369376912583d237b6">
     <display-name>4K TR: HABERT RK HD .b</display-name>
   </channel>
   <channel id="1320391955e6c5bb1bedb6">
     <display-name>4K TR: HALK TV .b</display-name>
+    <icon src="https://i.imgur.com/xM0HA30.png"/>
   </channel>
   <channel id="KANAL.7.HD.tr">
     <display-name>KANAL 7 HD</display-name>
+    <icon src="https://i.imgur.com/0gq9xOm.png"/>
   </channel>
   <channel id="KANAL.D.HD.tr">
     <display-name>KANAL D HD</display-name>
+    <icon src="https://i.imgur.com/9o1atM6.png"/>
   </channel>
   <channel id="3266397146eeea3bece51d">
     <display-name>4K TR: KRT TV .b</display-name>
@@ -124,18 +141,23 @@
   </channel>
   <channel id="MİNİKA.GO.tr">
     <display-name>MİNİKA GO</display-name>
+    <icon src="https://i.imgur.com/qIoipDq.png"/>
   </channel>
   <channel id="248538205948705e1eeee">
     <display-name>4K TR: M N KA OCUK .b</display-name>
+    <icon src="https://i.imgur.com/VCywMTv.png"/>
   </channel>
   <channel id="70038106882c930faaa1b">
     <display-name>4K TR: MELTEM TV .b</display-name>
+    <icon src="https://i.imgur.com/C3m6w5S.png"/>
   </channel>
   <channel id="NATIONAL.GEOGRAPHIC.HD.tr">
     <display-name>NATIONAL GEOGRAPHIC HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
   </channel>
   <channel id="NATIONAL.GEOGRAPHIC.WILD.tr">
     <display-name>NATIONAL GEOGRAPHIC WILD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
   </channel>
   <channel id="5455481338d50b246e682">
     <display-name>4K TR: NBA TV HD .b</display-name>
@@ -148,6 +170,7 @@
   </channel>
   <channel id="NTV.HD.tr">
     <display-name>NTV HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png"/>
   </channel>
   <channel id="40428875846b4e812374d1">
     <display-name>4K TR: NUMBER1 TURK HD .b</display-name>
@@ -157,15 +180,18 @@
   </channel>
   <channel id="988691374172058ef3d50">
     <display-name>4K TR: NICKTOONS .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png"/>
   </channel>
   <channel id="42444473843632d84d102d">
     <display-name>4K TR: POWER TURK HD .b</display-name>
   </channel>
   <channel id="POWER.TV.HD.tr">
     <display-name>POWER TV HD</display-name>
+    <icon src="https://i.imgur.com/XSL1gd7.png"/>
   </channel>
   <channel id="SİNEMA.1002.tr">
     <display-name>SİNEMA 1002</display-name>
+    <icon src="https://i.imgur.com/BEFyizf.png"/>
   </channel>
   <channel id="30005947634e6b4664fb0b">
     <display-name>4K TR: S NEMA A LE 2 HD .b</display-name>
@@ -190,6 +216,7 @@
   </channel>
   <channel id="SİNEMA.TV.HD.tr">
     <display-name>SİNEMA TV HD</display-name>
+    <icon src="https://i.imgur.com/qstBXDP.png"/>
   </channel>
   <channel id="397160342723f52ab76e2e">
     <display-name>4K TR: S NEMA YERL 2 HD .b</display-name>
@@ -199,104 +226,137 @@
   </channel>
   <channel id="21232735984a3f0b463d66">
     <display-name>4K TR: S SPORT .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a9/S_Sport_logo1.png"/>
   </channel>
   <channel id="9369082742fdb8ca83c62">
     <display-name>4K TR: S SPORT 2 .b</display-name>
+    <icon src="https://i.imgur.com/2jIItAy.png"/>
   </channel>
   <channel id="SHOW.TV.HD.tr">
     <display-name>SHOW TV HD</display-name>
+    <icon src="https://i.imgur.com/1l7SCCu.png"/>
   </channel>
   <channel id="960578312ee36cc17c5d2">
     <display-name>4K TR: SOZCU TV .b</display-name>
+    <icon src="https://i.imgur.com/BxpdvsG.png"/>
   </channel>
   <channel id="3159604752e1cba547bb">
     <display-name>4K TR: SPOR SMART .b</display-name>
+    <icon src="https://i.imgur.com/blu6v6P.png"/>
   </channel>
   <channel id="SPORTS.TV.tr">
     <display-name>SPORTS TV</display-name>
+    <icon src="https://i.imgur.com/tGTVcVe.jpg"/>
   </channel>
   <channel id="STAR.TV.HD.tr">
     <display-name>STAR TV HD</display-name>
+    <icon src="https://i.imgur.com/9O3DHRB.png"/>
   </channel>
   <channel id="298064721bb04fcaf61ab">
     <display-name>4K TR: TELE 1 .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png"/>
   </channel>
   <channel id="TEVE2.HD.tr">
     <display-name>TEVE2 HD</display-name>
+    <icon src="https://i.imgur.com/rsoSLih.png"/>
   </channel>
   <channel id="TGRT.HABER.tr">
     <display-name>TGRT HABER</display-name>
+    <icon src="https://i.imgur.com/PrxwKDw.png"/>
   </channel>
   <channel id="27949369132f08a592203d">
     <display-name>4K TR: TJK TV .b</display-name>
+    <icon src="https://i.imgur.com/3zHdkYG.png"/>
   </channel>
   <channel id="TRT.1.HD.tr">
     <display-name>TRT 1 HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png"/>
   </channel>
   <channel id="38843190334c7e81c1c6fc">
     <display-name>4K TR: TRT 2 HD .b</display-name>
+    <icon src="https://i.imgur.com/iOCQdyD.png"/>
+  </channel>
+  <channel id="418740351278f04c94b243">
+    <display-name>4K TR: TRT 3 .b</display-name>
+    <icon src="https://i.imgur.com/JrWFwBd.png"/>
   </channel>
   <channel id="TRT.AVAZ.HD.tr">
     <display-name>TRT AVAZ HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/960px-TRT_Avaz_logo.svg.png"/>
   </channel>
   <channel id="TRT.BELGESEL.HD.tr">
     <display-name>TRT BELGESEL HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png"/>
   </channel>
   <channel id="TRT.HABER.HD.tr">
     <display-name>TRT HABER HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png"/>
   </channel>
   <channel id="1216632307df2afc1919fa">
     <display-name>4K TR: TRT KURD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/960px-TRT_Kurd%C3%AE_logo.svg.png"/>
   </channel>
   <channel id="TRT.MÜZİK.tr">
     <display-name>TRT MÜZİK</display-name>
+    <icon src="https://i.imgur.com/JgUzRH8.png"/>
   </channel>
   <channel id="30291805064bacb8a4036d">
     <display-name>4K TR: TRT OCUK HD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png"/>
   </channel>
   <channel id="TRT.SPOR.HD.tr">
     <display-name>TRT SPOR HD</display-name>
+    <icon src="https://i.imgur.com/6tv0zxh.png"/>
   </channel>
   <channel id="2750507083b8337c6b6616">
     <display-name>4K TR: TRT SPOR YILDIZ .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png"/>
   </channel>
   <channel id="TRT.TÜRK.tr">
     <display-name>TRT TÜRK</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png"/>
   </channel>
   <channel id="626790146ece46055051c">
     <display-name>4K TR: TV 100 .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png"/>
   </channel>
   <channel id="3574429625ab8ee4e1aaa">
     <display-name>4K TR: TV 4 .b</display-name>
+    <icon src="https://i.imgur.com/UpsQsbd.png"/>
   </channel>
   <channel id="TV8.HD.tr">
     <display-name>TV8 HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png"/>
   </channel>
   <channel id="18867436247890d4c5bd71">
     <display-name>4K TR: TV8,5 HD .b</display-name>
   </channel>
   <channel id="TVNET.HD.tr">
     <display-name>TVNET HD</display-name>
+    <icon src="https://i.imgur.com/mQo8yWQ.png"/>
   </channel>
   <channel id="VIASAT.EXPLORE.tr">
     <display-name>VIASAT EXPLORE</display-name>
+    <icon src="https://i.imgur.com/DyT5pKB.png"/>
   </channel>
   <channel id="1335130209de4b92f31496">
     <display-name>4K TR: VIASAT HISTORY HD .b</display-name>
+    <icon src="https://i.imgur.com/wRP9XA7.png"/>
   </channel>
   <channel id="384200326272e556e601b9">
     <display-name>64 KARE ULKESI .b</display-name>
   </channel>
   <channel id="A.NEWS.HD.tr">
     <display-name>A NEWS HD</display-name>
-    <icon src="https://logo.huhu.to/logo?c=812131629.png"/>
+    <icon src="https://i.imgur.com/6tWCzTp.png"/>
   </channel>
   <channel id="A.PARA.tr">
     <display-name>A PARA</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3892017014.png"/>
+    <icon src="https://i.imgur.com/GjHnq0c.png"/>
   </channel>
   <channel id="A.SPOR.tr">
     <display-name>A SPOR</display-name>
+    <icon src="https://i.imgur.com/ZhkZzLf.png"/>
   </channel>
   <channel id="1835847966e01d08f3ea1f">
     <display-name>A2 TV SD .b</display-name>
@@ -309,9 +369,6 @@
     <display-name>ADA TV .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=2134735285.png"/>
   </channel>
-  <channel id="225124967e1e5b6a748e0">
-    <display-name>ADANA TV .b</display-name>
-  </channel>
   <channel id="832790897b9f745becff8">
     <display-name>ADIBESA MASALLARI .b</display-name>
   </channel>
@@ -320,17 +377,18 @@
   </channel>
   <channel id="2080590427f1600b6211f">
     <display-name>AFROTURK TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=208059042.png"/>
+    <icon src="https://i.imgur.com/fWlLvRA.png"/>
   </channel>
   <channel id="145755891783da06dac9f">
     <display-name>AFYON T RK TV .b</display-name>
+    <icon src="https://i.ibb.co/tXbD8Sz/8A1HOMZ.png"/>
   </channel>
   <channel id="1782534194ec2d619f7548">
     <display-name>AFYON TURK .s</display-name>
   </channel>
   <channel id="163358782054d9002fa0b0">
     <display-name>AGRO TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1633587820.png"/>
+    <icon src="https://i.imgur.com/ls9NLa4.png"/>
   </channel>
   <channel id="29298467541e1d36e1991">
     <display-name>AHMET KAYA .b</display-name>
@@ -343,7 +401,7 @@
   </channel>
   <channel id="2170702658173e1813ae19">
     <display-name>AKSU TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2170702658.png"/>
+    <icon src="https://i.imgur.com/mgDCKiy.png"/>
   </channel>
   <channel id="2914289476ab2b9b77fc43">
     <display-name>AKSU TV K MARAS .s</display-name>
@@ -356,6 +414,7 @@
   </channel>
   <channel id="287303002844eef20b99c6">
     <display-name>ALANYA POSTA TV .c</display-name>
+    <icon src="https://i.imgur.com/a3w9eFe.png"/>
   </channel>
   <channel id="19087142537ee96a6ffbf3">
     <display-name>ALEM FM RADYOLAND .b</display-name>
@@ -365,7 +424,7 @@
   </channel>
   <channel id="76941483786c9c7e5bf21">
     <display-name>ALTAS TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=769414837.png"/>
+    <icon src="https://i.imgur.com/XaJ7fp6.png"/>
   </channel>
   <channel id="730257349f3f3bc6d733a">
     <display-name>ALTAS TV ORDU .s</display-name>
@@ -375,12 +434,10 @@
   </channel>
   <channel id="4274827801d7c79d4e1a26">
     <display-name>ANADOLU DERNEK TV .b</display-name>
+    <icon src="https://i.imgur.com/taaRzdO.png"/>
   </channel>
   <channel id="1917558455120761543969">
     <display-name>ANADOLU TV .c</display-name>
-  </channel>
-  <channel id="1943578223ce7cc4b1c284">
-    <display-name>ANAKKALE BOĞAZ TV .b</display-name>
   </channel>
   <channel id="4250561695aeafaa1af43b">
     <display-name>ANAKKALE TON TV .b</display-name>
@@ -402,6 +459,7 @@
   </channel>
   <channel id="ANIMAL.PLANET.HD.tr">
     <display-name>ANIMAL PLANET HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
   </channel>
   <channel id="7274274379cbbe0c37b06">
     <display-name>ANIMATION 1 HD .b</display-name>
@@ -415,7 +473,7 @@
   </channel>
   <channel id="5117383846e61d78f1f9a">
     <display-name>ARAS TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=511738384.png"/>
+    <icon src="https://i.imgur.com/JsDCyWG.png"/>
   </channel>
   <channel id="28537307030aac03ac9f83">
     <display-name>ARENA BOX ACTION .c</display-name>
@@ -442,7 +500,7 @@
   </channel>
   <channel id="31959103511474b82d3792">
     <display-name>ATV AVRUPA .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3195910351.png"/>
+    <icon src="https://i.tmgrup.com.tr/aav/site/v1/i/atv-avrupa-logo.png"/>
   </channel>
   <channel id="9008513956c6b4eb4e05">
     <display-name>ATV EUROPA .b</display-name>
@@ -492,6 +550,9 @@
   <channel id="3030241554f63b28d76ab2">
     <display-name>BENGU TURK .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=3030241554.png"/>
+  </channel>
+  <channel id="3677880546b91991c857cd">
+    <display-name>BENGUTURK .s</display-name>
   </channel>
   <channel id="40086029281eab28e64579">
     <display-name>BEST AKSIYON .b</display-name>
@@ -571,77 +632,91 @@
   </channel>
   <channel id="29307461023dd1f85985b0">
     <display-name>BEIN BOX OFFICE 1 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2930746102.png"/>
+    <icon src="https://i.imgur.com/MGrJFVN.png"/>
   </channel>
   <channel id="1320363850bcb8f1b5542a">
     <display-name>BEIN BOX OFFICE 1 .s</display-name>
+    <icon src="https://i.imgur.com/MGrJFVN.png"/>
   </channel>
   <channel id="391012970274e1f1b46029">
     <display-name>BEIN BOX OFFICE 2 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3910129702.png"/>
+    <icon src="https://i.imgur.com/Kg7oOcO.png"/>
   </channel>
   <channel id="152264090d704f6769888">
     <display-name>BEIN BOX OFFICE 2 .s</display-name>
+    <icon src="https://i.imgur.com/Kg7oOcO.png"/>
   </channel>
   <channel id="35641061340ab1a36ee3bd">
     <display-name>BEIN BOX OFFICE 3 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3564106134.png"/>
+    <icon src="https://i.imgur.com/5NZur1S.png"/>
   </channel>
   <channel id="8799816103c5f180837cf">
     <display-name>BEIN BOX OFFICE 3 .s</display-name>
+    <icon src="https://i.imgur.com/5NZur1S.png"/>
   </channel>
   <channel id="361703541447c2d8cea904">
     <display-name>BEIN GURME .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3617035414.png"/>
+    <icon src="https://i.imgur.com/Q8ITIMl.png"/>
   </channel>
   <channel id="35832308581a7336e4ddeb">
     <display-name>BEIN GURME .s</display-name>
+    <icon src="https://i.imgur.com/Q8ITIMl.png"/>
   </channel>
   <channel id="9503946561e741aaf1f5f">
     <display-name>BEIN GURME HD .b</display-name>
+    <icon src="https://i.imgur.com/Q8ITIMl.png"/>
   </channel>
   <channel id="18734781311354b28a35dd">
     <display-name>BEIN MOVIES ACTION .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1873478131.png"/>
+    <icon src="https://i.imgur.com/AUWa7bk.png"/>
   </channel>
   <channel id="30412456070b17d981e0ff">
     <display-name>BEIN MOVIES ACTION .s</display-name>
+    <icon src="https://i.imgur.com/AUWa7bk.png"/>
   </channel>
   <channel id="26173183867663c6c36018">
     <display-name>BEIN MOVIES ACTION 2 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2617318386.png"/>
+    <icon src="https://i.imgur.com/wFIQoB4.png"/>
+  </channel>
+  <channel id="650851542129b8a3280b6">
+    <display-name>BEIN MOVIES ACTION 2 .s</display-name>
+    <icon src="https://i.imgur.com/wFIQoB4.png"/>
   </channel>
   <channel id="2485199152f30b65834b87">
     <display-name>BEIN MOVIES FAMILY .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2485199152.png"/>
+    <icon src="https://i.imgur.com/PVUclcU.png"/>
   </channel>
   <channel id="94298722454d1a7fefabb">
     <display-name>BEIN MOVIES PREMIERE .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=942987224.png"/>
+    <icon src="https://i.imgur.com/SVwK50e.png"/>
   </channel>
   <channel id="21977479648205db1b3061">
     <display-name>BEIN MOVIES PREMIERE .s</display-name>
+    <icon src="https://i.imgur.com/SVwK50e.png"/>
   </channel>
   <channel id="22440690938318303270a5">
     <display-name>BEIN MOVIES PREMIERE 2 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2244069093.png"/>
+    <icon src="https://i.imgur.com/4Uuxk4T.png"/>
   </channel>
   <channel id="2120218356a82436bd0e59">
     <display-name>BEIN MOVIES PREMIERE 2 .s</display-name>
+    <icon src="https://i.imgur.com/4Uuxk4T.png"/>
   </channel>
   <channel id="250091316466da3ef72786">
     <display-name>BEIN MOVIES STARS .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2500913164.png"/>
+    <icon src="https://i.imgur.com/eryPkrT.png"/>
   </channel>
   <channel id="19637487849304979bfdcb">
     <display-name>BEIN MOVIES STARS .s</display-name>
+    <icon src="https://i.imgur.com/eryPkrT.png"/>
   </channel>
   <channel id="33905759489e0915a21ca8">
     <display-name>BEIN MOVIES TURK .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3390575948.png"/>
+    <icon src="https://i.imgur.com/nw8Sa2z.png"/>
   </channel>
   <channel id="1835579025e6a7c2daa604">
     <display-name>BEIN MOVIES TURK .s</display-name>
+    <icon src="https://i.imgur.com/nw8Sa2z.png"/>
   </channel>
   <channel id="2190922298d7f7ef0a716a">
     <display-name>BEIN SERIES 1 .c</display-name>
@@ -661,19 +736,19 @@
   </channel>
   <channel id="1668144911142c3ab6cc28">
     <display-name>BEIN SERIES COMEDY .s</display-name>
+    <icon src="https://i.imgur.com/nl36Kcy.png"/>
   </channel>
   <channel id="341367210335f81e9e7146">
     <display-name>BEIN SERIES DRAMA .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3413672103.png"/>
-  </channel>
-  <channel id="727975195a22d80d147d6">
-    <display-name>BEIN SERIES DRAMA .s</display-name>
+    <icon src="https://i.imgur.com/eRSAkFZ.png"/>
   </channel>
   <channel id="3016529666fa8445d49f2d">
     <display-name>BEIN SERIES SCI-FI .s</display-name>
+    <icon src="https://i.imgur.com/kfbWKod.png"/>
   </channel>
   <channel id="11255232621b7b0443ab0d">
     <display-name>BEIN SERIES VICE .s</display-name>
+    <icon src="https://i.imgur.com/hgWKp9a.png"/>
   </channel>
   <channel id="beIN.SPORTS.1.tr">
     <display-name>beIN SPORTS 1</display-name>
@@ -728,7 +803,7 @@
   </channel>
   <channel id="beIN.SPORTS.HABER.HD.tr">
     <display-name>beIN SPORTS HABER HD</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1197336000.png"/>
+    <icon src="https://i.imgur.com/QWo0x7S.jpg"/>
   </channel>
   <channel id="beIN.SPORTS.MAX.1.tr">
     <display-name>beIN SPORTS MAX 1</display-name>
@@ -743,10 +818,7 @@
   </channel>
   <channel id="16912230784a73b11d66ed">
     <display-name>BEIN IZ .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1691223078.png"/>
-  </channel>
-  <channel id="31561783590bdea7d4bf69">
-    <display-name>BEIN IZ TV .s</display-name>
+    <icon src="https://i.imgur.com/K8HU6aQ.png"/>
   </channel>
   <channel id="8585683074b88a84fea71">
     <display-name>BLOOMBERGHT HD .b</display-name>
@@ -755,14 +827,9 @@
   <channel id="1753590086d14bf2945f0e">
     <display-name>BONUS MASAL DIYARI .b</display-name>
   </channel>
-  <channel id="2703864948c3ea529a2063">
-    <display-name>BOOBA TV .b</display-name>
-  </channel>
-  <channel id="29439742084c66e3a8bcec">
-    <display-name>BOOMERANG .s</display-name>
-  </channel>
   <channel id="11743931b356e8661a4d">
     <display-name>BOOMERANG HD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/>
   </channel>
   <channel id="BRT.1.HD.tr">
     <display-name>BRT 1 HD</display-name>
@@ -784,7 +851,7 @@
   </channel>
   <channel id="134086061839e644f1eaa">
     <display-name>BRTV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=134086061.png"/>
+    <icon src="https://i.imgur.com/U3qlEAp.png"/>
   </channel>
   <channel id="910953672551cfa880ee0">
     <display-name>BULMACA KULESI .b</display-name>
@@ -795,14 +862,15 @@
   </channel>
   <channel id="25407700892aa536e1a9ff">
     <display-name>BIR TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2540770089.png"/>
+    <icon src="https://birtv.tv/assets/upload/637f83951df60.png"/>
   </channel>
   <channel id="182252574160a3b3c54187">
     <display-name>CAN TV .b</display-name>
+    <icon src="https://i.imgur.com/oIMtuwB.png"/>
   </channel>
   <channel id="3900702315d5891138ec1d">
     <display-name>CAN TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3900702315.png"/>
+    <icon src="https://i.imgur.com/oIMtuwB.png"/>
   </channel>
   <channel id="37370371587d37e629c448">
     <display-name>CANIM KARDESIM TV .b</display-name>
@@ -812,10 +880,11 @@
   </channel>
   <channel id="26509164417c662aa52778">
     <display-name>CAY TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2650916441.png"/>
+    <icon src="https://i.imgur.com/ndupxwu.png"/>
   </channel>
   <channel id="4090316698975ac8a762bd">
     <display-name>CAY TV .s</display-name>
+    <icon src="https://i.imgur.com/ndupxwu.png"/>
   </channel>
   <channel id="4136709820104f9b927f66">
     <display-name>CAILLOU .c</display-name>
@@ -829,9 +898,11 @@
   </channel>
   <channel id="267285118531e87b6ae01d">
     <display-name>CBEEBIES HD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png"/>
   </channel>
   <channel id="145648263137480837677c">
     <display-name>CEM TV .s</display-name>
+    <icon src="https://i.imgur.com/x5YNUfz.png"/>
   </channel>
   <channel id="18715210871230ecf990b4">
     <display-name>CENGIZ KURTOGLU .b</display-name>
@@ -853,16 +924,14 @@
   </channel>
   <channel id="3124431103898180a5f0f6">
     <display-name>CIFTCI TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3124431103.png"/>
+    <icon src="https://i.imgur.com/CLzP4vL.png"/>
   </channel>
   <channel id="318577866765847010459c">
     <display-name>CIFTCI TV .s</display-name>
+    <icon src="https://i.imgur.com/CLzP4vL.png"/>
   </channel>
   <channel id="3892774129e556db3be974">
     <display-name>CILGIN ORMAN TV .b</display-name>
-  </channel>
-  <channel id="8310527316ed669cb8b77">
-    <display-name>CINE 1 .c</display-name>
   </channel>
   <channel id="2660902091c248c72d0cd6">
     <display-name>D Ğ N TV (GERMANY) .b</display-name>
@@ -874,17 +943,23 @@
     <display-name>DA VINCI .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=2205765331.png"/>
   </channel>
+  <channel id="DA.VINCI.LEARNING.HD.tr">
+    <display-name>DA VINCI LEARNING HD</display-name>
+  </channel>
   <channel id="5746975234c4c28f5dbe1">
     <display-name>DEHA TV .s</display-name>
+    <icon src="https://i.imgur.com/Dlsm9XP.png"/>
   </channel>
   <channel id="183207521594fc65b3f956">
     <display-name>DENIZ POSTASI TV .c</display-name>
+    <icon src="https://i.imgur.com/Mm8hdfx.png"/>
   </channel>
   <channel id="23018905930073141351c">
     <display-name>DENIZLI DEHA TV .b</display-name>
   </channel>
   <channel id="40223592760f0af9f37d41">
     <display-name>DHA .c</display-name>
+    <icon src="https://i.imgur.com/VZhag2x.png"/>
   </channel>
   <channel id="32919886247715dc774227">
     <display-name>DOCU SCREEN .c</display-name>
@@ -898,14 +973,15 @@
   </channel>
   <channel id="3762421108d8f2958be035">
     <display-name>DOST TV .b</display-name>
+    <icon src="https://dosttv.com/wp-content/uploads/2022/02/dost_logo.png"/>
   </channel>
   <channel id="896813028168206a0e06b">
     <display-name>DOST TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=896813028.png"/>
+    <icon src="https://dosttv.com/wp-content/uploads/2022/02/dost_logo.png"/>
   </channel>
   <channel id="799884057e7cb32a0489c">
     <display-name>DOST TV .s</display-name>
-    <icon src="https://logo.huhu.to/logo?c=799884057.png"/>
+    <icon src="https://dosttv.com/wp-content/uploads/2022/02/dost_logo.png"/>
   </channel>
   <channel id="151464353675c87d7e86f2">
     <display-name>DREAM AKSIYON .b</display-name>
@@ -978,16 +1054,22 @@
   </channel>
   <channel id="25570906953e78b3acadc6">
     <display-name>DREAM TURK (BACKUP) .b</display-name>
+    <icon src="https://i.imgur.com/vJ8VaZi.png"/>
   </channel>
   <channel id="16210261966fbffa31e76a">
     <display-name>DREAM TURK .b</display-name>
+    <icon src="https://i.imgur.com/vJ8VaZi.png"/>
   </channel>
   <channel id="6787946153f4f9e30bf05">
     <display-name>DREAM TURK .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=678794615.png"/>
+    <icon src="https://i.imgur.com/vJ8VaZi.png"/>
   </channel>
   <channel id="712098411f4dd9def5cdc">
     <display-name>DREAM TURK .s</display-name>
+    <icon src="https://i.imgur.com/vJ8VaZi.png"/>
+  </channel>
+  <channel id="DREAM.TV.tr">
+    <display-name>DREAM TV</display-name>
   </channel>
   <channel id="41988499024059e546ac2f">
     <display-name>DREAM WESTERN .b</display-name>
@@ -995,8 +1077,12 @@
   <channel id="2838364281c66447dda010">
     <display-name>DURSUN AL ERZINCANLI .b</display-name>
   </channel>
-  <channel id="1104559360fc7735351211">
-    <display-name>DIGI MAX 2 .s</display-name>
+  <channel id="127844757686ca7d664ae5">
+    <display-name>DIGI MAX .s</display-name>
+  </channel>
+  <channel id="1072972009ade9e4b4a779">
+    <display-name>DIM TV .c</display-name>
+    <icon src="https://i.imgur.com/X4QFDhk.png"/>
   </channel>
   <channel id="2337350974aa27a20a6514">
     <display-name>DINAMIK AKSIYON .b</display-name>
@@ -1033,9 +1119,11 @@
   </channel>
   <channel id="3079995901347079e2f045">
     <display-name>DISCOVERY CHANNEL .s</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
   </channel>
   <channel id="6957057788f10364acdac">
     <display-name>DISCOVERY CHANNEL HD+ .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
   </channel>
   <channel id="DISCOVERY.SCIENCE.HD.tr">
     <display-name>DISCOVERY SCIENCE HD</display-name>
@@ -1053,25 +1141,34 @@
   </channel>
   <channel id="DISNEY.CHANNEL.tr">
     <display-name>DISNEY CHANNEL</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"/>
   </channel>
   <channel id="396367809728cc9e22209f">
     <display-name>DISNEY JR .s</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"/>
   </channel>
   <channel id="4108765291d43a8a0a8088">
     <display-name>DISNEY JR HD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"/>
   </channel>
   <channel id="1772892321058f7001d327">
     <display-name>DISNEY JR HD+ .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"/>
   </channel>
   <channel id="34228536805e87ad5629aa">
     <display-name>DISNEY XD HD .b</display-name>
   </channel>
   <channel id="939027674e949a778ccc0">
     <display-name>DIYANET TV .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png"/>
   </channel>
   <channel id="2131958841c54888546e7f">
     <display-name>DIYANET TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2131958841.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png"/>
+  </channel>
+  <channel id="4252763849da396737d0fb">
+    <display-name>DIYAR TV .c</display-name>
+    <icon src="https://i.imgur.com/qWkHjRA.png"/>
   </channel>
   <channel id="4079530614c947cd16dfeb">
     <display-name>DIZI SMART MAX .s</display-name>
@@ -1081,11 +1178,11 @@
   </channel>
   <channel id="1165201807c63adbefc9d9">
     <display-name>DIZISMART MAX .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1165201807.png"/>
+    <icon src="https://i.imgur.com/mb3jM28.png"/>
   </channel>
   <channel id="1195429280e03f87d3589d">
     <display-name>DIZISMART PREMIUM .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1195429280.png"/>
+    <icon src="https://i.imgur.com/geku2QD.png"/>
   </channel>
   <channel id="361456541062c1025d3d2b">
     <display-name>EBA TV LISE .c</display-name>
@@ -1101,7 +1198,7 @@
   </channel>
   <channel id="215449252887e52acd6803">
     <display-name>EDESSA TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2154492528.png"/>
+    <icon src="https://i.imgur.com/rhU6j9I.png"/>
   </channel>
   <channel id="658726604ae88a8e690ef">
     <display-name>EDIRNE ETV .b</display-name>
@@ -1111,6 +1208,7 @@
   </channel>
   <channel id="4225938876155a05d54219">
     <display-name>EGE TURK TV .b</display-name>
+    <icon src="https://i.imgur.com/TLUKrMb.png"/>
   </channel>
   <channel id="36508969020f6d070f25ea">
     <display-name>EGE ILE GAGA .b</display-name>
@@ -1138,7 +1236,10 @@
   </channel>
   <channel id="EKOTÜRK.tr">
     <display-name>EKOTÜRK</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1201456793.png"/>
+    <icon src="https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65"/>
+  </channel>
+  <channel id="6574952728e780b291cc7">
+    <display-name>EKIN T RK TV .b</display-name>
   </channel>
   <channel id="350404585796b6d306497a">
     <display-name>ELAZIG KANAL 23 .b</display-name>
@@ -1221,34 +1322,42 @@
   </channel>
   <channel id="221836468186fc17b1865">
     <display-name>ERTV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=221836468.png"/>
+    <icon src="https://i.imgur.com/VDGEPrD.png"/>
   </channel>
   <channel id="1736962708902f1c3b6ce3">
     <display-name>ERZURUM WEB TV .c</display-name>
+    <icon src="https://i.imgur.com/HF7N4Li.png"/>
   </channel>
   <channel id="1670462361617c4d6f0099">
     <display-name>ES TV (ESKISEHIR) .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1670462361.png"/>
+    <icon src="https://i.imgur.com/epAEBrp.png"/>
   </channel>
   <channel id="22071045493785e57aaf9a">
     <display-name>ES TV (ESKISEHIR) .s</display-name>
+    <icon src="https://i.imgur.com/epAEBrp.png"/>
   </channel>
   <channel id="409014197869da0d767e2b">
     <display-name>ESK EH R KANAL 26 .b</display-name>
   </channel>
+  <channel id="1218353983e56ceae753c3">
+    <display-name>ETV KAYSERI .c</display-name>
+    <icon src="https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj"/>
+  </channel>
   <channel id="20249540025118ba1bc88c">
     <display-name>ETV MANISA .c</display-name>
+    <icon src="https://i.ibb.co/QKXtdkz/sOd3INg.png"/>
   </channel>
   <channel id="12904348901e32ae2c8ead">
     <display-name>EURO D .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1290434890.png"/>
+    <icon src="https://i.imgur.com/x9kHsXo.png"/>
   </channel>
   <channel id="3358854668939e09403c17">
     <display-name>EURO D .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3358854668.png"/>
+    <icon src="https://i.imgur.com/x9kHsXo.png"/>
   </channel>
   <channel id="278453038314cbbadcd2ca">
     <display-name>EURO D .s</display-name>
+    <icon src="https://i.imgur.com/x9kHsXo.png"/>
   </channel>
   <channel id="1827094680ef16ad2f8b38">
     <display-name>EURO STAR .b</display-name>
@@ -1315,6 +1424,9 @@
   <channel id="10914039127b6d2cb4f9b1">
     <display-name>EXXEN TV SPOR 1 FEED .b</display-name>
   </channel>
+  <channel id="12042008015aa1fc47965f">
+    <display-name>EXXEN TV SPOR 1 HD .b</display-name>
+  </channel>
   <channel id="3814925371b27457afc78f">
     <display-name>EXXEN TV SPOR 1 UHD .b</display-name>
   </channel>
@@ -1327,11 +1439,11 @@
   <channel id="851841067026eb6346001">
     <display-name>EXXEN TV SPOR 3 .b</display-name>
   </channel>
-  <channel id="21626092115c96093842ed">
-    <display-name>EXXEN TV SPOR 4 .b</display-name>
-  </channel>
   <channel id="3179734411cc8e59810aba">
     <display-name>EXXEN TV SPOR 5 .b</display-name>
+  </channel>
+  <channel id="4196835163f7f34378737d">
+    <display-name>EXXEN TV SPOR 6 .b</display-name>
   </channel>
   <channel id="3343300331c5663b93a430">
     <display-name>EXXEN TV SPOR 7 .b</display-name>
@@ -1347,14 +1459,15 @@
   </channel>
   <channel id="25123405584d863ac39980">
     <display-name>FB TV .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2512340558.png"/>
+    <icon src="https://i.imgur.com/qBVqtYd.png"/>
   </channel>
   <channel id="61530860186f238127811">
     <display-name>FB TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=615308601.png"/>
+    <icon src="https://i.imgur.com/qBVqtYd.png"/>
   </channel>
   <channel id="1540748539780d20f1eec6">
     <display-name>FB TV .s</display-name>
+    <icon src="https://i.imgur.com/qBVqtYd.png"/>
   </channel>
   <channel id="2308263834c742823cc4ac">
     <display-name>FERDI TAYFUR .b</display-name>
@@ -1365,19 +1478,22 @@
   </channel>
   <channel id="20273310967517aba18b29">
     <display-name>FLASH TV HD .b</display-name>
+    <icon src="https://i.imgur.com/L0NHKBM.png"/>
   </channel>
   <channel id="1285510370f329ebb236e7">
     <display-name>FM TV .b</display-name>
+    <icon src="https://i.imgur.com/nCzpHWM.png"/>
   </channel>
   <channel id="3681963823264351faabac">
     <display-name>FMTV .b</display-name>
   </channel>
   <channel id="FOX.HD.tr">
     <display-name>FOX HD</display-name>
-    <icon src="https://logo.huhu.to/logo?c=145391758.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FOX_wordmark-red.svg/960px-FOX_wordmark-red.svg.png"/>
   </channel>
   <channel id="FOX.CRIME.HD.tr">
     <display-name>FOX CRIME HD</display-name>
+    <icon src="https://i.imgur.com/htrPojY.png"/>
   </channel>
   <channel id="113035273098bcceb3f35a">
     <display-name>FILMBOX AKSIYON .s</display-name>
@@ -1427,15 +1543,19 @@
   <channel id="411086166261597686dd33">
     <display-name>FIX CINEMA YESILCAM .b</display-name>
   </channel>
+  <channel id="120360101317419d96022b">
+    <display-name>GABBY .b</display-name>
+  </channel>
   <channel id="3388312836d7abbf5e8b6">
     <display-name>GALATASARAY TV .s</display-name>
-    <icon src="https://logo.huhu.to/logo?c=338831283.png"/>
+    <icon src="https://i.postimg.cc/d3k5nDBJ/galatasaray-sk.png"/>
   </channel>
   <channel id="28430116980561d04db9e1">
     <display-name>GAZIANTEP GRT TV .b</display-name>
   </channel>
   <channel id="24135369173688afe711d0">
     <display-name>GAZIANTEP OLAY TV .b</display-name>
+    <icon src="https://i.imgur.com/uUFlrma.png"/>
   </channel>
   <channel id="2456232539a0f9283d418b">
     <display-name>GLOBAL BOX ACTION .b</display-name>
@@ -1470,6 +1590,7 @@
   </channel>
   <channel id="3241393177ad99ccefaa75">
     <display-name>GONCA TV .b</display-name>
+    <icon src="https://i.imgur.com/TwqIJwo.png"/>
   </channel>
   <channel id="257753427816f6887294b8">
     <display-name>GRT TV .c</display-name>
@@ -1477,13 +1598,14 @@
   </channel>
   <channel id="424042932536399e482d69">
     <display-name>GS TV .s</display-name>
+    <icon src="https://i.imgur.com/fC3KuwT.jpg"/>
   </channel>
   <channel id="454047044e689f6c02bf8">
     <display-name>GUNEYDOGU .s</display-name>
   </channel>
   <channel id="3302625312acf4f83dd0ca">
     <display-name>GUNEYDOGU TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3302625312.png"/>
+    <icon src="https://i.imgur.com/JT5pp3Y.png"/>
   </channel>
   <channel id="55116964941a7acb8360">
     <display-name>GURBET24 TV .c</display-name>
@@ -1498,17 +1620,19 @@
   </channel>
   <channel id="6522100826dbe8b656800">
     <display-name>HABER GLOBAL .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=652210082.png"/>
+    <icon src="https://i.imgur.com/fu6XeGS.png"/>
   </channel>
   <channel id="2483036808d11f366dc42d">
     <display-name>HABER GLOBAL .s</display-name>
+    <icon src="https://i.imgur.com/fu6XeGS.png"/>
   </channel>
   <channel id="40697740688fd0b8c6b747">
     <display-name>HABER GLOBAL HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=4069774068.png"/>
+    <icon src="https://i.imgur.com/fu6XeGS.png"/>
   </channel>
   <channel id="4144668031412a19aa2d0e">
     <display-name>HABER GLOBAL HD+ SD .b</display-name>
+    <icon src="https://i.imgur.com/fu6XeGS.png"/>
   </channel>
   <channel id="32253354543986c7294970">
     <display-name>HABER T RK HD+ SD .b</display-name>
@@ -1533,17 +1657,19 @@
   </channel>
   <channel id="41485137195d9985f1f81c">
     <display-name>HALK TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=4148513719.png"/>
+    <icon src="https://i.imgur.com/xM0HA30.png"/>
   </channel>
   <channel id="39864441068cba19bc41f2">
     <display-name>HALK TV .s</display-name>
+    <icon src="https://i.imgur.com/xM0HA30.png"/>
   </channel>
   <channel id="17719991006aa1a0ebf68a">
     <display-name>HALK TV HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1771999100.png"/>
+    <icon src="https://i.imgur.com/xM0HA30.png"/>
   </channel>
   <channel id="9403684fc992fae119e">
     <display-name>HALK TV SD .b</display-name>
+    <icon src="https://i.imgur.com/xM0HA30.png"/>
   </channel>
   <channel id="22112092316dd6bbadb8b7">
     <display-name>HAPSUU TV .b</display-name>
@@ -1572,15 +1698,17 @@
   <channel id="2826493312357d40edbc08">
     <display-name>HRT .b</display-name>
   </channel>
-  <channel id="2119436951bd2712c4541c">
-    <display-name>HRT AKDENIZ .s</display-name>
+  <channel id="12401934035a817f0d3f1d">
+    <display-name>HT SPOR .s</display-name>
+    <icon src="https://www.htspor.com/images/manifest/social-share-logo.png"/>
   </channel>
   <channel id="2773338492aa94862b5b31">
     <display-name>HT SPOR HD .b</display-name>
+    <icon src="https://www.htspor.com/images/manifest/social-share-logo.png"/>
   </channel>
   <channel id="1602719314ed9049107b07">
     <display-name>HUNAT TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1602719314.png"/>
+    <icon src="https://i.imgur.com/NrxHGnb.png"/>
   </channel>
   <channel id="9613074964daf22a2c5fc">
     <display-name>HZ MERYEM .b</display-name>
@@ -1590,6 +1718,9 @@
   </channel>
   <channel id="33626689306c6d20dc4db">
     <display-name>HZ YUSUF .b</display-name>
+  </channel>
+  <channel id="24153315684694fb309dba">
+    <display-name>HISTORY CHANNEL .s</display-name>
   </channel>
   <channel id="420748756258a17d4693fc">
     <display-name>HISTORY HD .b</display-name>
@@ -1602,25 +1733,26 @@
   </channel>
   <channel id="2093940826f764b66f64f5">
     <display-name>KADIRGA TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2093940826.png"/>
+    <icon src="https://i.imgur.com/J4zra7Y.png"/>
   </channel>
   <channel id="1716018058bd4b2efcbfe2">
     <display-name>KAHRAMANMARA AKSU TV .b</display-name>
   </channel>
   <channel id="29173714095b974b9b47bc">
     <display-name>KANAL 12 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2917371409.png"/>
+    <icon src="https://i.imgur.com/51xCkXG.png"/>
   </channel>
   <channel id="5328942090f811960bbb5">
     <display-name>KANAL 15 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=532894209.png"/>
+    <icon src="https://i.imgur.com/wb1Cdc9.png"/>
   </channel>
   <channel id="328914504230e0c25f2df0">
     <display-name>KANAL 15 .s</display-name>
+    <icon src="https://i.imgur.com/wb1Cdc9.png"/>
   </channel>
   <channel id="3706606233e15ade88c7a">
     <display-name>KANAL 23 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=370660623.png"/>
+    <icon src="https://i.imgur.com/3br8RCq.png"/>
   </channel>
   <channel id="2146960844b985fa67702d">
     <display-name>KANAL 24 .s</display-name>
@@ -1631,17 +1763,19 @@
   </channel>
   <channel id="3740752511c05619e34353">
     <display-name>KANAL 26 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3740752511.png"/>
+    <icon src="https://i.imgur.com/Mr7XPii.png"/>
   </channel>
   <channel id="87578284c27a5347875c">
     <display-name>KANAL 26 .s</display-name>
+    <icon src="https://i.imgur.com/Mr7XPii.png"/>
   </channel>
   <channel id="1558612099f5cdf062ccd3">
     <display-name>KANAL 3 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1558612099.png"/>
+    <icon src="https://i.imgur.com/eXErSv0.png"/>
   </channel>
   <channel id="117856985466bafacf1124">
     <display-name>KANAL 3 .s</display-name>
+    <icon src="https://i.imgur.com/eXErSv0.png"/>
   </channel>
   <channel id="37609264903fe9705b8a5e">
     <display-name>KANAL 32 .c</display-name>
@@ -1649,11 +1783,11 @@
   </channel>
   <channel id="3712681642ee46cb7cc87c">
     <display-name>KANAL 33 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3712681642.png"/>
+    <icon src="https://i.imgur.com/5WYaoFZ.png"/>
   </channel>
   <channel id="18693393220cb8b1cc1d42">
     <display-name>KANAL 34 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1869339322.png"/>
+    <icon src="https://i.imgur.com/SIaI6Sj.png"/>
   </channel>
   <channel id="335705245336ec860488ed">
     <display-name>KANAL 360 HEVC .b</display-name>
@@ -1666,20 +1800,23 @@
   </channel>
   <channel id="2093143206eceaba595c07">
     <display-name>KANAL 58 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2093143206.png"/>
+    <icon src="https://i.imgur.com/Rgc66sv.png"/>
   </channel>
   <channel id="28027024539d984983ade4">
     <display-name>KANAL 58 .s</display-name>
+    <icon src="https://i.imgur.com/Rgc66sv.png"/>
   </channel>
   <channel id="56371887593c852f21e1a">
     <display-name>KANAL 68 .s</display-name>
+    <icon src="https://i.imgur.com/5y7K9SS.png"/>
   </channel>
   <channel id="916532487174bf814970d">
     <display-name>KANAL 7 AVRUPA .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=916532487.png"/>
+    <icon src="https://i.imgur.com/wlfyj5l.png"/>
   </channel>
   <channel id="4986459771133ab4a2f33">
     <display-name>KANAL 7 AVRUPA .s</display-name>
+    <icon src="https://i.imgur.com/wlfyj5l.png"/>
   </channel>
   <channel id="326498336471980dd56f67">
     <display-name>KANAL 7 EUROPA .b</display-name>
@@ -1687,51 +1824,60 @@
   </channel>
   <channel id="1096791444308425496108">
     <display-name>KANAL AVRUPA .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1096791444.png"/>
+    <icon src="https://i.imgur.com/bIGk6RN.png"/>
   </channel>
   <channel id="4085283006575fbfb6b120">
     <display-name>KANAL AVRUPA .s</display-name>
+    <icon src="https://i.imgur.com/bIGk6RN.png"/>
   </channel>
   <channel id="7440218437e242db07f3d">
     <display-name>KANAL FIRAT .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=744021843.png"/>
+    <icon src="https://i.imgur.com/3o8Rokp.png"/>
   </channel>
   <channel id="897076110f2f104884685">
     <display-name>KANAL HAYAT .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=897076110.png"/>
+    <icon src="https://i.imgur.com/eikZj19.png"/>
   </channel>
   <channel id="18316756832635b98c5840">
     <display-name>KANAL T .s</display-name>
   </channel>
   <channel id="847659673132d7ebf20cd">
     <display-name>KANAL URFA .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=847659673.png"/>
+    <icon src="https://i.imgur.com/EvgQmoT.png"/>
   </channel>
   <channel id="8138315577bf2ae8bf70e">
     <display-name>KANAL URFA .s</display-name>
+    <icon src="https://i.imgur.com/EvgQmoT.png"/>
   </channel>
   <channel id="22154054220264091689b">
     <display-name>KANAL V .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=221540542.png"/>
+    <icon src="https://i.imgur.com/7RNjTno.png"/>
   </channel>
   <channel id="4014377632f76bd61156e">
     <display-name>KANAL V .s</display-name>
+    <icon src="https://i.imgur.com/7RNjTno.png"/>
   </channel>
   <channel id="3525155138d89c21c9bc3c">
     <display-name>KANAL Z .s</display-name>
+    <icon src="https://i.imgur.com/Kr8960d.png"/>
   </channel>
   <channel id="1846780399d742807cb82e">
     <display-name>KARADENIZ BRTV .b</display-name>
   </channel>
   <channel id="127011060769330a43e05e">
     <display-name>KARDELEN TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1270110607.png"/>
+    <icon src="https://i.imgur.com/0RATxcN.png"/>
+  </channel>
+  <channel id="1198414561ad7fab54a200">
+    <display-name>KARDELEN TV .s</display-name>
+    <icon src="https://i.imgur.com/0RATxcN.png"/>
   </channel>
   <channel id="3390708983dceb590f99bf">
     <display-name>KARE TV .b</display-name>
   </channel>
   <channel id="23796466374e2ee05f0779">
     <display-name>KAY TV .c</display-name>
+    <icon src="https://i.imgur.com/MymuDJ1.png"/>
   </channel>
   <channel id="1680483887afbf5bdf5ab">
     <display-name>KAYSERI KAY TV .b</display-name>
@@ -1753,18 +1899,19 @@
   </channel>
   <channel id="7046897870b9485f78db8">
     <display-name>KENT TURK .s</display-name>
+    <icon src="https://i.imgur.com/FQKPjsm.png"/>
   </channel>
   <channel id="3962582829ee477739be5f">
     <display-name>KENT TÜRK .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3962582829.png"/>
+    <icon src="https://i.imgur.com/FQKPjsm.png"/>
   </channel>
   <channel id="3702528985a3c17ff125d1">
     <display-name>KOCAELI TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3702528985.png"/>
+    <icon src="https://i.imgur.com/LeTP4zq.png"/>
   </channel>
   <channel id="KON.TV.tr">
     <display-name>KON TV</display-name>
-    <icon src="https://logo.huhu.to/logo?c=862610701.png"/>
+    <icon src="https://i.imgur.com/ex67TP8.png"/>
   </channel>
   <channel id="363891195433c45cb68fe2">
     <display-name>KONUSAN TOM .b</display-name>
@@ -1772,27 +1919,26 @@
   <channel id="37593642738038d993fa1e">
     <display-name>KONYA KON TV .b</display-name>
   </channel>
+  <channel id="5783808618f2bafca5dba">
+    <display-name>KONYA OLAY TV .c</display-name>
+    <icon src="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg"/>
+  </channel>
   <channel id="277878129786cfb72a8e2e">
     <display-name>KOSTEBEKGILLER TV .b</display-name>
   </channel>
   <channel id="685300988b10d8590b08d">
     <display-name>KOY TV .s</display-name>
+    <icon src="https://i.imgur.com/RcjEHAG.png"/>
   </channel>
   <channel id="1047804470f83375a3863a">
     <display-name>KOZA TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1047804470.png"/>
+    <icon src="https://i.imgur.com/jeFTUGp.png"/>
   </channel>
   <channel id="358503385607b86bf71c43">
     <display-name>KRAL FM .b</display-name>
   </channel>
-  <channel id="222080778325a1bcf07f54">
-    <display-name>KRAL FM ARABESK .b</display-name>
-  </channel>
   <channel id="416983899397e266de7f51">
     <display-name>KRAL POP .s</display-name>
-  </channel>
-  <channel id="401243274930b2f0a2040b">
-    <display-name>KRAL POP HD+ .b</display-name>
   </channel>
   <channel id="3295096268eab2a5c02580">
     <display-name>KRAL POP RADYO T RK E POP .b</display-name>
@@ -1805,17 +1951,23 @@
   </channel>
   <channel id="1505032467d0e227960a29">
     <display-name>KRAL TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1505032467.png"/>
+    <icon src="https://i.imgur.com/GeEDOPN.png"/>
+  </channel>
+  <channel id="1131281902d9a86688e843">
+    <display-name>KRAL TV .s</display-name>
+    <icon src="https://i.imgur.com/GeEDOPN.png"/>
   </channel>
   <channel id="2879812830599c43994d1e">
     <display-name>KRAL TV HD .b</display-name>
+    <icon src="https://i.imgur.com/GeEDOPN.png"/>
   </channel>
   <channel id="331685130407411552595">
     <display-name>KRT .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=331685130.png"/>
+    <icon src="https://i.imgur.com/9ZKqdQJ.png"/>
   </channel>
   <channel id="14328530251177683d27e4">
     <display-name>KRT HD+ SD .b</display-name>
+    <icon src="https://i.imgur.com/9ZKqdQJ.png"/>
   </channel>
   <channel id="3998379019966ad1915be2">
     <display-name>KRT TV .s</display-name>
@@ -1826,13 +1978,15 @@
   </channel>
   <channel id="211438405134cf6d8a4129">
     <display-name>KUDUS TV .b</display-name>
+    <icon src="https://i.imgur.com/lwRA84B.png"/>
   </channel>
   <channel id="5220502681f663a2e6cbe">
     <display-name>KUDUS TV .s</display-name>
+    <icon src="https://i.imgur.com/lwRA84B.png"/>
   </channel>
   <channel id="3035951797e8a56cf0ef58">
     <display-name>KUDÜS TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3035951797.png"/>
+    <icon src="https://i.imgur.com/lwRA84B.png"/>
   </channel>
   <channel id="2594585028d7c222e3966a">
     <display-name>KUKULI TV .b</display-name>
@@ -1845,7 +1999,7 @@
   </channel>
   <channel id="870320507489feac51e9a">
     <display-name>KÖY TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=870320507.png"/>
+    <icon src="https://i.imgur.com/RcjEHAG.png"/>
   </channel>
   <channel id="KIBRIS.GENÇ.TV.tr">
     <display-name>KIBRIS GENÇ TV</display-name>
@@ -1864,9 +2018,11 @@
   </channel>
   <channel id="223628794687658c254346">
     <display-name>LALEGUL TV .b</display-name>
+    <icon src="https://i.imgur.com/wwCysFs.png"/>
   </channel>
   <channel id="3483642933b7febea98a62">
     <display-name>LALEGUL TV .s</display-name>
+    <icon src="https://i.imgur.com/wwCysFs.png"/>
   </channel>
   <channel id="528021399004e91a38c73">
     <display-name>LEYLEK KARDES .b</display-name>
@@ -1888,26 +2044,26 @@
   </channel>
   <channel id="5505157195cb579669a6c">
     <display-name>LUYS TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=550515719.png"/>
+    <icon src="https://i.imgur.com/9EruWIQ.png"/>
   </channel>
   <channel id="108814985093ce0bbbf5d6">
     <display-name>LÂLEGÜL TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1088149850.png"/>
+    <icon src="https://i.imgur.com/wwCysFs.png"/>
   </channel>
   <channel id="70369886837bb68700663">
     <display-name>LIDER HABER .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=703698868.png"/>
+    <icon src="https://i.imgur.com/5B42KwY.png"/>
   </channel>
   <channel id="3572490349f5368e3d7944">
     <display-name>LIFE TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3572490349.png"/>
+    <icon src="https://i.imgur.com/lWeJxm0.png"/>
   </channel>
   <channel id="4190426847132e27b0c524">
     <display-name>LIMON ZEYTIN .b</display-name>
   </channel>
   <channel id="1865892469c6a30088a293">
     <display-name>LINE TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1865892469.png"/>
+    <icon src="https://i.imgur.com/6GNp7f8.png"/>
   </channel>
   <channel id="375599442073736b876622">
     <display-name>M TÜRK TV .c</display-name>
@@ -2004,39 +2160,47 @@
   </channel>
   <channel id="22309682628a9ba731b044">
     <display-name>MEDYA HABER .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2230968262.png"/>
+    <icon src="https://i.imgur.com/l1E2Pha.png"/>
   </channel>
   <channel id="112712780768a23f1ccccb">
     <display-name>MELTEM .s</display-name>
   </channel>
   <channel id="36288465850c4461a9fd50">
     <display-name>MELTEM TV .b</display-name>
+    <icon src="https://i.imgur.com/C3m6w5S.png"/>
   </channel>
   <channel id="134482489061cbfbcb263a">
     <display-name>MELTEM TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1344824890.png"/>
+    <icon src="https://i.imgur.com/C3m6w5S.png"/>
   </channel>
   <channel id="3132704137f87bc5cba15d">
     <display-name>MERCAN TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3132704137.png"/>
+    <icon src="https://i.imgur.com/3CWV8bS.png"/>
   </channel>
   <channel id="3177271965513a983a3778">
     <display-name>MERCAN TV .s</display-name>
+    <icon src="https://i.imgur.com/3CWV8bS.png"/>
   </channel>
   <channel id="1480015488d6661e191760">
     <display-name>MERSIN EL TV .b</display-name>
   </channel>
+  <channel id="1751593588ad9f10b37811">
+    <display-name>MESAJ TV .b</display-name>
+  </channel>
+  <channel id="2073766557830de7c84b42">
+    <display-name>MGC .b</display-name>
+  </channel>
   <channel id="2591544773260cb2042fa3">
     <display-name>MGC TV .b</display-name>
+  </channel>
+  <channel id="2862980701594d8f54db77">
+    <display-name>MONTAG &amp; FREITAG BULLI .b</display-name>
   </channel>
   <channel id="123746094865495ec9eb64">
     <display-name>MOVIE SMART ACTION .s</display-name>
   </channel>
   <channel id="3597292408836ecd197e13">
     <display-name>MOVIE SMART CLASSIC .s</display-name>
-  </channel>
-  <channel id="180020415986f47cb1ef85">
-    <display-name>MOVIE SMART PLATIN 2 .s</display-name>
   </channel>
   <channel id="3830353405310275288203">
     <display-name>MOVIE SMART PREMIUM .s</display-name>
@@ -2047,19 +2211,16 @@
   <channel id="353384054fb5f9b63f6c7">
     <display-name>MOVIE SMART TURK .s</display-name>
   </channel>
-  <channel id="21783643006813b50b82f3">
-    <display-name>MOVIEMAX TURK .s</display-name>
-  </channel>
   <channel id="1337239933e2da7f068f8a">
     <display-name>MOVIESMART CLASSIC .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1337239933.png"/>
+    <icon src="https://i.imgur.com/e6qYcCS.png"/>
   </channel>
   <channel id="290442290837f81097ba3c">
     <display-name>MOVIESMART FEST .c</display-name>
   </channel>
   <channel id="37193975221c1d8ce1ff11">
     <display-name>MOVIESMART TURK .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3719397522.png"/>
+    <icon src="https://i.imgur.com/DWN9ulT.png"/>
   </channel>
   <channel id="41780715606f8ffc7fa3f">
     <display-name>MTV LIVE .b</display-name>
@@ -2069,6 +2230,9 @@
   </channel>
   <channel id="1953745495384d5f996a8">
     <display-name>MUSLUM GURSES .b</display-name>
+  </channel>
+  <channel id="586568093d2bdc08a3fed">
+    <display-name>MILYON .s</display-name>
   </channel>
   <channel id="2175768896e5f35d5d7b27">
     <display-name>MIMOCAN TV .b</display-name>
@@ -2116,21 +2280,27 @@
   </channel>
   <channel id="919108696a1b98997373b">
     <display-name>NOW TV FHD .b</display-name>
+    <icon src="https://i.imgur.com/5EYjWK7.png"/>
   </channel>
   <channel id="9989683045db00316f92d">
     <display-name>NOW TV HD (H265) .b</display-name>
+    <icon src="https://i.imgur.com/5EYjWK7.png"/>
   </channel>
   <channel id="161305206673e7c4b7739">
     <display-name>NOW TV HD .b</display-name>
+    <icon src="https://i.imgur.com/5EYjWK7.png"/>
   </channel>
   <channel id="117018314962b4e9489718">
     <display-name>NOW TV HEVC .b</display-name>
+    <icon src="https://i.imgur.com/5EYjWK7.png"/>
   </channel>
   <channel id="2769713183b7a2cf8dde9b">
     <display-name>NOW TV RAW .b</display-name>
+    <icon src="https://i.imgur.com/5EYjWK7.png"/>
   </channel>
   <channel id="1619828782743bd8c4c921">
     <display-name>NOW TV SD .b</display-name>
+    <icon src="https://i.imgur.com/5EYjWK7.png"/>
   </channel>
   <channel id="40212870138b09cd70432d">
     <display-name>NR 1 HD .b</display-name>
@@ -2157,25 +2327,26 @@
   </channel>
   <channel id="30987911721740d6428124">
     <display-name>NUMBER 1 ASK .c</display-name>
+    <icon src="https://i.imgur.com/slwbux7.png"/>
   </channel>
   <channel id="4098520588b03ada0ce29">
     <display-name>NUMBER 1 DAMAR .c</display-name>
+    <icon src="https://i.imgur.com/rYtbAGZ.png"/>
   </channel>
   <channel id="306270428681e04a31cef9">
     <display-name>NUMBER 1 DANCE .c</display-name>
+    <icon src="https://i.imgur.com/ZM4PSyq.png"/>
   </channel>
   <channel id="3441764529c61d112317f">
     <display-name>NUMBER 1 TURK .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=344176452.png"/>
+    <icon src="https://i.imgur.com/18zjk3q.png"/>
   </channel>
   <channel id="3916966300e4e588958124">
     <display-name>NUMBER ONE FM YABANCI M ZIK BURDA .b</display-name>
   </channel>
-  <channel id="85708551c8303cc96ebd">
-    <display-name>NICK JR .s</display-name>
-  </channel>
   <channel id="70716309912fd7c8b433e">
     <display-name>NICK JR HD HD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/>
   </channel>
   <channel id="1384991998bbb9bc709eb1">
     <display-name>NICK JUNIOR .c</display-name>
@@ -2183,16 +2354,19 @@
   </channel>
   <channel id="3029254675256aa43dc772">
     <display-name>NICKELODEON .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3029254675.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png"/>
   </channel>
   <channel id="30925623016e4c1bb5c343">
     <display-name>NICKELODEON .s</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png"/>
   </channel>
   <channel id="503443750d4adaa3772e8">
     <display-name>NICKELODEON HD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png"/>
   </channel>
   <channel id="1131981336b0cfe30481dc">
     <display-name>NICKTOONS .c</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png"/>
   </channel>
   <channel id="692811579f95ab595b603">
     <display-name>NILOYA HD+ .b</display-name>
@@ -2219,7 +2393,7 @@
   </channel>
   <channel id="889661020f5c59638da26">
     <display-name>ON 6 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=889661020.png"/>
+    <icon src="https://i.imgur.com/k7rS2gC.png"/>
   </channel>
   <channel id="760981668a4f92b6e73db">
     <display-name>ORDU BUYUKSEHIR BELEDIYESI (OBB) .c</display-name>
@@ -2227,9 +2401,6 @@
   </channel>
   <channel id="2879086761a7691b067170">
     <display-name>OSCAR COLLERDE .b</display-name>
-  </channel>
-  <channel id="17362928703b87a6c8217">
-    <display-name>OUTDOOR .b</display-name>
   </channel>
   <channel id="42208430696fbda8155f99">
     <display-name>PAK PIRPIR TV .b</display-name>
@@ -2270,7 +2441,7 @@
   </channel>
   <channel id="4234416466b6878ac343d7">
     <display-name>POWER DANCE .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=4234416466.png"/>
+    <icon src="https://i.imgur.com/QpPteBO.png"/>
   </channel>
   <channel id="1299417291527618a1ccab">
     <display-name>POWER FM YABANCI M ZIK .b</display-name>
@@ -2280,7 +2451,7 @@
   </channel>
   <channel id="178350880905c3993617e6">
     <display-name>POWER LOVE .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1783508809.png"/>
+    <icon src="https://i.imgur.com/0RzUswR.png"/>
   </channel>
   <channel id="2703806315a67a7c89a263">
     <display-name>POWER T RK T RK E POP .b</display-name>
@@ -2297,15 +2468,15 @@
   </channel>
   <channel id="3696281560e74fe1226862">
     <display-name>POWERTURK AKUSTIK .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3696281560.png"/>
+    <icon src="https://i.imgur.com/driabBO.png"/>
   </channel>
   <channel id="3988461826ba353178d1f">
     <display-name>POWERTURK SLOW .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=398846182.png"/>
+    <icon src="https://i.imgur.com/tQSoQXW.png"/>
   </channel>
   <channel id="152810673925021b5bd6b2">
     <display-name>POWERTURK TAPTAZE .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1528106739.png"/>
+    <icon src="https://i.imgur.com/a5nW3HU.png"/>
   </channel>
   <channel id="313795631139b3f3245bfe">
     <display-name>PROTURK ACTION .c</display-name>
@@ -2321,6 +2492,9 @@
   </channel>
   <channel id="12454754741085c372bdf7">
     <display-name>PROTURK KEMAL SUNAL .c</display-name>
+  </channel>
+  <channel id="119424713164337b55eaf8">
+    <display-name>PROTURK KORKU .c</display-name>
   </channel>
   <channel id="1869786551e81df83971f4">
     <display-name>PROTURK LOCA 1 .c</display-name>
@@ -2391,10 +2565,11 @@
   </channel>
   <channel id="1959665596c53ccefb734a">
     <display-name>REHBER TV .b</display-name>
+    <icon src="https://i.imgur.com/fpkaw78.png"/>
   </channel>
   <channel id="4239242367fb52ed133368">
     <display-name>REHBER TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=4239242367.png"/>
+    <icon src="https://i.imgur.com/fpkaw78.png"/>
   </channel>
   <channel id="34152992586965d75e9ba0">
     <display-name>RETRO T RK T RK E KLASIK .b</display-name>
@@ -2407,21 +2582,23 @@
   </channel>
   <channel id="33465497225b9857743b71">
     <display-name>S SPORT .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3346549722.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a9/S_Sport_logo1.png"/>
   </channel>
   <channel id="37183362955b988ce99242">
     <display-name>S SPORT .s</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a9/S_Sport_logo1.png"/>
   </channel>
   <channel id="1313768516926dc999c43b">
     <display-name>S SPORT 2 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1313768516.png"/>
+    <icon src="https://i.imgur.com/2jIItAy.png"/>
   </channel>
   <channel id="1234604880d226de6d47be">
     <display-name>S SPORT 2 .s</display-name>
+    <icon src="https://i.imgur.com/2jIItAy.png"/>
   </channel>
-  <channel id="1507829436cb5aa4fb5b34">
-    <display-name>S SPORT+4 MAC SAATI .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1507829436.png"/>
+  <channel id="3269372326de5ff1a4d9d7">
+    <display-name>S SPORT+3 MAC SAATI .b</display-name>
+    <icon src="https://logo.huhu.to/logo?c=3269372326.png"/>
   </channel>
   <channel id="24669057008c1d07812ce0">
     <display-name>S ZC SZC TV .b</display-name>
@@ -2432,15 +2609,15 @@
   </channel>
   <channel id="1183409452148e7cb0f613">
     <display-name>S-SPORT 2 HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1183409452.png"/>
+    <icon src="https://i.imgur.com/2jIItAy.png"/>
   </channel>
   <channel id="394365103048c3f48946a4">
     <display-name>S-SPORT 2 UHD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3943651030.png"/>
+    <icon src="https://i.imgur.com/2jIItAy.png"/>
   </channel>
   <channel id="919993168ebbbfbeecc50">
     <display-name>S-SPORT HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=919993168.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a9/S_Sport_logo1.png"/>
   </channel>
   <channel id="3526620942f8fbdb0fb7ad">
     <display-name>S-SPORT PLUS 1 MACZAMANI .b</display-name>
@@ -2458,12 +2635,12 @@
     <display-name>S-SPORT+1 MAC SAATI .b</display-name>
     <icon src="https://logo.huhu.to/logo?c=2559756791.png"/>
   </channel>
-  <channel id="2314183566dbbab2892d05">
-    <display-name>S-SPORT+2 MAC SAATI .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2314183566.png"/>
-  </channel>
   <channel id="41600224142533e27b97d9">
     <display-name>S-SPORTS 1 HD .s</display-name>
+  </channel>
+  <channel id="3202905239f7c8981cff1">
+    <display-name>S-SPORTS 1 SD .b</display-name>
+    <icon src="https://logo.huhu.to/logo?c=320290523.png"/>
   </channel>
   <channel id="20381615174598b818f74c">
     <display-name>S-SPORTS 2 HD .s</display-name>
@@ -2511,6 +2688,9 @@
   <channel id="25015099ab9477fb2b92">
     <display-name>SALON 19 HD .b</display-name>
   </channel>
+  <channel id="3645943584c869227b2d53">
+    <display-name>SALON 2 .c</display-name>
+  </channel>
   <channel id="32805795494a101a59b81a">
     <display-name>SALON 2 .s</display-name>
   </channel>
@@ -2544,8 +2724,8 @@
   <channel id="26072799868f66d346f7b8">
     <display-name>SALON 9 HD .b</display-name>
   </channel>
-  <channel id="287875534435a082281e3f">
-    <display-name>SARAN SPORT 2 .s</display-name>
+  <channel id="3962972352ea44b8b75128">
+    <display-name>SARAN SPORT 1 .s</display-name>
   </channel>
   <channel id="237609064654251acc3bd9">
     <display-name>SAT 7 TURK .b</display-name>
@@ -2562,9 +2742,6 @@
   </channel>
   <channel id="1192565728f635dd56c60f">
     <display-name>SATRANÇ TV .c</display-name>
-  </channel>
-  <channel id="4188119721d54405415c0f">
-    <display-name>SCIENCE &amp; VICE .s</display-name>
   </channel>
   <channel id="544666238c61b20d0e7a9">
     <display-name>SEF ROKKA TV .b</display-name>
@@ -2583,10 +2760,11 @@
   </channel>
   <channel id="786317112675e7c9749f1">
     <display-name>SEMERKAND TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=786317112.png"/>
+    <icon src="https://i.imgur.com/UVGGrQd.png"/>
   </channel>
   <channel id="4096268883d8a4639bc323">
     <display-name>SEMERKAND TV HD .b</display-name>
+    <icon src="https://i.imgur.com/UVGGrQd.png"/>
   </channel>
   <channel id="2244768338fefc6006bad">
     <display-name>SERCE KUS TV .b</display-name>
@@ -2606,13 +2784,17 @@
   </channel>
   <channel id="1495761327668bcd5072dc">
     <display-name>SHOW MAX .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1495761327.png"/>
+    <icon src="https://i.imgur.com/456FWA7.png"/>
   </channel>
   <channel id="21962786526c864f9c84d4">
     <display-name>SHOW MAX .s</display-name>
+    <icon src="https://i.imgur.com/456FWA7.png"/>
   </channel>
   <channel id="35098991442bd9c175ff50">
     <display-name>SHOW RADYO .b</display-name>
+  </channel>
+  <channel id="12523068353d88301d1bd5">
+    <display-name>SHOW RADYO T RK E POP .b</display-name>
   </channel>
   <channel id="6059298215f8d058d8877">
     <display-name>SHOW T RK EUROPA .b</display-name>
@@ -2620,10 +2802,11 @@
   </channel>
   <channel id="20097725333f38724a70f7">
     <display-name>SHOW TURK .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2009772533.png"/>
+    <icon src="https://i.imgur.com/fdZpGDj.png"/>
   </channel>
   <channel id="18802705619a03e126f4de">
     <display-name>SHOW TURK .s</display-name>
+    <icon src="https://i.imgur.com/fdZpGDj.png"/>
   </channel>
   <channel id="1197572527f8384c637ae4">
     <display-name>SHOWMAX .b</display-name>
@@ -2632,6 +2815,9 @@
   <channel id="3491525845a8862ff934e0">
     <display-name>SL NILOYA .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=3491525845.png"/>
+  </channel>
+  <channel id="1388101311c930084973ec">
+    <display-name>SLOW KARADENIZ .b</display-name>
   </channel>
   <channel id="3310537792544cdc86ebe5">
     <display-name>SMART BOX ACTION .c</display-name>
@@ -2656,36 +2842,38 @@
   </channel>
   <channel id="1771511397d05184d3e443">
     <display-name>SPOR SMART .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1771511397.png"/>
+    <icon src="https://i.imgur.com/blu6v6P.png"/>
   </channel>
   <channel id="3278735965dfe5a38d92ee">
     <display-name>SPOR SMART 1 .s</display-name>
   </channel>
   <channel id="90716509593fd6426951b">
     <display-name>SPOR SMART 2 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=907165095.png"/>
+    <icon src="https://i.imgur.com/qyUKCUa.png"/>
   </channel>
   <channel id="2228088973f56fff74c71f">
     <display-name>SPOR SMART 2 .s</display-name>
+    <icon src="https://i.imgur.com/qyUKCUa.png"/>
   </channel>
   <channel id="2726496671ea6fd3c6dc54">
     <display-name>SPOR SMART 2 HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2726496671.png"/>
+    <icon src="https://i.imgur.com/qyUKCUa.png"/>
   </channel>
   <channel id="37639315201c3521e36c44">
     <display-name>SPOR SMART FHD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3763931520.png"/>
+    <icon src="https://i.imgur.com/blu6v6P.png"/>
   </channel>
   <channel id="1313563350f4a25655e128">
     <display-name>SPOR SMART HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1313563350.png"/>
+    <icon src="https://i.imgur.com/blu6v6P.png"/>
   </channel>
   <channel id="3445708926e6195304f00c">
     <display-name>SPOR SMART HEVC .b</display-name>
+    <icon src="https://i.imgur.com/blu6v6P.png"/>
   </channel>
   <channel id="660246670c64f4ea57a46">
     <display-name>SPOR SMART SD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=660246670.png"/>
+    <icon src="https://i.imgur.com/blu6v6P.png"/>
   </channel>
   <channel id="2478813774db6f05549bf2">
     <display-name>SPIDERMAN TV .b</display-name>
@@ -2699,7 +2887,7 @@
   </channel>
   <channel id="235454381152b8bdc405cf">
     <display-name>SUN RTV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2354543811.png"/>
+    <icon src="https://i.imgur.com/64tph9N.png"/>
   </channel>
   <channel id="3122863032b740767c3962">
     <display-name>SUN TV .b</display-name>
@@ -2721,27 +2909,27 @@
   </channel>
   <channel id="SİNEMA.1001.HD.tr">
     <display-name>SİNEMA 1001 HD</display-name>
+    <icon src="https://i.imgur.com/OOMEELj.png"/>
   </channel>
   <channel id="129312789771362713c30c">
     <display-name>SINEMA AKSIYON 1 .s</display-name>
-  </channel>
-  <channel id="SİNEMA.AKSİYON.2.HD.tr">
-    <display-name>SİNEMA AKSİYON 2 HD</display-name>
   </channel>
   <channel id="424550844375a964b5b3e5">
     <display-name>SINEMA AILE 1 .s</display-name>
   </channel>
   <channel id="SİNEMA.AİLE.2.HD.tr">
     <display-name>SİNEMA AİLE 2 HD</display-name>
+    <icon src="https://i.imgur.com/EMJiBSb.png"/>
   </channel>
   <channel id="SİNEMA.KOMEDİ.HD.tr">
     <display-name>SİNEMA KOMEDİ HD</display-name>
+    <icon src="https://i.imgur.com/U4C7JId.png"/>
+  </channel>
+  <channel id="24848056995333a11423de">
+    <display-name>SINEMA YERLI 1 .s</display-name>
   </channel>
   <channel id="2789249461c1ad5d07b17a">
     <display-name>SINEMAX DRAMA .s</display-name>
-  </channel>
-  <channel id="14694844750eea4e90973f">
-    <display-name>SINEMAX FAMILY .s</display-name>
   </channel>
   <channel id="56581376296a68bfac79f">
     <display-name>SINEMAX KOMEDI .s</display-name>
@@ -2752,6 +2940,9 @@
   <channel id="3562169936e24369ffef8d">
     <display-name>SINEVIZYON 1 .s</display-name>
   </channel>
+  <channel id="1434492924511874701343">
+    <display-name>SINEVIZYON 15 .s</display-name>
+  </channel>
   <channel id="567459984fcc0c3381a21">
     <display-name>SINEVIZYON 5 .s</display-name>
   </channel>
@@ -2761,11 +2952,17 @@
   <channel id="237327525e72f36a04e37">
     <display-name>SINEVIZYON TURK 1 .s</display-name>
   </channel>
+  <channel id="13493455810611836e96c5">
+    <display-name>SINEVIZYON TURK 10 .s</display-name>
+  </channel>
   <channel id="1233464949183c7280e3a4">
     <display-name>SINEVIZYON TURK 2 .s</display-name>
   </channel>
   <channel id="4221956709ff9a263200e0">
     <display-name>SINEVIZYON TURK 5 .s</display-name>
+  </channel>
+  <channel id="315447928559cf5bc5d2cd">
+    <display-name>SINEVIZYON TURK 6 .s</display-name>
   </channel>
   <channel id="21709212216ea5f185ca61">
     <display-name>SINEVIZYON TURK 7 .s</display-name>
@@ -2798,9 +2995,6 @@
     <display-name>T.A.Y TV .b</display-name>
     <icon src="https://logo.huhu.to/logo?c=3633765645.png"/>
   </channel>
-  <channel id="1844863271513a413a321">
-    <display-name>TABII SPOR .c</display-name>
-  </channel>
   <channel id="10977951419d3dfac60f92">
     <display-name>TABII SPOR 1 .c</display-name>
   </channel>
@@ -2812,14 +3006,6 @@
     <display-name>TABII SPOR 1 UHD .b</display-name>
     <icon src="https://logo.huhu.to/logo?c=3107708522.png"/>
   </channel>
-  <channel id="24901653728e4a187da4c4">
-    <display-name>TABII SPOR 2 HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2490165372.png"/>
-  </channel>
-  <channel id="21594692318c346548c2be">
-    <display-name>TABII SPOR 2 UHD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2159469231.png"/>
-  </channel>
   <channel id="1489430754b4fd6e6dc327">
     <display-name>TABII SPOR 3 HD .b</display-name>
     <icon src="https://logo.huhu.to/logo?c=1489430754.png"/>
@@ -2827,23 +3013,20 @@
   <channel id="2307885365b7f1828e97ba">
     <display-name>TABII SPOR 4 .c</display-name>
   </channel>
-  <channel id="13759861713a771b4b4726">
-    <display-name>TABII SPOR 4 HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1375986171.png"/>
+  <channel id="408817539739fafefc9d3b">
+    <display-name>TABII SPOR 4 UHD .b</display-name>
+    <icon src="https://logo.huhu.to/logo?c=4088175397.png"/>
   </channel>
   <channel id="3035603077ef0df0e5da67">
     <display-name>TABII SPOR 5 .c</display-name>
   </channel>
+  <channel id="383933219867eefb660622">
+    <display-name>TABII SPOR 5 UHD .b</display-name>
+    <icon src="https://logo.huhu.to/logo?c=3839332198.png"/>
+  </channel>
   <channel id="40820967253b1d74e19a7f">
     <display-name>TABII SPOR 6 .c</display-name>
-  </channel>
-  <channel id="270984838ca5cfbf75daa">
-    <display-name>TABII SPOR 6 HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=270984838.png"/>
-  </channel>
-  <channel id="37137089631c97c5b7ef8f">
-    <display-name>TABII SPOR 6 UHD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3713708963.png"/>
+    <icon src="https://cms-tabii-public-image.tabii.com/int/w300/43020.jpeg"/>
   </channel>
   <channel id="40221481750ee503c548f9">
     <display-name>TABII SPOR SD .b</display-name>
@@ -2854,14 +3037,11 @@
   </channel>
   <channel id="3856957052050da882aa10">
     <display-name>TARIH TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3856957052.png"/>
-  </channel>
-  <channel id="19930472434be833e11c22">
-    <display-name>TARIM TV .s</display-name>
+    <icon src="https://i.imgur.com/HbIGZUt.png"/>
   </channel>
   <channel id="3333865510ce3775d7abc0">
     <display-name>TATLISES TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3333865510.png"/>
+    <icon src="https://i.imgur.com/et1sbyq.png"/>
   </channel>
   <channel id="2292336979752459c08202">
     <display-name>TAVSAN MOMO .b</display-name>
@@ -2871,31 +3051,33 @@
   </channel>
   <channel id="1534287048d3b84ea2e278">
     <display-name>TAY TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1534287048.png"/>
+    <icon src="https://www.dsmart.com.tr/api/v1/public/images/kanallar/tay_tv.png"/>
   </channel>
   <channel id="38337041757a6e69cbe733">
     <display-name>TAYO TV .b</display-name>
   </channel>
   <channel id="17706996443661c5809131">
     <display-name>TBMM TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1770699644.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png"/>
   </channel>
   <channel id="202934479567a99d31ca30">
     <display-name>TEK RUMEL TV .b</display-name>
   </channel>
   <channel id="35602928690d57b8926e55">
     <display-name>TELE 1 .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3560292869.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png"/>
   </channel>
   <channel id="135762464349d3676ea069">
     <display-name>TELE 1 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1357624643.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png"/>
   </channel>
   <channel id="1025979520ee1c8a3dc728">
     <display-name>TELE 1 .s</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png"/>
   </channel>
   <channel id="33823947399faceb7a3a0a">
     <display-name>TELE 1 SD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png"/>
   </channel>
   <channel id="1110088936411930c810bd">
     <display-name>TELEGRAM GRUP LINKI .b</display-name>
@@ -2906,14 +3088,18 @@
   </channel>
   <channel id="870976532c5d3517d9b98">
     <display-name>TEMPO TV .b</display-name>
+    <icon src="https://i.imgur.com/tZpx32y.png"/>
   </channel>
   <channel id="23025527440c3e840d27e8">
     <display-name>TEMPO TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2302552744.png"/>
+    <icon src="https://i.imgur.com/tZpx32y.png"/>
   </channel>
   <channel id="4197507696203cc2aa6667">
     <display-name>TEVE 2 .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=4197507696.png"/>
+  </channel>
+  <channel id="2549900211f7cf06756ad3">
+    <display-name>TEVE 2 .s</display-name>
   </channel>
   <channel id="42295295583463c26f2597">
     <display-name>TEVE 2 FHD .b</display-name>
@@ -2925,41 +3111,41 @@
   </channel>
   <channel id="3925938631130980bfec69">
     <display-name>TGRT BELGESEL .b</display-name>
+    <icon src="https://i.imgur.com/VwWTnf0.png"/>
   </channel>
   <channel id="2753787815ca92c106e311">
     <display-name>TGRT BELGESEL .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2753787815.png"/>
+    <icon src="https://i.imgur.com/VwWTnf0.png"/>
   </channel>
   <channel id="1743993546eff3fc244a74">
     <display-name>TGRT BELGESEL .s</display-name>
+    <icon src="https://i.imgur.com/VwWTnf0.png"/>
   </channel>
   <channel id="1822864752924d1506f08">
     <display-name>TGRT EU .s</display-name>
   </channel>
   <channel id="3887658051a11c1211af1b">
     <display-name>TJK TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3887658051.png"/>
+    <icon src="https://i.imgur.com/3zHdkYG.png"/>
   </channel>
   <channel id="232288806494db721ebbd5">
     <display-name>TJK TV .s</display-name>
+    <icon src="https://i.imgur.com/3zHdkYG.png"/>
   </channel>
   <channel id="314642933454afb0ab4f31">
     <display-name>TJK TV HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3146429334.png"/>
+    <icon src="https://i.imgur.com/3zHdkYG.png"/>
   </channel>
   <channel id="TLC.HD.tr">
     <display-name>TLC HD</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1766840660.png"/>
-  </channel>
-  <channel id="TMB.tr">
-    <display-name>TMB</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
   </channel>
   <channel id="410018565922373c7100a2">
     <display-name>TOM &amp; JERRY .b</display-name>
   </channel>
   <channel id="385559741691e8e41971e8">
     <display-name>TON TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3855597416.png"/>
+    <icon src="https://i.imgur.com/f0Soeob.png"/>
   </channel>
   <channel id="1840643644b180a4d619d6">
     <display-name>TRABZON HABER 61 TV HD .b</display-name>
@@ -2973,71 +3159,84 @@
   </channel>
   <channel id="10407066957b9356f79511">
     <display-name>TRT 2 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1040706695.png"/>
+    <icon src="https://i.imgur.com/iOCQdyD.png"/>
   </channel>
   <channel id="10988270778ea74cd28244">
     <display-name>TRT 2 .s</display-name>
+    <icon src="https://i.imgur.com/iOCQdyD.png"/>
   </channel>
   <channel id="200530513284b4baa30873">
     <display-name>TRT 2 UHD .b</display-name>
+    <icon src="https://i.imgur.com/iOCQdyD.png"/>
   </channel>
   <channel id="3317656516b0224418b6a8">
     <display-name>TRT 4K .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3317656516.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/TRT_4K.svg/960px-TRT_4K.svg.png"/>
   </channel>
   <channel id="6857948301fe52b3221a3">
     <display-name>TRT COCUK .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=685794830.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png"/>
   </channel>
   <channel id="792228122ef3135bf6801">
     <display-name>TRT COCUK .s</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png"/>
+  </channel>
+  <channel id="3979837190d92f4a65c83b">
+    <display-name>TRT COCUK RAW .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png"/>
   </channel>
   <channel id="458659205476896290c35">
     <display-name>TRT DIYANET .s</display-name>
   </channel>
   <channel id="1101849390824792e0390b">
     <display-name>TRT DIYANET COCUK .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1101849390.png"/>
+    <icon src="https://i.imgur.com/8PmXz9t.png"/>
   </channel>
   <channel id="3681071746569ac21b544f">
     <display-name>TRT EBA .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3681071746.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/960px-TRT_EBA_TV_logo.svg.png"/>
   </channel>
   <channel id="17020398633aafc0a6bc">
     <display-name>TRT EBA ORTAOKUL .s</display-name>
   </channel>
   <channel id="228765803362ec29207df8">
     <display-name>TRT EBA ILKOKUL .s</display-name>
+    <icon src="https://i.imgur.com/CRBfZi4.png"/>
   </channel>
   <channel id="TRT.KURDİ.tr">
     <display-name>TRT KURDİ</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/960px-TRT_Kurd%C3%AE_logo.svg.png"/>
   </channel>
   <channel id="5500451029f0e83b65cf8">
     <display-name>TRT OCUK HD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png"/>
   </channel>
   <channel id="3650641237f3a2bcd94921">
     <display-name>TRT SPOR 2 HD .s</display-name>
   </channel>
   <channel id="930542029ffe0c297ec0">
     <display-name>TRT SPOR YILDIZ .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=93054202.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png"/>
   </channel>
   <channel id="2081577417310aa2d344e3">
     <display-name>TRT SPOR YILDIZ .s</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png"/>
   </channel>
   <channel id="14238458092c57f9e072fb">
     <display-name>TRT SPOR YILDIZ HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1423845809.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png"/>
   </channel>
   <channel id="114501523d11f5030113f">
     <display-name>TRT SPOR YILDIZ HEVC .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png"/>
   </channel>
   <channel id="268929752745bb1e55d52a">
     <display-name>TRT SPOR YILDIZ RAW .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png"/>
   </channel>
   <channel id="TRT.WORLD.HD.tr">
     <display-name>TRT WORLD HD</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3203147403.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png"/>
   </channel>
   <channel id="21895121eeea9f4b76d9">
     <display-name>TRT2 RAW .b</display-name>
@@ -3047,56 +3246,59 @@
   </channel>
   <channel id="4073129368ac841af4a4cd">
     <display-name>TV 1 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=4073129368.png"/>
+    <icon src="https://i.imgur.com/8CtrYVb.png"/>
   </channel>
   <channel id="37694889827bcff8d6501a">
     <display-name>TV 100 .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png"/>
   </channel>
   <channel id="16852994727259ba10c029">
     <display-name>TV 100 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1685299472.png"/>
-  </channel>
-  <channel id="1635207231a61cd1da15b">
-    <display-name>TV 100 .s</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png"/>
   </channel>
   <channel id="3271096410d07fb733747f">
     <display-name>TV 100 HEVC .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png"/>
   </channel>
   <channel id="1984101968aa2ae3bca725">
     <display-name>TV 264 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1984101968.png"/>
+    <icon src="https://i.imgur.com/tudXdOZ.png"/>
   </channel>
   <channel id="975669992eaa57c420d25">
     <display-name>TV 4 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=975669992.png"/>
+    <icon src="https://i.imgur.com/UpsQsbd.png"/>
   </channel>
   <channel id="11932760190c77c91985e3">
     <display-name>TV 4 .s</display-name>
+    <icon src="https://i.imgur.com/UpsQsbd.png"/>
   </channel>
   <channel id="210640386438fec4ca9352">
     <display-name>TV 41 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2106403864.png"/>
+    <icon src="https://i.imgur.com/6T472LM.png"/>
   </channel>
   <channel id="495467140d41ff7085b3">
     <display-name>TV 41 .s</display-name>
+    <icon src="https://i.imgur.com/6T472LM.png"/>
   </channel>
   <channel id="9760498644cca0d67323e">
     <display-name>TV 42 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=976049864.png"/>
+    <icon src="https://www.tv42.com.tr/logo.png"/>
   </channel>
   <channel id="12213538441d78d3ba3c7">
     <display-name>TV 5 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=122135384.png"/>
+    <icon src="https://i.imgur.com/ENvv42b.png"/>
   </channel>
   <channel id="205519968384925ef64834">
     <display-name>TV 5 .s</display-name>
+    <icon src="https://i.imgur.com/ENvv42b.png"/>
   </channel>
   <channel id="108017205852b77c50bdce">
     <display-name>TV 52 .b</display-name>
+    <icon src="https://i.imgur.com/k4R5CzO.png"/>
   </channel>
   <channel id="405074878169aaa15f6633">
     <display-name>TV 52 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=4050748781.png"/>
+    <icon src="https://i.imgur.com/k4R5CzO.png"/>
   </channel>
   <channel id="2602281851ee63662b2b6f">
     <display-name>TV 52 ORDU .s</display-name>
@@ -3104,9 +3306,6 @@
   <channel id="429230692196156e882cb4">
     <display-name>TV 8 .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=4292306921.png"/>
-  </channel>
-  <channel id="2196709234badbc159d5a2">
-    <display-name>TV 8 .s</display-name>
   </channel>
   <channel id="329802627004ee30bd6aa0">
     <display-name>TV 8 HD (H265) .b</display-name>
@@ -3120,9 +3319,6 @@
     <display-name>TV 8 SD .b</display-name>
     <icon src="https://logo.huhu.to/logo?c=3695389987.png"/>
   </channel>
-  <channel id="1376775989e84fdc9d4aa">
-    <display-name>TV 8 INT .b</display-name>
-  </channel>
   <channel id="1764745585e555f9ba3c0e">
     <display-name>TV 8 INT .s</display-name>
   </channel>
@@ -3132,22 +3328,30 @@
   </channel>
   <channel id="140923760a991ad56397">
     <display-name>TV 8.5 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=14092376.png"/>
+    <icon src="https://i.imgur.com/QuelSsc.png"/>
+  </channel>
+  <channel id="1830521243d4bf55d3d0ad">
+    <display-name>TV 8.5 .s</display-name>
+    <icon src="https://i.imgur.com/QuelSsc.png"/>
   </channel>
   <channel id="19082658164debc10cdc44">
     <display-name>TV 8.5 FHD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1908265816.png"/>
+    <icon src="https://i.imgur.com/QuelSsc.png"/>
   </channel>
   <channel id="3472698776e30314a5e33a">
     <display-name>TV 8.5 HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3472698776.png"/>
+    <icon src="https://i.imgur.com/QuelSsc.png"/>
+  </channel>
+  <channel id="33417206402eccd63d5a50">
+    <display-name>TV DEN .c</display-name>
+    <icon src="https://i.imgur.com/Uhg95Ze.png"/>
   </channel>
   <channel id="427247780841181bd4210f">
     <display-name>TV EM .s</display-name>
   </channel>
   <channel id="2378683302a90688067b08">
     <display-name>TV KAYSERI .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2378683302.png"/>
+    <icon src="https://i.imgur.com/2zsm7Jt.png"/>
   </channel>
   <channel id="1225673773af8c29391e81">
     <display-name>TV NET .c</display-name>
@@ -3168,22 +3372,23 @@
   </channel>
   <channel id="18406648801d1a8ab316b6">
     <display-name>TYT TURK .b</display-name>
+    <icon src="https://tytturk.com/upload/tyt-logo.png"/>
   </channel>
   <channel id="2012038243cd78e54611e8">
     <display-name>TÜRKHABER TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2012038243.png"/>
+    <icon src="https://i.imgur.com/2AcRKdL.png"/>
   </channel>
   <channel id="7741680162cf446ba65c6">
     <display-name>TIVI 6 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=774168016.png"/>
+    <icon src="https://i.imgur.com/Mbi0jbz.png"/>
   </channel>
-  <channel id="2048436163c35ea978c4df">
-    <display-name>TIVI TURK .s</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2048436163.png"/>
+  <channel id="7021579547bba092a6b21">
+    <display-name>TIVI TÜRK .c</display-name>
+    <icon src="https://logo.huhu.to/logo?c=702157954.png"/>
   </channel>
   <channel id="1159899920595e9c441350">
     <display-name>TIVIBU SPOR .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1159899920.png"/>
+    <icon src="https://i.imgur.com/qvrKQY3.png"/>
   </channel>
   <channel id="25659723389efdd2098be1">
     <display-name>TIVIBU SPOR 1 .c</display-name>
@@ -3194,33 +3399,38 @@
   </channel>
   <channel id="37466838109fc1c67c228d">
     <display-name>TIVIBU SPOR 2 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3746683810.png"/>
+    <icon src="https://i.imgur.com/fZMSjNE.png"/>
   </channel>
   <channel id="415153448631eabe6978ed">
     <display-name>TIVIBU SPOR 2 HD .s</display-name>
+    <icon src="https://i.imgur.com/fZMSjNE.png"/>
   </channel>
   <channel id="37949240505288959ad99c">
     <display-name>TIVIBU SPOR 3 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3794924050.png"/>
+    <icon src="https://i.imgur.com/xLrgt2O.png"/>
   </channel>
   <channel id="568442751987b14d1ad00">
     <display-name>TIVIBU SPOR 3 .s</display-name>
+    <icon src="https://i.imgur.com/xLrgt2O.png"/>
   </channel>
   <channel id="100410240872b813d41c94">
     <display-name>TIVIBU SPOR 3 HD .s</display-name>
+    <icon src="https://i.imgur.com/xLrgt2O.png"/>
   </channel>
   <channel id="1343303170fbfea75b9f15">
     <display-name>TIVIBU SPOR 4 .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1343303170.png"/>
+    <icon src="https://i.imgur.com/LgGxe7z.png"/>
   </channel>
   <channel id="3307062704472686916fe7">
     <display-name>TIVIBU SPOR 4 HD .b</display-name>
+    <icon src="https://i.imgur.com/LgGxe7z.png"/>
   </channel>
   <channel id="163038510f87c95f99d11">
     <display-name>TIVIBU SPOR 5 HD .b</display-name>
   </channel>
   <channel id="1406262118fb4f653061f6">
     <display-name>TIVIBU SPOR RAW .b</display-name>
+    <icon src="https://i.imgur.com/qvrKQY3.png"/>
   </channel>
   <channel id="289665874444b8f4f2d451">
     <display-name>TIVIBUSPOR 1 FHD .b</display-name>
@@ -3251,6 +3461,7 @@
   </channel>
   <channel id="ÜLKE.TV.HD.tr">
     <display-name>ÜLKE TV HD</display-name>
+    <icon src="https://i.imgur.com/wdWR7Qk.png"/>
   </channel>
   <channel id="32033343438cc3c5fe5041">
     <display-name>ULKETV HD .b</display-name>
@@ -3281,27 +3492,35 @@
   </channel>
   <channel id="ULUSAL.KANAL.tr">
     <display-name>ULUSAL KANAL</display-name>
-  </channel>
-  <channel id="6396593594335b4483732">
-    <display-name>UR FANATIK TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=639659359.png"/>
+    <icon src="https://i.imgur.com/EwSg612.png"/>
   </channel>
   <channel id="32821815116af88acacbb6">
     <display-name>VATAN TV .b</display-name>
+    <icon src="https://i.imgur.com/xrZVgf6.png"/>
   </channel>
   <channel id="94903312294e3da09f3b7">
     <display-name>VUSLAT TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=949033122.png"/>
+    <icon src="https://i.imgur.com/5AiUlIJ.png"/>
+  </channel>
+  <channel id="106175275801eef0c50dd7">
+    <display-name>VUSLAT TV .s</display-name>
+    <icon src="https://i.imgur.com/5AiUlIJ.png"/>
   </channel>
   <channel id="1900945213599b64fe115b">
     <display-name>VIASAT HISTORY .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1900945213.png"/>
+    <icon src="https://i.imgur.com/wRP9XA7.png"/>
+  </channel>
+  <channel id="1515686371746ee6b20938">
+    <display-name>VIASAT HISTORY .s</display-name>
+    <icon src="https://i.imgur.com/wRP9XA7.png"/>
   </channel>
   <channel id="348046896213b84ce9a729">
     <display-name>VIASAT HISTORY HD+ .b</display-name>
+    <icon src="https://i.imgur.com/wRP9XA7.png"/>
   </channel>
   <channel id="1165670263945583e36e19">
     <display-name>VIASAT HISTORY HEVC .b</display-name>
+    <icon src="https://i.imgur.com/wRP9XA7.png"/>
   </channel>
   <channel id="1253937530828d0f08d411">
     <display-name>VIKINGLER TV .b</display-name>
@@ -3323,9 +3542,6 @@
   <channel id="1283602496384076ba9dda">
     <display-name>VIZYON 58 .s</display-name>
   </channel>
-  <channel id="2278118654dd2b5fc7cf6c">
-    <display-name>VIZYON 58 TV SIVAS .s</display-name>
-  </channel>
   <channel id="54557664023a53669f0a8">
     <display-name>WAKFU .b</display-name>
   </channel>
@@ -3341,9 +3557,11 @@
   </channel>
   <channel id="42046159902bf40614cf6e">
     <display-name>YABAN TV .s</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/3/38/Yabantv_logo.png/960px-Yabantv_logo.png"/>
   </channel>
   <channel id="178850393550c13d869fbf">
     <display-name>YABAN TV HD .b</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/3/38/Yabantv_logo.png/960px-Yabantv_logo.png"/>
   </channel>
   <channel id="758663570c267cae815eb">
     <display-name>YENI KOCAELI TV .b</display-name>
@@ -3376,6 +3594,9 @@
   <channel id="32452978184d58e060917f">
     <display-name>YUNUS EMRE .b</display-name>
   </channel>
+  <channel id="12401366196105d6b0425b">
+    <display-name>YILDIZ KIZ .b</display-name>
+  </channel>
   <channel id="4050722013efecdc85c9b">
     <display-name>YILDIZ TILBE .b</display-name>
   </channel>
@@ -3390,7 +3611,7 @@
   </channel>
   <channel id="1884291733f97af60f283a">
     <display-name>ÇOCUK SMART .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1884291733.png"/>
+    <icon src="https://i.imgur.com/8xxO1FE.png"/>
   </channel>
   <channel id="30359255549449efd1c487">
     <display-name>IBRAHIM ERKAL .b</display-name>
@@ -3400,7 +3621,7 @@
   </channel>
   <channel id="248885940021ca59895ab2">
     <display-name>ICEL TV .c</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2488859400.png"/>
+    <icon src="https://i.imgur.com/CGwImKv.png"/>
   </channel>
   <channel id="1993949957f54a257064ea">
     <display-name>IDMAN TV .s</display-name>
@@ -3413,7 +3634,7 @@
   </channel>
   <channel id="174351018825b7f2625f46">
     <display-name>ILKE TV .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1743510188.png"/>
+    <icon src="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png"/>
   </channel>
   <channel id="1372455233dfff5072538c">
     <display-name>INVESTIGATION DISCOVERY .c</display-name>
@@ -3437,11 +3658,11 @@
   <programme start="20260731150000 +0000" stop="20260731184500 +0000" channel="17029379329ed4b84db05f">
     <title>Akşam Haberleri</title>
   </programme>
-  <programme start="20260731141600 +0000" stop="20260731143800 +0000" channel="42853502477bb17264f322">
-    <title>Joana Express</title>
-  </programme>
   <programme start="20260731143800 +0000" stop="20260731145900 +0000" channel="42853502477bb17264f322">
     <title>O da Joana</title>
+  </programme>
+  <programme start="20260731145900 +0000" stop="20260731152300 +0000" channel="42853502477bb17264f322">
+    <title>À La Barrios</title>
   </programme>
   <programme start="20260731130000 +0000" stop="20260731150000 +0000" channel="536029186d3e964e7e9db">
     <title>Moderatör</title>
@@ -13421,14 +13642,20 @@
   <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="3030241554f63b28d76ab2">
     <title>Ajanda</title>
   </programme>
-  <programme start="20260731140000 +0000" stop="20260731144000 +0000" channel="267105889a25a483e5e80">
-    <title>TSBSL Maç Özetleri</title>
+  <programme start="20260731140000 +0000" stop="20260731150000 +0000" channel="3677880546b91991c857cd">
+    <title>Gündem</title>
+  </programme>
+  <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="3677880546b91991c857cd">
+    <title>Ajanda</title>
   </programme>
   <programme start="20260731143000 +0000" stop="20260731150000 +0000" channel="267105889a25a483e5e80">
     <title>Trendyol 1. Lig Maç Özetleri</title>
   </programme>
-  <programme start="20260731140000 +0000" stop="20260731144000 +0000" channel="1536730627bbf8f95ca477">
-    <title>TSBSL Maç Özetleri</title>
+  <programme start="20260731143000 +0000" stop="20260731150000 +0000" channel="267105889a25a483e5e80">
+    <title>Trendyol 1. Lig Maç Özetleri</title>
+  </programme>
+  <programme start="20260731143000 +0000" stop="20260731150000 +0000" channel="1536730627bbf8f95ca477">
+    <title>Trendyol 1. Lig Maç Özetleri</title>
   </programme>
   <programme start="20260731143000 +0000" stop="20260731150000 +0000" channel="1536730627bbf8f95ca477">
     <title>Trendyol 1. Lig Maç Özetleri</title>
@@ -13697,23 +13924,17 @@
   <programme start="20260802214500 +0300" stop="20260803000000 +0300" channel="beIN.SPORTS.HABER.HD.tr">
     <title lang="tr">Skor</title>
   </programme>
-  <programme start="20260731140000 +0000" stop="20260731144500 +0000" channel="8585683074b88a84fea71">
-    <title>Kapanışa Doğru</title>
-  </programme>
   <programme start="20260731144500 +0000" stop="20260731152000 +0000" channel="8585683074b88a84fea71">
     <title>Seans Notları</title>
   </programme>
-  <programme start="20260731142500 +0000" stop="20260731144500 +0000" channel="29439742084c66e3a8bcec">
-    <title>Wyluzuj, Scooby-Doo! 2</title>
-  </programme>
-  <programme start="20260731144500 +0000" stop="20260731145500 +0000" channel="29439742084c66e3a8bcec">
-    <title>Lamput 3</title>
-  </programme>
-  <programme start="20260731142500 +0000" stop="20260731144500 +0000" channel="11743931b356e8661a4d">
-    <title>Wyluzuj, Scooby-Doo! 2</title>
+  <programme start="20260731152000 +0000" stop="20260731160000 +0000" channel="8585683074b88a84fea71">
+    <title>Günden Kalanlar</title>
   </programme>
   <programme start="20260731144500 +0000" stop="20260731145500 +0000" channel="11743931b356e8661a4d">
     <title>Lamput 3</title>
+  </programme>
+  <programme start="20260731145500 +0000" stop="20260731150500 +0000" channel="11743931b356e8661a4d">
+    <title>Jaś Fasola 6</title>
   </programme>
   <programme start="20260730065500 +0300" stop="20260730070000 +0300" channel="BRT.1.HD.tr">
     <title lang="tr">İstiklal Marşı</title>
@@ -14006,16 +14227,16 @@
   <programme start="20260731150000 +0000" stop="20260731153000 +0000" channel="2794224703b2cc3f4b330e">
     <title>Çiftçinin Saati</title>
   </programme>
-  <programme start="20260731142300 +0000" stop="20260731144400 +0000" channel="178755989915511fee27c">
-    <title>Bleib cool Scooby-Doo!</title>
-  </programme>
   <programme start="20260731144400 +0000" stop="20260731145400 +0000" channel="178755989915511fee27c">
     <title>Lamput</title>
   </programme>
-  <programme start="20260731143000 +0000" stop="20260731143900 +0000" channel="267285118531e87b6ae01d">
-    <title>Supertato</title>
+  <programme start="20260731145400 +0000" stop="20260731150500 +0000" channel="178755989915511fee27c">
+    <title>Mr. Bean - Die Cartoon-Serie</title>
   </programme>
-  <programme start="20260731143900 +0000" stop="20260731144600 +0000" channel="267285118531e87b6ae01d">
+  <programme start="20260731144600 +0000" stop="20260731145200 +0000" channel="267285118531e87b6ae01d">
+    <title>Roots and Fruits</title>
+  </programme>
+  <programme start="20260731145200 +0000" stop="20260731150100 +0000" channel="267285118531e87b6ae01d">
     <title>Bluey</title>
   </programme>
   <programme start="20260731140000 +0000" stop="20260731150000 +0000" channel="3124431103898180a5f0f6">
@@ -14030,11 +14251,938 @@
   <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="318577866765847010459c">
     <title>Çiftlik Dedektifi</title>
   </programme>
-  <programme start="20260731141900 +0000" stop="20260731144800 +0000" channel="220576533165e4633695d4">
-    <title>Awesome Adventures</title>
-  </programme>
   <programme start="20260731144800 +0000" stop="20260731150500 +0000" channel="220576533165e4633695d4">
     <title>Ikerdokik bevetésen - Próbáld ki te is!</title>
+  </programme>
+  <programme start="20260731150500 +0000" stop="20260731152000 +0000" channel="220576533165e4633695d4">
+    <title>Ikerdokik bevetésen - Próbáld ki te is! / Vas</title>
+  </programme>
+  <programme start="20260731000100 +0300" stop="20260731001500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260731001500 +0300" stop="20260731002000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731002000 +0300" stop="20260731003300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731003300 +0300" stop="20260731005800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260731005800 +0300" stop="20260731010300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731010300 +0300" stop="20260731010800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731010800 +0300" stop="20260731012200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260731012200 +0300" stop="20260731013400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260731013400 +0300" stop="20260731013900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731013900 +0300" stop="20260731014400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731014400 +0300" stop="20260731015900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260731015900 +0300" stop="20260731021200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260731021200 +0300" stop="20260731021800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731021800 +0300" stop="20260731022200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731022200 +0300" stop="20260731024800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260731024800 +0300" stop="20260731025300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731025300 +0300" stop="20260731025800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731025800 +0300" stop="20260731031100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260731031100 +0300" stop="20260731032300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260731032300 +0300" stop="20260731032800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731032800 +0300" stop="20260731033200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731033200 +0300" stop="20260731034500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260731034500 +0300" stop="20260731035900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260731035900 +0300" stop="20260731040300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731040300 +0300" stop="20260731040700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731040700 +0300" stop="20260731043400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260731043400 +0300" stop="20260731050000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260731050000 +0300" stop="20260731052100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260731052100 +0300" stop="20260731054300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260731054300 +0300" stop="20260731054800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731054800 +0300" stop="20260731055300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731055300 +0300" stop="20260731061400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260731061400 +0300" stop="20260731063400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260731063400 +0300" stop="20260731064000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731064000 +0300" stop="20260731064400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731064400 +0300" stop="20260731070700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260731070700 +0300" stop="20260731072800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260731072800 +0300" stop="20260731073400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731073400 +0300" stop="20260731073800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731073800 +0300" stop="20260731074600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260731074600 +0300" stop="20260731080900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260731080900 +0300" stop="20260731083000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260731083000 +0300" stop="20260731083500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Boom ve Kızıllar</title>
+  </programme>
+  <programme start="20260731083500 +0300" stop="20260731084000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Boom ve Kızıllar</title>
+  </programme>
+  <programme start="20260731084000 +0300" stop="20260731084900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260731084900 +0300" stop="20260731085600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260731085600 +0300" stop="20260731091000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260731091000 +0300" stop="20260731092400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260731092400 +0300" stop="20260731093800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260731093800 +0300" stop="20260731095600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260731095600 +0300" stop="20260731101200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz:İnsan Vücudu - Bunu Evde Deneyin!</title>
+  </programme>
+  <programme start="20260731101200 +0300" stop="20260731102000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Süper Kahraman Sprinter Galore</title>
+  </programme>
+  <programme start="20260731102000 +0300" stop="20260731103100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Süper Kahraman Sprinter Galore</title>
+  </programme>
+  <programme start="20260731103100 +0300" stop="20260731104500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260731104500 +0300" stop="20260731105900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260731105900 +0300" stop="20260731111400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260731111400 +0300" stop="20260731112800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260731112800 +0300" stop="20260731115800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260731115800 +0300" stop="20260731120700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260731120700 +0300" stop="20260731121700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260731121700 +0300" stop="20260731123300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz:İnsan Vücudu - Bunu Evde Deneyin!</title>
+  </programme>
+  <programme start="20260731123300 +0300" stop="20260731125700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260731125700 +0300" stop="20260731132000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260731132000 +0300" stop="20260731132700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260731132700 +0300" stop="20260731133400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260731133400 +0300" stop="20260731134900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260731134900 +0300" stop="20260731141200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260731141200 +0300" stop="20260731144100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260731144100 +0300" stop="20260731150900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260731150900 +0300" stop="20260731152400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260731152400 +0300" stop="20260731155200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260731155200 +0300" stop="20260731160200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tamircikler</title>
+  </programme>
+  <programme start="20260731160200 +0300" stop="20260731160800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tamircikler</title>
+  </programme>
+  <programme start="20260731160800 +0300" stop="20260731162300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz:İnsan Vücudu - Bunu Evde Deneyin!</title>
+  </programme>
+  <programme start="20260731162300 +0300" stop="20260731164600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260731164600 +0300" stop="20260731170100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260731170100 +0300" stop="20260731171600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260731171600 +0300" stop="20260731174700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260731174700 +0300" stop="20260731180100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260731180100 +0300" stop="20260731182400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260731182400 +0300" stop="20260731184900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260731184900 +0300" stop="20260731191900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260731191900 +0300" stop="20260731194300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260731194300 +0300" stop="20260731201100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260731201100 +0300" stop="20260731204100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260731204100 +0300" stop="20260731205700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260731205700 +0300" stop="20260731212200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260731212200 +0300" stop="20260731214500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260731214500 +0300" stop="20260731215300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler</title>
+  </programme>
+  <programme start="20260731215300 +0300" stop="20260731220000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler</title>
+  </programme>
+  <programme start="20260731220000 +0300" stop="20260731220700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler Laboratuvarı</title>
+  </programme>
+  <programme start="20260731220700 +0300" stop="20260731221200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731221200 +0300" stop="20260731221700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731221700 +0300" stop="20260731222400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler Laboratuvarı</title>
+  </programme>
+  <programme start="20260731222400 +0300" stop="20260731222800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yenilik</title>
+  </programme>
+  <programme start="20260731222800 +0300" stop="20260731223200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731223200 +0300" stop="20260731223700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731223700 +0300" stop="20260731230000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260731230000 +0300" stop="20260731230500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731230500 +0300" stop="20260731231000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731231000 +0300" stop="20260731232300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260731232300 +0300" stop="20260731233600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260731233600 +0300" stop="20260731234200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731234200 +0300" stop="20260731235400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260731235400 +0300" stop="20260801000800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260801000800 +0300" stop="20260801002200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260801002200 +0300" stop="20260801003500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801003500 +0300" stop="20260801004800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801004800 +0300" stop="20260801011300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260801011300 +0300" stop="20260801011800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801011800 +0300" stop="20260801012300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801012300 +0300" stop="20260801013700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260801013700 +0300" stop="20260801014900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260801014900 +0300" stop="20260801015500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801015500 +0300" stop="20260801015900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801015900 +0300" stop="20260801021200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260801021200 +0300" stop="20260801022500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260801022500 +0300" stop="20260801023000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801023000 +0300" stop="20260801023500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801023500 +0300" stop="20260801030100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260801030100 +0300" stop="20260801030600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801030600 +0300" stop="20260801031800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260801031800 +0300" stop="20260801033100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260801033100 +0300" stop="20260801033600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801033600 +0300" stop="20260801035000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260801035000 +0300" stop="20260801040400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260801040400 +0300" stop="20260801040800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801040800 +0300" stop="20260801043400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260801043400 +0300" stop="20260801050000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260801050000 +0300" stop="20260801052200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260801052200 +0300" stop="20260801054300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260801054300 +0300" stop="20260801054800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801054800 +0300" stop="20260801055200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801055200 +0300" stop="20260801061300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260801061300 +0300" stop="20260801063400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260801063400 +0300" stop="20260801063900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801063900 +0300" stop="20260801064400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801064400 +0300" stop="20260801070700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260801070700 +0300" stop="20260801072800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260801072800 +0300" stop="20260801073300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801073300 +0300" stop="20260801073800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801073800 +0300" stop="20260801074600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260801074600 +0300" stop="20260801080700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260801080700 +0300" stop="20260801082800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260801082800 +0300" stop="20260801083300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Boom ve Kızıllar</title>
+  </programme>
+  <programme start="20260801083300 +0300" stop="20260801083900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Boom ve Kızıllar</title>
+  </programme>
+  <programme start="20260801083900 +0300" stop="20260801084700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260801084700 +0300" stop="20260801085400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260801085400 +0300" stop="20260801090800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260801090800 +0300" stop="20260801092200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260801092200 +0300" stop="20260801093600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260801093600 +0300" stop="20260801095500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260801095500 +0300" stop="20260801101100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz:İnsan Vücudu - Bunu Evde Deneyin!</title>
+  </programme>
+  <programme start="20260801101100 +0300" stop="20260801101900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Süper Kahraman Sprinter Galore</title>
+  </programme>
+  <programme start="20260801101900 +0300" stop="20260801103000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Süper Kahraman Sprinter Galore</title>
+  </programme>
+  <programme start="20260801103000 +0300" stop="20260801104400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260801104400 +0300" stop="20260801105800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260801105800 +0300" stop="20260801111200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260801111200 +0300" stop="20260801112600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260801112600 +0300" stop="20260801115500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260801115500 +0300" stop="20260801120500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260801120500 +0300" stop="20260801121500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260801121500 +0300" stop="20260801123000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz:İnsan Vücudu - Bunu Evde Deneyin!</title>
+  </programme>
+  <programme start="20260801123000 +0300" stop="20260801125300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260801125300 +0300" stop="20260801131700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260801131700 +0300" stop="20260801132400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260801132400 +0300" stop="20260801133100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260801133100 +0300" stop="20260801134500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260801134500 +0300" stop="20260801140800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260801140800 +0300" stop="20260801143900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260801143900 +0300" stop="20260801150400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260801150400 +0300" stop="20260801151900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260801151900 +0300" stop="20260801154700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260801154700 +0300" stop="20260801155600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tamircikler</title>
+  </programme>
+  <programme start="20260801155600 +0300" stop="20260801160500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tamircikler</title>
+  </programme>
+  <programme start="20260801160500 +0300" stop="20260801162100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz:İnsan Vücudu - Bunu Evde Deneyin!</title>
+  </programme>
+  <programme start="20260801162100 +0300" stop="20260801164500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260801164500 +0300" stop="20260801170100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260801170100 +0300" stop="20260801171700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260801171700 +0300" stop="20260801174700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260801174700 +0300" stop="20260801180100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260801180100 +0300" stop="20260801182400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260801182400 +0300" stop="20260801184900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260801184900 +0300" stop="20260801191900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260801191900 +0300" stop="20260801194200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260801194200 +0300" stop="20260801201000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260801201000 +0300" stop="20260801204000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260801204000 +0300" stop="20260801205600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260801205600 +0300" stop="20260801212100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260801212100 +0300" stop="20260801214400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260801214400 +0300" stop="20260801215100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler</title>
+  </programme>
+  <programme start="20260801215100 +0300" stop="20260801215900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler</title>
+  </programme>
+  <programme start="20260801215900 +0300" stop="20260801220700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler Laboratuvarı</title>
+  </programme>
+  <programme start="20260801220700 +0300" stop="20260801221200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801221200 +0300" stop="20260801221700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801221700 +0300" stop="20260801222300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler Laboratuvarı</title>
+  </programme>
+  <programme start="20260801222300 +0300" stop="20260801222700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yenilik</title>
+  </programme>
+  <programme start="20260801222700 +0300" stop="20260801223200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801223200 +0300" stop="20260801223700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801223700 +0300" stop="20260801230200 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260801230200 +0300" stop="20260801230600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801230600 +0300" stop="20260801232000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801232000 +0300" stop="20260801233300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260801233300 +0300" stop="20260801234500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260801234500 +0300" stop="20260801235800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260801235800 +0300" stop="20260802001100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802001100 +0300" stop="20260802002500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260802002500 +0300" stop="20260802003900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260802003900 +0300" stop="20260802004400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802004400 +0300" stop="20260802004900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802004900 +0300" stop="20260802011400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260802011400 +0300" stop="20260802012000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802012000 +0300" stop="20260802012400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802012400 +0300" stop="20260802013800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260802013800 +0300" stop="20260802015000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260802015000 +0300" stop="20260802015600 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802015600 +0300" stop="20260802020000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802020000 +0300" stop="20260802021400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260802021400 +0300" stop="20260802022800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260802022800 +0300" stop="20260802023400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802023400 +0300" stop="20260802023800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802023800 +0300" stop="20260802030400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260802030400 +0300" stop="20260802030900 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802030900 +0300" stop="20260802031400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802031400 +0300" stop="20260802032800 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260802032800 +0300" stop="20260802034000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260802034000 +0300" stop="20260802034500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802034500 +0300" stop="20260802035000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802035000 +0300" stop="20260802040300 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260802040300 +0300" stop="20260802041700 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260802041700 +0300" stop="20260802042100 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802042100 +0300" stop="20260802043400 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802043400 +0300" stop="20260802050000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260802050000 +0300" stop="20260802052000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260802052000 +0300" stop="20260802054000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260802054000 +0300" stop="20260802054500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802054500 +0300" stop="20260802055000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802055000 +0300" stop="20260802061000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260802061000 +0300" stop="20260802063000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260802063000 +0300" stop="20260802063500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802063500 +0300" stop="20260802064000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802064000 +0300" stop="20260802070500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260802070500 +0300" stop="20260802072500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260802072500 +0300" stop="20260802073000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802073000 +0300" stop="20260802073500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802073500 +0300" stop="20260802074000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260802074000 +0300" stop="20260802080500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260802080500 +0300" stop="20260802082500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260802082500 +0300" stop="20260802083000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Boom ve Kızıllar</title>
+  </programme>
+  <programme start="20260802083000 +0300" stop="20260802083500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Boom ve Kızıllar</title>
+  </programme>
+  <programme start="20260802083500 +0300" stop="20260802084500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260802084500 +0300" stop="20260802085000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260802085000 +0300" stop="20260802090500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260802090500 +0300" stop="20260802092000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260802092000 +0300" stop="20260802093500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260802093500 +0300" stop="20260802095500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260802095500 +0300" stop="20260802101000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz:İnsan Vücudu - Bunu Evde Deneyin!</title>
+  </programme>
+  <programme start="20260802101000 +0300" stop="20260802101500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Süper Kahraman Sprinter Galore</title>
+  </programme>
+  <programme start="20260802101500 +0300" stop="20260802102500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Süper Kahraman Sprinter Galore</title>
+  </programme>
+  <programme start="20260802102500 +0300" stop="20260802104000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260802104000 +0300" stop="20260802105500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260802105500 +0300" stop="20260802111000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260802111000 +0300" stop="20260802112500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Doki</title>
+  </programme>
+  <programme start="20260802112500 +0300" stop="20260802115500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260802115500 +0300" stop="20260802120500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260802120500 +0300" stop="20260802121500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ormanın Ritmi</title>
+  </programme>
+  <programme start="20260802121500 +0300" stop="20260802123000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz:İnsan Vücudu - Bunu Evde Deneyin!</title>
+  </programme>
+  <programme start="20260802123000 +0300" stop="20260802125500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260802125500 +0300" stop="20260802131500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260802131500 +0300" stop="20260802132500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ollie</title>
+  </programme>
+  <programme start="20260802132500 +0300" stop="20260802133000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Ollie</title>
+  </programme>
+  <programme start="20260802133000 +0300" stop="20260802134500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260802134500 +0300" stop="20260802141000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260802141000 +0300" stop="20260802144000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260802144000 +0300" stop="20260802150500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260802150500 +0300" stop="20260802152000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260802152000 +0300" stop="20260802154500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260802154500 +0300" stop="20260802155500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tamircikler</title>
+  </programme>
+  <programme start="20260802155500 +0300" stop="20260802160500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tamircikler</title>
+  </programme>
+  <programme start="20260802160500 +0300" stop="20260802162000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz:İnsan Vücudu - Bunu Evde Deneyin!</title>
+  </programme>
+  <programme start="20260802162000 +0300" stop="20260802164000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260802164000 +0300" stop="20260802170000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260802170000 +0300" stop="20260802171500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260802171500 +0300" stop="20260802174500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260802174500 +0300" stop="20260802180000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bitz ve Bob</title>
+  </programme>
+  <programme start="20260802180000 +0300" stop="20260802182000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260802182000 +0300" stop="20260802184500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260802184500 +0300" stop="20260802191500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Görevimiz: İnsan Vücudu</title>
+  </programme>
+  <programme start="20260802191500 +0300" stop="20260802194000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Denizaltı Kaşifleri</title>
+  </programme>
+  <programme start="20260802194000 +0300" stop="20260802201000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Siyaya - Vahşi Dünya'yı Keşfedelim</title>
+  </programme>
+  <programme start="20260802201000 +0300" stop="20260802203500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260802203500 +0300" stop="20260802205500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Bir Şey</title>
+  </programme>
+  <programme start="20260802205500 +0300" stop="20260802212000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260802212000 +0300" stop="20260802214000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">İcatlar Dünyası</title>
+  </programme>
+  <programme start="20260802214000 +0300" stop="20260802215000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler</title>
+  </programme>
+  <programme start="20260802215000 +0300" stop="20260802220000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler</title>
+  </programme>
+  <programme start="20260802220000 +0300" stop="20260802220500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler Laboratuvarı</title>
+  </programme>
+  <programme start="20260802220500 +0300" stop="20260802221000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802221000 +0300" stop="20260802221500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802221500 +0300" stop="20260802222000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yaratıcı Aktiviteler Laboratuvarı</title>
+  </programme>
+  <programme start="20260802222000 +0300" stop="20260802222500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Yenilik</title>
+  </programme>
+  <programme start="20260802222500 +0300" stop="20260802223000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802223000 +0300" stop="20260802224000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802224000 +0300" stop="20260802230500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Bear Grylls'ın Sunduğu Olağanüstü Olmak</title>
+  </programme>
+  <programme start="20260802230500 +0300" stop="20260802232000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802232000 +0300" stop="20260802233000 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
+  </programme>
+  <programme start="20260802233000 +0300" stop="20260802234500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260802234500 +0300" stop="20260802235500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Tek Durak Bilim Dükkanı</title>
+  </programme>
+  <programme start="20260802235500 +0300" stop="20260803000500 +0300" channel="DA.VINCI.LEARNING.HD.tr">
+    <title lang="tr">Futuris</title>
   </programme>
   <programme start="20260731002000 +0300" stop="20260731011500 +0300" channel="DOCUBOX.HD.tr">
     <title lang="tr">Öldüren Hız</title>
@@ -15581,17 +16729,17 @@
   <programme start="20260731145500 +0000" stop="20260731152500 +0000" channel="34228536805e87ad5629aa">
     <title>Greenowie w wielkim mieście</title>
   </programme>
-  <programme start="20260731143000 +0000" stop="20260731144500 +0000" channel="939027674e949a778ccc0">
-    <title>Yaz Defteri</title>
-  </programme>
   <programme start="20260731144500 +0000" stop="20260731153000 +0000" channel="939027674e949a778ccc0">
     <title>Tek Kare</title>
   </programme>
-  <programme start="20260731143000 +0000" stop="20260731144500 +0000" channel="2131958841c54888546e7f">
-    <title>Yaz Defteri</title>
+  <programme start="20260731153000 +0000" stop="20260731160000 +0000" channel="939027674e949a778ccc0">
+    <title>Diyanet Ana Haber</title>
   </programme>
   <programme start="20260731144500 +0000" stop="20260731153000 +0000" channel="2131958841c54888546e7f">
     <title>Tek Kare</title>
+  </programme>
+  <programme start="20260731153000 +0000" stop="20260731160000 +0000" channel="2131958841c54888546e7f">
+    <title>Diyanet Ana Haber</title>
   </programme>
   <programme start="20260731140000 +0000" stop="20260731150000 +0000" channel="791616758a9307c539baa">
     <title>No Data</title>
@@ -16694,6 +17842,12 @@
   <programme start="20260731150000 +0000" stop="20260731170000 +0000" channel="9403684fc992fae119e">
     <title>Ece Üner ile Halk Ana Haber</title>
   </programme>
+  <programme start="20260731120000 +0000" stop="20260731150000 +0000" channel="12401934035a817f0d3f1d">
+    <title>Satır Arası</title>
+  </programme>
+  <programme start="20260731150000 +0000" stop="20260731170000 +0000" channel="12401934035a817f0d3f1d">
+    <title>Ana Haber Bülteni</title>
+  </programme>
   <programme start="20260731120000 +0000" stop="20260731150000 +0000" channel="2773338492aa94862b5b31">
     <title>Satır Arası</title>
   </programme>
@@ -16742,11 +17896,11 @@
   <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="87578284c27a5347875c">
     <title>Valilik Gündemi</title>
   </programme>
-  <programme start="20260731140000 +0000" stop="20260731144500 +0000" channel="3712681642ee46cb7cc87c">
-    <title>Haber Saati</title>
-  </programme>
   <programme start="20260731144500 +0000" stop="20260731150000 +0000" channel="3712681642ee46cb7cc87c">
     <title>Siyasetin Nabzı</title>
+  </programme>
+  <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="3712681642ee46cb7cc87c">
+    <title>İftar Saati</title>
   </programme>
   <programme start="20260731125000 +0000" stop="20260731150000 +0000" channel="326498336471980dd56f67">
     <title>Saklı Bahar</title>
@@ -17468,53 +18622,47 @@
   <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="3441764529c61d112317f">
     <title>Hot Hits</title>
   </programme>
-  <programme start="20260731142300 +0000" stop="20260731144600 +0000" channel="85708551c8303cc96ebd">
-    <title>PAW Patrol</title>
-  </programme>
-  <programme start="20260731144600 +0000" stop="20260731145900 +0000" channel="85708551c8303cc96ebd">
-    <title>PAW Patrol - Production Shorts</title>
-  </programme>
-  <programme start="20260731142300 +0000" stop="20260731144600 +0000" channel="70716309912fd7c8b433e">
-    <title>PAW Patrol</title>
-  </programme>
   <programme start="20260731144600 +0000" stop="20260731145900 +0000" channel="70716309912fd7c8b433e">
     <title>PAW Patrol - Production Shorts</title>
   </programme>
-  <programme start="20260731142300 +0000" stop="20260731144600 +0000" channel="1384991998bbb9bc709eb1">
-    <title>PAW Patrol</title>
+  <programme start="20260731145900 +0000" stop="20260731152100 +0000" channel="70716309912fd7c8b433e">
+    <title>Rubble i Farta</title>
   </programme>
   <programme start="20260731144600 +0000" stop="20260731145900 +0000" channel="1384991998bbb9bc709eb1">
     <title>PAW Patrol</title>
   </programme>
-  <programme start="20260731142000 +0000" stop="20260731144500 +0000" channel="3029254675256aa43dc772">
-    <title>Schere, Stein, Papier</title>
+  <programme start="20260731145900 +0000" stop="20260731152100 +0000" channel="1384991998bbb9bc709eb1">
+    <title>Rubble &amp; Crew</title>
   </programme>
   <programme start="20260731144500 +0000" stop="20260731145500 +0000" channel="3029254675256aa43dc772">
     <title>Die Patrick Star Show</title>
   </programme>
-  <programme start="20260731142000 +0000" stop="20260731144500 +0000" channel="30925623016e4c1bb5c343">
-    <title>Schere, Stein, Papier</title>
+  <programme start="20260731145500 +0000" stop="20260731150500 +0000" channel="3029254675256aa43dc772">
+    <title>Die Patrick Star Show</title>
   </programme>
   <programme start="20260731144500 +0000" stop="20260731145500 +0000" channel="30925623016e4c1bb5c343">
     <title>Die Patrick Star Show</title>
   </programme>
-  <programme start="20260731142000 +0000" stop="20260731144500 +0000" channel="503443750d4adaa3772e8">
-    <title>Schere, Stein, Papier</title>
+  <programme start="20260731145500 +0000" stop="20260731150500 +0000" channel="30925623016e4c1bb5c343">
+    <title>Die Patrick Star Show</title>
   </programme>
   <programme start="20260731144500 +0000" stop="20260731145500 +0000" channel="503443750d4adaa3772e8">
     <title>Die Patrick Star Show</title>
   </programme>
-  <programme start="20260731142000 +0000" stop="20260731144500 +0000" channel="1131981336b0cfe30481dc">
-    <title>SpongeBob Schwammkopf</title>
+  <programme start="20260731145500 +0000" stop="20260731150500 +0000" channel="503443750d4adaa3772e8">
+    <title>Die Patrick Star Show</title>
   </programme>
   <programme start="20260731144500 +0000" stop="20260731150000 +0000" channel="1131981336b0cfe30481dc">
     <title>SpongeBob Schwammkopf</title>
   </programme>
-  <programme start="20260731140000 +0000" stop="20260731144500 +0000" channel="889661020f5c59638da26">
-    <title>Haber Saati</title>
+  <programme start="20260731150000 +0000" stop="20260731152000 +0000" channel="1131981336b0cfe30481dc">
+    <title>Willkommen bei den Louds</title>
   </programme>
   <programme start="20260731144500 +0000" stop="20260731145000 +0000" channel="889661020f5c59638da26">
     <title>Reklam</title>
+  </programme>
+  <programme start="20260731145000 +0000" stop="20260731155500 +0000" channel="889661020f5c59638da26">
+    <title>Belediye Programları</title>
   </programme>
   <programme start="20260731143000 +0000" stop="20260731170000 +0000" channel="538668348aa4815e4285a">
     <title>%100 Hit</title>
@@ -17528,11 +18676,11 @@
   <programme start="20260731170000 +0000" stop="20260731175500 +0000" channel="714196738c6888433546f">
     <title>%100 Hit</title>
   </programme>
-  <programme start="20260731141500 +0000" stop="20260731144500 +0000" channel="3839151666edd74f1c6236">
-    <title>For Reals</title>
-  </programme>
   <programme start="20260731144500 +0000" stop="20260731153200 +0000" channel="3839151666edd74f1c6236">
     <title>SURF: WSL Finals Fiji 2025 - Wrap Show</title>
+  </programme>
+  <programme start="20260731153200 +0000" stop="20260731162300 +0000" channel="3839151666edd74f1c6236">
+    <title>Inside Pro Surfing</title>
   </programme>
   <programme start="20260731140000 +0000" stop="20260731160000 +0000" channel="33465497225b9857743b71">
     <title>Voleybol Nations League Erkekler</title>
@@ -17728,114 +18876,6 @@
   </programme>
   <programme start="20260801220000 +0300" stop="20260802000000 +0300" channel="SİNEMA.1001.HD.tr">
     <title lang="tr">Okyanus Kadar Derin</title>
-  </programme>
-  <programme start="20260730014500 +0300" stop="20260730040000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Alien: Romulus</title>
-  </programme>
-  <programme start="20260730040000 +0300" stop="20260730064500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Blade Runner 2049: Bıçak Sırtı</title>
-  </programme>
-  <programme start="20260730064500 +0300" stop="20260730083000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Operatör</title>
-  </programme>
-  <programme start="20260730083000 +0300" stop="20260730104500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Karanlık Şehir</title>
-  </programme>
-  <programme start="20260730104500 +0300" stop="20260730131500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Adalet yolunda</title>
-  </programme>
-  <programme start="20260730131500 +0300" stop="20260730151500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Bloodshot: Durdurulamaz Güç</title>
-  </programme>
-  <programme start="20260730151500 +0300" stop="20260730171500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Altı Gün Yedi Gece</title>
-  </programme>
-  <programme start="20260730171500 +0300" stop="20260730193000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Yeni Nesil Ajan</title>
-  </programme>
-  <programme start="20260730193000 +0300" stop="20260730213000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">İmparator</title>
-  </programme>
-  <programme start="20260730213000 +0300" stop="20260730234500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Adalet 2</title>
-  </programme>
-  <programme start="20260730234500 +0300" stop="20260731020000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Terminator 5: Yaradılış</title>
-  </programme>
-  <programme start="20260731020000 +0300" stop="20260731034500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Uzaylı İstilası</title>
-  </programme>
-  <programme start="20260731034500 +0300" stop="20260731054500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Dalga</title>
-  </programme>
-  <programme start="20260731054500 +0300" stop="20260731074500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Karanlık Şehir</title>
-  </programme>
-  <programme start="20260731074500 +0300" stop="20260731093000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">İmparator</title>
-  </programme>
-  <programme start="20260731093000 +0300" stop="20260731111500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Hedef</title>
-  </programme>
-  <programme start="20260731111500 +0300" stop="20260731133000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Adalet 2</title>
-  </programme>
-  <programme start="20260731133000 +0300" stop="20260731151500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Güneşin Kapıları</title>
-  </programme>
-  <programme start="20260731151500 +0300" stop="20260731173000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Terminator 5: Yaradılış</title>
-  </programme>
-  <programme start="20260731173000 +0300" stop="20260731194500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Amiral</title>
-  </programme>
-  <programme start="20260731194500 +0300" stop="20260731213000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">İntikam</title>
-  </programme>
-  <programme start="20260731213000 +0300" stop="20260731234500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Ekip 49</title>
-  </programme>
-  <programme start="20260731234500 +0300" stop="20260801013000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Fünye</title>
-  </programme>
-  <programme start="20260801013000 +0300" stop="20260801033000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Ölüm Bizi Ayırana Dek</title>
-  </programme>
-  <programme start="20260801033000 +0300" stop="20260801051500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Kuşatma</title>
-  </programme>
-  <programme start="20260801051500 +0300" stop="20260801070000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Hedef</title>
-  </programme>
-  <programme start="20260801070000 +0300" stop="20260801084500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Güneşin Kapıları</title>
-  </programme>
-  <programme start="20260801084500 +0300" stop="20260801103000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Misafir</title>
-  </programme>
-  <programme start="20260801103000 +0300" stop="20260801123000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Ekip 49</title>
-  </programme>
-  <programme start="20260801123000 +0300" stop="20260801143000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Öncü</title>
-  </programme>
-  <programme start="20260801143000 +0300" stop="20260801161500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Fünye</title>
-  </programme>
-  <programme start="20260801161500 +0300" stop="20260801183000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Adaletin Eli</title>
-  </programme>
-  <programme start="20260801183000 +0300" stop="20260801200000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Kopuş</title>
-  </programme>
-  <programme start="20260801200000 +0300" stop="20260801220000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Elysium: Yeni Cennet</title>
-  </programme>
-  <programme start="20260801220000 +0300" stop="20260801234500 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Temiz Dünyam</title>
-  </programme>
-  <programme start="20260801234500 +0300" stop="20260802013000 +0300" channel="SİNEMA.AKSİYON.2.HD.tr">
-    <title lang="tr">Los Angeles'ta Gizli Görev</title>
   </programme>
   <programme start="20260730014500 +0300" stop="20260730033000 +0300" channel="SİNEMA.AİLE.2.HD.tr">
     <title lang="tr">Şövalyeler Vadisi</title>
@@ -18086,12 +19126,6 @@
   <programme start="20260801233000 +0300" stop="20260802011500 +0300" channel="SİNEMA.KOMEDİ.HD.tr">
     <title lang="tr">Çılgın Krallar</title>
   </programme>
-  <programme start="20260731135000 +0000" stop="20260731152000 +0000" channel="1844863271513a413a321">
-    <title>UEFA Konferans Ligi Öne Çıkan Maçlar</title>
-  </programme>
-  <programme start="20260731152000 +0000" stop="20260731153000 +0000" channel="1844863271513a413a321">
-    <title>UEFA Avrupa Ligi Goller</title>
-  </programme>
   <programme start="20260731135000 +0000" stop="20260731152000 +0000" channel="40221481750ee503c548f9">
     <title>UEFA Konferans Ligi Öne Çıkan Maçlar</title>
   </programme>
@@ -18103,12 +19137,6 @@
   </programme>
   <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="3856957052050da882aa10">
     <title>Anlatılmamış Kutup Savaşları</title>
-  </programme>
-  <programme start="20260731110000 +0000" stop="20260731150000 +0000" channel="19930472434be833e11c22">
-    <title>Tarım</title>
-  </programme>
-  <programme start="20260731150000 +0000" stop="20260731190000 +0000" channel="19930472434be833e11c22">
-    <title>Tarım</title>
   </programme>
   <programme start="20260731120000 +0000" stop="20260731151500 +0000" channel="35602928690d57b8926e55">
     <title>MediaShop</title>
@@ -18138,6 +19166,12 @@
     <title>Çocuklar Duymasın</title>
   </programme>
   <programme start="20260731150000 +0000" stop="20260731170000 +0000" channel="4197507696203cc2aa6667">
+    <title>Akasya Durağı</title>
+  </programme>
+  <programme start="20260731123000 +0000" stop="20260731150000 +0000" channel="2549900211f7cf06756ad3">
+    <title>Çocuklar Duymasın</title>
+  </programme>
+  <programme start="20260731150000 +0000" stop="20260731170000 +0000" channel="2549900211f7cf06756ad3">
     <title>Akasya Durağı</title>
   </programme>
   <programme start="20260731123000 +0000" stop="20260731150000 +0000" channel="42295295583463c26f2597">
@@ -18461,23 +19495,29 @@
   <programme start="20260731150000 +0000" stop="20260731160000 +0000" channel="3317656516b0224418b6a8">
     <title>No Data</title>
   </programme>
-  <programme start="20260731141500 +0000" stop="20260731144000 +0000" channel="6857948301fe52b3221a3">
-    <title>Dennis Ve Gnasher</title>
-  </programme>
   <programme start="20260731144000 +0000" stop="20260731150500 +0000" channel="6857948301fe52b3221a3">
     <title>Nils ve Uçan Kaz</title>
   </programme>
-  <programme start="20260731141500 +0000" stop="20260731144000 +0000" channel="792228122ef3135bf6801">
-    <title>Dennis Ve Gnasher</title>
+  <programme start="20260731150500 +0000" stop="20260731153000 +0000" channel="6857948301fe52b3221a3">
+    <title>Belle Ve Sebastian</title>
   </programme>
   <programme start="20260731144000 +0000" stop="20260731150500 +0000" channel="792228122ef3135bf6801">
     <title>Nils ve Uçan Kaz</title>
   </programme>
-  <programme start="20260731142500 +0000" stop="20260731143500 +0000" channel="1101849390824792e0390b">
-    <title>Gugular</title>
+  <programme start="20260731150500 +0000" stop="20260731153000 +0000" channel="792228122ef3135bf6801">
+    <title>Belle Ve Sebastian</title>
   </programme>
-  <programme start="20260731143500 +0000" stop="20260731144000 +0000" channel="1101849390824792e0390b">
-    <title>Temel&apos;den Öğreniyorum</title>
+  <programme start="20260731144000 +0000" stop="20260731150500 +0000" channel="3979837190d92f4a65c83b">
+    <title>Nils ve Uçan Kaz</title>
+  </programme>
+  <programme start="20260731150500 +0000" stop="20260731153000 +0000" channel="3979837190d92f4a65c83b">
+    <title>Belle Ve Sebastian</title>
+  </programme>
+  <programme start="20260731144000 +0000" stop="20260731145500 +0000" channel="1101849390824792e0390b">
+    <title>Cümbür Cemaat ( Kamptayız )</title>
+  </programme>
+  <programme start="20260731145500 +0000" stop="20260731151000 +0000" channel="1101849390824792e0390b">
+    <title>Heybeli Tiyatro</title>
   </programme>
   <programme start="20260731143000 +0000" stop="20260731150000 +0000" channel="3681071746569ac21b544f">
     <title>Genç Yetenekler</title>
@@ -19175,12 +20215,6 @@
   <programme start="20260731153000 +0000" stop="20260731170000 +0000" channel="16852994727259ba10c029">
     <title>Ahmet Yeşiltepe İle Ana Haber Bülteni</title>
   </programme>
-  <programme start="20260731130000 +0000" stop="20260731153000 +0000" channel="1635207231a61cd1da15b">
-    <title>Başlıklar</title>
-  </programme>
-  <programme start="20260731153000 +0000" stop="20260731170000 +0000" channel="1635207231a61cd1da15b">
-    <title>Ahmet Yeşiltepe İle Ana Haber Bülteni</title>
-  </programme>
   <programme start="20260731130000 +0000" stop="20260731153000 +0000" channel="3271096410d07fb733747f">
     <title>Başlıklar</title>
   </programme>
@@ -19199,28 +20233,22 @@
   <programme start="20260731145000 +0000" stop="20260731155000 +0000" channel="11932760190c77c91985e3">
     <title>Grand Designs Sverige</title>
   </programme>
-  <programme start="20260731134800 +0000" stop="20260731143800 +0000" channel="12213538441d78d3ba3c7">
-    <title>Düşünme Vakti</title>
+  <programme start="20260731144700 +0000" stop="20260731145400 +0000" channel="12213538441d78d3ba3c7">
+    <title>İslam Düşünürleri</title>
   </programme>
-  <programme start="20260731143800 +0000" stop="20260731144300 +0000" channel="12213538441d78d3ba3c7">
-    <title>Sponsor</title>
+  <programme start="20260731145400 +0000" stop="20260731145500 +0000" channel="12213538441d78d3ba3c7">
+    <title>Namaz Vakti</title>
   </programme>
-  <programme start="20260731134800 +0000" stop="20260731143800 +0000" channel="205519968384925ef64834">
-    <title>Düşünme Vakti</title>
+  <programme start="20260731144700 +0000" stop="20260731145400 +0000" channel="205519968384925ef64834">
+    <title>İslam Düşünürleri</title>
   </programme>
-  <programme start="20260731143800 +0000" stop="20260731144300 +0000" channel="205519968384925ef64834">
-    <title>Sponsor</title>
+  <programme start="20260731145400 +0000" stop="20260731145500 +0000" channel="205519968384925ef64834">
+    <title>Namaz Vakti</title>
   </programme>
   <programme start="20260731151500 +0000" stop="20260731170000 +0000" channel="429230692196156e882cb4">
     <title>Il mio matrimonio greco</title>
   </programme>
   <programme start="20260731170000 +0000" stop="20260731182000 +0000" channel="429230692196156e882cb4">
-    <title>Alessandro Borghese - 4 Ristoranti</title>
-  </programme>
-  <programme start="20260731151500 +0000" stop="20260731170000 +0000" channel="2196709234badbc159d5a2">
-    <title>Il mio matrimonio greco</title>
-  </programme>
-  <programme start="20260731170000 +0000" stop="20260731182000 +0000" channel="2196709234badbc159d5a2">
     <title>Alessandro Borghese - 4 Ristoranti</title>
   </programme>
   <programme start="20260731151500 +0000" stop="20260731170000 +0000" channel="329802627004ee30bd6aa0">
@@ -19247,6 +20275,12 @@
   <programme start="20260731150000 +0000" stop="20260731170000 +0000" channel="140923760a991ad56397">
     <title>Bizimkiler</title>
   </programme>
+  <programme start="20260731134500 +0000" stop="20260731150000 +0000" channel="1830521243d4bf55d3d0ad">
+    <title>Cevap Ver Türkiye</title>
+  </programme>
+  <programme start="20260731150000 +0000" stop="20260731170000 +0000" channel="1830521243d4bf55d3d0ad">
+    <title>Bizimkiler</title>
+  </programme>
   <programme start="20260731134500 +0000" stop="20260731150000 +0000" channel="19082658164debc10cdc44">
     <title>Cevap Ver Türkiye</title>
   </programme>
@@ -19265,11 +20299,11 @@
   <programme start="20260731150000 +0000" stop="20260731154000 +0000" channel="1225673773af8c29391e81">
     <title>Bayram Sohbeti</title>
   </programme>
-  <programme start="20260731134800 +0000" stop="20260731143800 +0000" channel="935671761c36c5491c3ed">
-    <title>Düşünme Vakti</title>
+  <programme start="20260731144700 +0000" stop="20260731145400 +0000" channel="935671761c36c5491c3ed">
+    <title>İslam Düşünürleri</title>
   </programme>
-  <programme start="20260731143800 +0000" stop="20260731144300 +0000" channel="935671761c36c5491c3ed">
-    <title>Sponsor</title>
+  <programme start="20260731145400 +0000" stop="20260731145500 +0000" channel="935671761c36c5491c3ed">
+    <title>Namaz Vakti</title>
   </programme>
   <programme start="20260731134500 +0000" stop="20260731150000 +0000" channel="241220593740c7258ef669">
     <title>Cevap Ver Türkiye</title>
@@ -19277,11 +20311,11 @@
   <programme start="20260731150000 +0000" stop="20260731170000 +0000" channel="241220593740c7258ef669">
     <title>Bizimkiler</title>
   </programme>
-  <programme start="20260731140000 +0000" stop="20260731144500 +0000" channel="18406648801d1a8ab316b6">
-    <title>Gün İçi Bülten</title>
-  </programme>
   <programme start="20260731144500 +0000" stop="20260731150000 +0000" channel="18406648801d1a8ab316b6">
     <title>Dolgu Programlar</title>
+  </programme>
+  <programme start="20260731150000 +0000" stop="20260731154000 +0000" channel="18406648801d1a8ab316b6">
+    <title>Gün İçi Bülten</title>
   </programme>
   <programme start="20260731140000 +0000" stop="20260731150000 +0000" channel="2012038243cd78e54611e8">
     <title>Haber Bülteni</title>
@@ -19634,23 +20668,29 @@
   <programme start="20260801230000 +0300" stop="20260802090000 +0300" channel="ULUSAL.KANAL.tr">
     <title lang="tr">Tekrar Yayın</title>
   </programme>
-  <programme start="20260731133500 +0000" stop="20260731144500 +0000" channel="1900945213599b64fe115b">
-    <title>Forntida apokalyps</title>
-  </programme>
   <programme start="20260731144500 +0000" stop="20260731155000 +0000" channel="1900945213599b64fe115b">
     <title>Andra världskriget: Ett imperiums höga pris</title>
   </programme>
-  <programme start="20260731133500 +0000" stop="20260731144500 +0000" channel="348046896213b84ce9a729">
-    <title>Forntida apokalyps</title>
+  <programme start="20260731155000 +0000" stop="20260731165500 +0000" channel="1900945213599b64fe115b">
+    <title>Det kalla krigets titaner</title>
+  </programme>
+  <programme start="20260731144500 +0000" stop="20260731155000 +0000" channel="1515686371746ee6b20938">
+    <title>Andra världskriget: Ett imperiums höga pris</title>
+  </programme>
+  <programme start="20260731155000 +0000" stop="20260731165500 +0000" channel="1515686371746ee6b20938">
+    <title>Det kalla krigets titaner</title>
   </programme>
   <programme start="20260731144500 +0000" stop="20260731155000 +0000" channel="348046896213b84ce9a729">
     <title>Andra världskriget: Ett imperiums höga pris</title>
   </programme>
-  <programme start="20260731133500 +0000" stop="20260731144500 +0000" channel="1165670263945583e36e19">
-    <title>Forntida apokalyps</title>
+  <programme start="20260731155000 +0000" stop="20260731165500 +0000" channel="348046896213b84ce9a729">
+    <title>Det kalla krigets titaner</title>
   </programme>
   <programme start="20260731144500 +0000" stop="20260731155000 +0000" channel="1165670263945583e36e19">
     <title>Andra världskriget: Ett imperiums höga pris</title>
+  </programme>
+  <programme start="20260731155000 +0000" stop="20260731165500 +0000" channel="1165670263945583e36e19">
+    <title>Det kalla krigets titaner</title>
   </programme>
   <programme start="20260731140000 +0000" stop="20260731150000 +0000" channel="1372455233dfff5072538c">
     <title>Southern Fried Homicide</title>
