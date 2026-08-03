@@ -10,13 +10,21 @@ const M3U_FILE = path.join(__dirname, "..", "iptv.m3u");
 const EPG_FILE = path.join(__dirname, "..", "epg.xml");
 const FETCH_TIMEOUT_MS = 20000;
 
-// Upstream free TR EPG (gzipped XMLTV). Matched to Vavoo channels by fuzzy name.
+// Primary TR EPG (gzipped XMLTV). TR3 covers ~280 channels with rich Turkish
+// descriptions, icons, and credits — includes tvplus.com.tr data that our grab
+// step cannot fetch from GitHub Actions IPs.
 const EPG_UPSTREAM_URL =
   process.env.EPG_UPSTREAM_URL ||
-  "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz";
+  "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz";
+
+// Secondary TR EPG for channels missing from TR3 (100% description coverage,
+// ~126 channels). Set to empty string to disable.
+const EPG_UPSTREAM_URL_2 =
+  process.env.EPG_UPSTREAM_URL_2 ??
+  "https://iptv-epg.org/files/epg-tr.xml.gz";
 
 // Optional directory of iptv-org/epg grab outputs (XMLTV per site).
-// Provided by CI when the grab step runs; overrides epgshare01 when a channel is present.
+// Provided by CI when the grab step runs; overrides upstream feeds when a channel is present.
 const IPTVORG_GRAB_DIR = process.env.IPTVORG_GRAB_DIR || "";
 
 // iptv-org public metadata for channel logos (name/alt_names → logo url).
@@ -435,6 +443,8 @@ function toXMLTV(
   grabProgByChannel,
   upstreamChannels,
   upstreamProgByChannel,
+  upstream2Channels,
+  upstream2ProgByChannel,
   logoResolver
 ) {
   const seenChannel = new Set();
@@ -460,6 +470,9 @@ function toXMLTV(
     } else if (src === "epgshare01") {
       sourceCh = upstreamChannels.get(routedId) || null;
       sourceProgs = upstreamProgByChannel.get(routedId) || [];
+    } else if (src === "upstream2") {
+      sourceCh = upstream2Channels.get(routedId) || null;
+      sourceProgs = upstream2ProgByChannel.get(routedId) || [];
     }
 
     const displayName = sourceCh?.names?.[0] || name;
@@ -564,7 +577,10 @@ async function main() {
     );
   }
   console.log(`EPG URL (published): ${EPG_URL}`);
-  console.log(`EPG UPSTREAM (source): ${EPG_UPSTREAM_URL}`);
+  console.log(`EPG UPSTREAM #1 (primary): ${EPG_UPSTREAM_URL}`);
+  if (EPG_UPSTREAM_URL_2) {
+    console.log(`EPG UPSTREAM #2 (secondary): ${EPG_UPSTREAM_URL_2}`);
+  }
 
   const items = await fetchAll();
   console.log(`Total items: ${items.length}`);
@@ -592,12 +608,34 @@ async function main() {
       upstreamProgByChannel.get(p.channel).push(p);
     }
     console.log(
-      `Upstream EPG (epgshare01): ${upstreamChannels.size} channels, ${parsed.programmes.length} programmes`
+      `Upstream EPG #1 (epgshare01 TR3): ${upstreamChannels.size} channels, ${parsed.programmes.length} programmes`
     );
   } catch (err) {
     console.warn(
-      `Upstream EPG unavailable (${err.message}); falling back to Vavoo inline EPG only.`
+      `Upstream EPG #1 unavailable (${err.message}); continuing with secondary + Vavoo inline.`
     );
+  }
+
+  let upstream2Channels = new Map();
+  let upstream2ProgByChannel = new Map();
+  if (EPG_UPSTREAM_URL_2) {
+    try {
+      const xml = await fetchUpstreamXmltv(EPG_UPSTREAM_URL_2);
+      const parsed = parseXmltv(xml);
+      upstream2Channels = parsed.channels;
+      for (const p of parsed.programmes) {
+        if (!upstream2ProgByChannel.has(p.channel))
+          upstream2ProgByChannel.set(p.channel, []);
+        upstream2ProgByChannel.get(p.channel).push(p);
+      }
+      console.log(
+        `Upstream EPG #2 (iptv-epg.org): ${upstream2Channels.size} channels, ${parsed.programmes.length} programmes`
+      );
+    } catch (err) {
+      console.warn(
+        `Upstream EPG #2 unavailable (${err.message}); continuing without secondary.`
+      );
+    }
   }
 
   const grab = await loadGrabDir(IPTVORG_GRAB_DIR);
@@ -611,7 +649,7 @@ async function main() {
     );
   } else if (IPTVORG_GRAB_DIR) {
     console.warn(
-      `iptv-org grab dir "${IPTVORG_GRAB_DIR}" empty or missing; only epgshare01 + Vavoo inline will be used.`
+      `iptv-org grab dir "${IPTVORG_GRAB_DIR}" empty or missing; only upstream feeds + Vavoo inline will be used.`
     );
   }
 
@@ -626,10 +664,12 @@ async function main() {
 
   const grabIdx = buildMatchIndex(grab.channels);
   const upstreamIdx = buildMatchIndex(upstreamChannels);
+  const upstream2Idx = buildMatchIndex(upstream2Channels);
   const vavooToEpgId = new Map();
   const idSource = new Map();
   let grabMatched = 0;
   let upstreamMatched = 0;
+  let upstream2Matched = 0;
   let logoMatched = 0;
   for (const it of items) {
     const vavooId = it?.ids?.id;
@@ -637,7 +677,8 @@ async function main() {
     const name = sanitizeName(it.name);
     if (!name) continue;
 
-    // Priority: iptv-org grab (real TR descriptions) > epgshare01 (title-only) > Vavoo inline
+    // Priority: iptv-org grab (real kanal sitesi EPG) > epgshare01 TR3 (rich TR descs)
+    // > iptv-epg.org TR (fills TR3 gaps) > Vavoo inline (title-only fallback).
     const grabId = matchUpstreamId(name, grabIdx);
     if (grabId) {
       vavooToEpgId.set(vavooId, grabId);
@@ -650,13 +691,22 @@ async function main() {
         idSource.set(upstreamId, "epgshare01");
         upstreamMatched++;
       } else {
-        vavooToEpgId.set(vavooId, vavooId);
+        const upstream2Id = matchUpstreamId(name, upstream2Idx);
+        if (upstream2Id) {
+          vavooToEpgId.set(vavooId, upstream2Id);
+          idSource.set(upstream2Id, "upstream2");
+          upstream2Matched++;
+        } else {
+          vavooToEpgId.set(vavooId, vavooId);
+        }
       }
     }
     if (logoResolver && logoResolver(name)) logoMatched++;
   }
+  const unmatched =
+    items.length - grabMatched - upstreamMatched - upstream2Matched;
   console.log(
-    `Channel binding: grab=${grabMatched}, epgshare01=${upstreamMatched}, vavoo-only=${items.length - grabMatched - upstreamMatched} (total ${items.length})`
+    `Channel binding: grab=${grabMatched}, epgshare01=${upstreamMatched}, iptv-epg.org=${upstream2Matched}, vavoo-only=${unmatched} (total ${items.length})`
   );
   console.log(
     `Logo binding:    ${logoMatched}/${items.length} Vavoo channels matched an iptv-org logo`
@@ -674,6 +724,8 @@ async function main() {
     grab.progByChannel,
     upstreamChannels,
     upstreamProgByChannel,
+    upstream2Channels,
+    upstream2ProgByChannel,
     logoResolver
   );
   await fs.writeFile(EPG_FILE, epg, "utf8");

@@ -47,13 +47,20 @@ jobs:
         working-directory: external/epg
         run: npm ci --no-audit --no-progress
 
-      - name: Grab TR EPG (digiturk, dsmart, turksatkablo, tvplus)
+      - name: Grab TR EPG (dsmart, turksatkablo)
         working-directory: external/epg
         continue-on-error: true
         timeout-minutes: 20
+        # digiturk.com.tr ve tvplus.com.tr GitHub Actions datacenter IP'lerinden
+        # erişilemiyor (digiturk: Cloudflare/WAF 403 block; tvplus: Türk Telekom
+        # internal backend, port 33207 geo-fenced). turksatkablo.com.tr eksik TLS
+        # zinciri gönderdiği için NODE_TLS_REJECT_UNAUTHORIZED=0 gerekli — bu step'e
+        # scope'lu, sonraki build step'i normal TLS doğrulaması yapmaya devam eder.
+        env:
+          NODE_TLS_REJECT_UNAUTHORIZED: "0"
         run: |
           npm run grab --- \
-            --sites=digiturk.com.tr,dsmart.com.tr,turksatkablo.com.tr,tvplus.com.tr \
+            --sites=dsmart.com.tr,turksatkablo.com.tr \
             --lang=tr \
             --maxConnections=5 \
             --output=guides/{site}.xml || true
