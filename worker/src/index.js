@@ -39,6 +39,145 @@ const RESOLVE_HEADERS = {
   ...CHROME_FP_HEADERS,
 };
 
+// Vavoo's resolve endpoint returns a "download VYPN" promo stream unless every
+// POST carries a valid mediahubmx-signature. The signature is obtained by
+// mimicking the Lokke/VYPN mobile client's app-ping call. Signatures are short-
+// lived (a few minutes), so we cache one per isolate.
+const PING_URLS = [
+  "https://www.vavoo.tv/api/app/ping",
+  "https://www.lokke.app/api/app/ping",
+  "https://vavoo.tv/api/app/ping",
+];
+const PING_TOKEN =
+  "ldCvE092e7gER0rVIajfsXIvRhwlrAzP6_1oEJ4q6HH89Ht24v6NNL_jQJO219hiLOXF2hqEfsUuEWitEIGN4EaHHEHb7Cd7gojc5SQYRFzU3XWo_kMeryAUbcwWnQrnf0-";
+const PING_HEADERS = {
+  "user-agent": "okhttp/4.11.0",
+  accept: "application/json",
+  "content-type": "application/json; charset=utf-8",
+  "accept-encoding": "gzip",
+};
+const SIGNATURE_TTL_MS = 5 * 60 * 1000;
+/** @type {string | null} */
+let cachedSignature = null;
+let cachedSignatureExpiresAt = 0;
+/** @type {Promise<string | null> | null} */
+let inflightSignature = null;
+
+function buildPingPayload() {
+  const now = Date.now();
+  const uniqueId = (crypto.randomUUID?.() || "")
+    .replace(/-/g, "")
+    .slice(0, 16) || "a1b2c3d4e5f60718";
+  return {
+    token: PING_TOKEN,
+    reason: "app-blur",
+    locale: "de",
+    theme: "dark",
+    metadata: {
+      device: {
+        type: "Handset",
+        brand: "google",
+        model: "Nexus",
+        name: "21081111RG",
+        uniqueId,
+      },
+      os: {
+        name: "android",
+        version: "7.1.2",
+        abis: ["arm64-v8a"],
+        host: "android",
+      },
+      app: {
+        platform: "android",
+        version: "1.1.0",
+        buildId: "97215000",
+        engine: "hbc85",
+        signatures: [
+          "6e8a975e3cbf07d5de823a760d4c2547f86c1403105020adee5de67ac510999e",
+        ],
+        installer: "com.android.vending",
+      },
+      version: { package: "app.lokke.main", binary: "1.1.0", js: "1.1.0" },
+      platform: {
+        isAndroid: true,
+        isIOS: false,
+        isTV: false,
+        isWeb: false,
+        isMobile: true,
+        isWebTV: false,
+        isElectron: false,
+      },
+    },
+    appFocusTime: 0,
+    playerActive: false,
+    playDuration: 0,
+    devMode: true,
+    hasAddon: true,
+    castConnected: false,
+    package: "app.lokke.main",
+    version: "1.1.0",
+    process: "app",
+    firstAppStart: now - 86400000,
+    lastAppStart: now,
+    ipLocation: null,
+    adblockEnabled: false,
+    proxy: {
+      supported: ["ss", "openvpn"],
+      engine: "openvpn",
+      ssVersion: 1,
+      enabled: false,
+      autoServer: true,
+      id: "fi-hel",
+    },
+    iap: { supported: true },
+  };
+}
+
+async function fetchSignatureOnce() {
+  const body = JSON.stringify(buildPingPayload());
+  for (const url of PING_URLS) {
+    try {
+      const res = await fetchWithTimeoutRetry(
+        url,
+        { method: "POST", headers: PING_HEADERS, body },
+        2
+      );
+      if (!res || !res.ok) continue;
+      const data = await res.json().catch(() => null);
+      if (data && typeof data.addonSig === "string" && data.addonSig.length) {
+        return data.addonSig;
+      }
+    } catch {
+      // try next endpoint
+    }
+  }
+  return null;
+}
+
+async function getSignature() {
+  const now = Date.now();
+  if (cachedSignature && now < cachedSignatureExpiresAt) return cachedSignature;
+  if (!inflightSignature) {
+    inflightSignature = fetchSignatureOnce()
+      .then((sig) => {
+        if (sig) {
+          cachedSignature = sig;
+          cachedSignatureExpiresAt = Date.now() + SIGNATURE_TTL_MS;
+        }
+        return sig;
+      })
+      .finally(() => {
+        inflightSignature = null;
+      });
+  }
+  return inflightSignature;
+}
+
+function invalidateSignature() {
+  cachedSignature = null;
+  cachedSignatureExpiresAt = 0;
+}
+
 // Headers we must NOT forward from upstream to the client.
 const HOP_BY_HOP = new Set([
   "connection",
@@ -165,26 +304,68 @@ async function resolveStream(id) {
     catalogId: "iptv",
     id,
     url: `https://vavoo.to/vavoo-iptv/play/${id}`,
+    clientVersion: "3.0.2",
   });
-  const res = await fetchWithTimeoutRetry(RESOLVE_URL, {
-    method: "POST",
-    headers: RESOLVE_HEADERS,
-    body,
-  });
-  if (!res.ok) return null;
-  let data;
-  try {
-    data = await res.json();
-  } catch {
-    return null;
+
+  // Try once with the cached signature; if the upstream rejects it (401/403)
+  // refresh the signature and retry once. A missing signature would yield the
+  // "download VYPN" promo stream, so we only accept URLs that don't point at
+  // Vavoo's promo/upsell hosts.
+  for (let attempt = 0; attempt < 2; attempt++) {
+    const signature = await getSignature();
+    /** @type {Record<string, string>} */
+    const headers = { ...RESOLVE_HEADERS };
+    if (signature) headers["mediahubmx-signature"] = signature;
+
+    const res = await fetchWithTimeoutRetry(RESOLVE_URL, {
+      method: "POST",
+      headers,
+      body,
+    });
+    if (res.status === 401 || res.status === 403) {
+      invalidateSignature();
+      continue;
+    }
+    if (!res.ok) return null;
+
+    let data;
+    try {
+      data = await res.json();
+    } catch {
+      return null;
+    }
+    const arr = Array.isArray(data)
+      ? data
+      : Array.isArray(data?.items)
+        ? data.items
+        : null;
+    const first = arr && arr[0];
+    const url =
+      first && typeof first.url === "string" ? first.url : null;
+    if (!url) return null;
+    if (isPromoUrl(url)) {
+      invalidateSignature();
+      continue;
+    }
+    return url;
   }
-  const arr = Array.isArray(data)
-    ? data
-    : Array.isArray(data?.items)
-      ? data.items
-      : null;
-  const first = arr && arr[0];
-  return first && typeof first.url === "string" ? first.url : null;
+  return null;
+}
+
+// Recognise the upsell/promo asset Vavoo serves when it doesn't accept the
+// signature ("Willst du kostenlos weiterschauen? Lade die VYPN App herunter.").
+function isPromoUrl(url) {
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    return (
+      host.includes("vypn") ||
+      host.includes("lokke") ||
+      host.includes("promo") ||
+      host.includes("upsell")
+    );
+  } catch {
+    return false;
+  }
 }
 
 // Forward client's Range / conditional headers so segment seeks and byte-range playlists work.
