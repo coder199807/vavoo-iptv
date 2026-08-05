@@ -83,3 +83,60 @@ jobs:
           else
             echo "No changes in iptv.m3u or epg.xml"
           fi
+name: Build and Deploy Playlists
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'    # alle 15 Minuten
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # --- Vorhandene Schritte aus der originalen build.yml ---
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd scripts
+          pip install -r requirements.txt
+          # falls es ein globales requirements gibt, das auch installieren
+          if [ -f ../requirements.txt ]; then pip install -r ../requirements.txt; fi
+
+      - name: Run scrapers
+        run: |
+          cd scripts
+          python oha.py
+          python huhu.py
+          python kool.py
+          # Vavoo-Scraper liegt vielleicht im Hauptverzeichnis
+          if [ -f ../vavoo.py ]; then python ../vavoo.py; fi
+
+      # --- NEU: Playlists in einen gemeinsamen Ordner kopieren ---
+      - name: Collect all M3U files
+        run: |
+          mkdir -p playlisten
+          # Kopiere alle .m3u aus dem scripts-Ordner
+          cp scripts/*.m3u playlisten/ 2>/dev/null || true
+          # Falls vavoo.m3u im Hauptverzeichnis liegt
+          cp vavoo.m3u playlisten/ 2>/dev/null || true
+          # Eigene statische Liste (falls im Repo vorhanden)
+          cp 7347h6.m3u playlisten/ 2>/dev/null || true
+          # Zeige an, welche Dateien gesammelt wurden
+          echo "Gefundene Playlisten:"
+          ls -la playlisten/
+
+      # --- NEU: Deployment zu Cloudflare Pages ---
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages deploy playlisten --project-name=iptv-playlists --commit-dirty=true
