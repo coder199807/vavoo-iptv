@@ -1,0 +1,48 @@
+name: Scrape & Deploy Playlists
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'    # alle 15 Minuten
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd scripts
+          pip install -r requirements.txt
+          if [ -f ../requirements.txt ]; then pip install -r ../requirements.txt; fi
+
+      - name: Run scrapers
+        run: |
+          cd scripts
+          python oha.py
+          python huhu.py
+          python kool.py
+          if [ -f ../vavoo.py ]; then python ../vavoo.py; fi
+
+      - name: Collect all M3U files
+        run: |
+          mkdir -p playlisten
+          cp scripts/*.m3u playlisten/ 2>/dev/null || true
+          cp vavoo.m3u playlisten/ 2>/dev/null || true
+          cp 7347h6.m3u playlisten/ 2>/dev/null || true
+          echo "Gefundene Playlisten:"
+          ls -la playlisten/
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages deploy playlisten --project-name=iptv-playlists --commit-dirty=true
