@@ -1,46 +1,31 @@
-name: Scrape & Deploy Playlists
-
+name: Auto-Scrape & Deploy
 on:
   schedule:
-    - cron: '*/15 * * * *'    # alle 15 Minuten
+    - cron: '*/10 * * * *'
   workflow_dispatch:
-
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Install dependencies
+      - name: Install Python packages
+        run: pip install -r scrapers/requirements.txt
+      - name: Run all scrapers
         run: |
-          cd scripts
-          pip install -r requirements.txt
-          if [ -f ../requirements.txt ]; then pip install -r ../requirements.txt; fi
-
-      - name: Run scrapers
-        run: |
-          cd scripts
+          cd scrapers
           python oha.py
           python huhu.py
           python kool.py
-          if [ -f ../vavoo.py ]; then python ../vavoo.py; fi
-
-      - name: Collect all M3U files
+      - name: Collect playlist files
         run: |
           mkdir -p playlisten
-          cp scripts/*.m3u playlisten/ 2>/dev/null || true
+          cp scrapers/*.m3u playlisten/ 2>/dev/null || true
           cp vavoo.m3u playlisten/ 2>/dev/null || true
           cp 7347h6.m3u playlisten/ 2>/dev/null || true
-          echo "Gefundene Playlisten:"
-          ls -la playlisten/
-
-      - name: Deploy to Cloudflare Pages
+      - name: Upload to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
