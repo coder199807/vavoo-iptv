@@ -8,7 +8,7 @@ def fetch():
         r = requests.get(API, headers=HEADERS, timeout=10)
         r.raise_for_status()
         data = r.json()
-        with open("kool.m3u", "w") as f:
+        with open("kool.m3u", "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
             for ch in data:
                 name = ch.get("title")
