@@ -264,18 +264,11 @@ async function resolveStream(item) {
       }
 
       const json = await response.json();
-      if (process.env.DEBUG_RESOLVE === "1") {
-  console.log(
-    JSON.stringify(
-      {
-        channel: item.name,
-        response: json
-      },
-      null,
-      2
-    )
-  );
-}
+console.log("==================================");
+console.log("CHANNEL:", item.name);
+console.log("RESOLVE RESPONSE:");
+console.log(JSON.stringify(json, null, 2));
+console.log("==================================");
       if (
         Array.isArray(json) &&
         json.length > 0 &&
