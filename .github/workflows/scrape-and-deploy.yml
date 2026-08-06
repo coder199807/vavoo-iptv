@@ -1,43 +1,38 @@
-name: Auto-Scrape & Deploy
+name: Vavoo + eigene Liste aktualisieren (30 Min)
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - name: Install Python packages
-        run: pip install -r scrapers/requirements.txt
-      - name: Run all scrapers
+        run: pip install requests
+
+      - name: Run Vavoo scraper
         run: |
           cd scrapers
-          python oha.py
-          python huhu.py
-          python kool.py
-      - name: Prepare Vavoo file from build.yml output
-        run: |
-          if [ -f iptv.m3u ]; then
-            cp iptv.m3u vavoo.m3u
-          else
-            echo "iptv.m3u not found, maybe build.yml didn't run yet. Creating empty vavoo.m3u"
-            echo "#EXTM3U" > vavoo.m3u
-          fi
-      - name: Collect playlist files
+          python vavoo.py
+
+      - name: Collect M3U files
         run: |
           mkdir -p playlisten
-          cp scrapers/*.m3u playlisten/ 2>/dev/null || true
-          cp vavoo.m3u playlisten/ 2>/dev/null || true
+          cp scrapers/vavoo.m3u playlisten/ 2>/dev/null || true
           cp 7347h6.m3u playlisten/ 2>/dev/null || true
-          echo "Gefundene Dateien:"
+          echo "Dateien:"
           ls -la playlisten/
-      - name: Upload to Cloudflare Pages
+
+      - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          command: pages deploy playlisten --project-name=iptv-playlists --commit-dirty=true
+          command: pages deploy playlisten --project-name=a55688dd.7347h6 --commit-dirty=true
