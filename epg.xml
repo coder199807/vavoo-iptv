@@ -83,6 +83,10 @@
   <channel id="66337391cfef0b02d78776c8">
     <display-name>Ekol Tv</display-name>
   </channel>
+  <channel id="EnglishClubTV.uk@SD">
+    <display-name>English Club TV</display-name>
+    <icon src="https://i.imgur.com/9FMvaRK.png"/>
+  </channel>
   <channel id="EpicDrama.uk@Turkiye">
     <display-name>Epic Drama</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/960px-Epic-Drama-TV.jpg"/>
@@ -283,10 +287,6 @@
     <display-name>trt 2</display-name>
     <icon src="https://i.imgur.com/iOCQdyD.png"/>
   </channel>
-  <channel id="TRT.3.tr">
-    <display-name>TRT 3</display-name>
-    <icon src="https://i.imgur.com/JrWFwBd.png"/>
-  </channel>
   <channel id="TRTAvaz.tr@SD">
     <display-name>TRT Avaz</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/960px-TRT_Avaz_logo.svg.png"/>
@@ -298,14 +298,6 @@
   <channel id="TRTHaber.tr@SD">
     <display-name>TRT Haber</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png"/>
-  </channel>
-  <channel id="1707">
-    <display-name>TRT Kurdî</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/960px-TRT_Kurd%C3%AE_logo.svg.png"/>
-  </channel>
-  <channel id="TRTMuzik.tr@SD">
-    <display-name>TRT Müzik</display-name>
-    <icon src="https://i.imgur.com/JgUzRH8.png"/>
   </channel>
   <channel id="30291805064bacb8a4036d">
     <display-name>4K TR: TRT OCUK HD .b</display-name>
@@ -444,6 +436,10 @@
   <channel id="221800489857045f13242b">
     <display-name>ALVIN .b</display-name>
   </channel>
+  <channel id="4274827801d7c79d4e1a26">
+    <display-name>ANADOLU DERNEK TV .b</display-name>
+    <icon src="https://i.imgur.com/taaRzdO.png"/>
+  </channel>
   <channel id="1917558455120761543969">
     <display-name>ANADOLU TV .c</display-name>
   </channel>
@@ -524,15 +520,6 @@
   <channel id="3033512963c208a7f26dc2">
     <display-name>AUTOMOTO (FR) .s</display-name>
   </channel>
-  <channel id="154080342742a01f2d589">
-    <display-name>AV TV .b</display-name>
-  </channel>
-  <channel id="334323069104712e8a0a89">
-    <display-name>AV TV .s</display-name>
-  </channel>
-  <channel id="40965694547a9def110e6c">
-    <display-name>BABA RADYO ARABESK .b</display-name>
-  </channel>
   <channel id="BabyTV.uk@France">
     <display-name>Baby TV</display-name>
     <icon src="https://i.imgur.com/4BDJ5FT.png"/>
@@ -545,9 +532,6 @@
   </channel>
   <channel id="280573123054a8c61dd62">
     <display-name>BARBIE ANIMATION 2 HD .b</display-name>
-  </channel>
-  <channel id="58015509b209433965b4">
-    <display-name>BBC CBEEBIES TV .s</display-name>
   </channel>
   <channel id="58d29bb0eefad3db9c6062bc">
     <display-name>BBC Earth</display-name>
@@ -751,10 +735,6 @@
     <display-name>BEIN SERIES DRAMA .c</display-name>
     <icon src="https://i.imgur.com/eRSAkFZ.png"/>
   </channel>
-  <channel id="727975195a22d80d147d6">
-    <display-name>BEIN SERIES DRAMA .s</display-name>
-    <icon src="https://i.imgur.com/eRSAkFZ.png"/>
-  </channel>
   <channel id="3016529666fa8445d49f2d">
     <display-name>BEIN SERIES SCI-FI .s</display-name>
     <icon src="https://i.imgur.com/kfbWKod.png"/>
@@ -918,10 +898,6 @@
     <display-name>BEIN SPORTS MAX 2 FHD .b</display-name>
     <icon src="https://logo.huhu.to/logo?c=3407936242.png"/>
   </channel>
-  <channel id="2212659820b109b476a4d3">
-    <display-name>BEIN SPORTS MAX 2 HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2212659820.png"/>
-  </channel>
   <channel id="143239535a2e3c23c1d16">
     <display-name>BEIN SPOTS1 SD .b</display-name>
   </channel>
@@ -940,10 +916,6 @@
   </channel>
   <channel id="29439742084c66e3a8bcec">
     <display-name>BOOMERANG .s</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/>
-  </channel>
-  <channel id="11743931b356e8661a4d">
-    <display-name>BOOMERANG HD .b</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/>
   </channel>
   <channel id="BRT1.cy@SD">
@@ -1048,16 +1020,9 @@
     <display-name>Da Vinci Learning</display-name>
     <icon src="https://i.imgur.com/iBx7K1M.png"/>
   </channel>
-  <channel id="5746975234c4c28f5dbe1">
-    <display-name>DEHA TV .s</display-name>
-    <icon src="https://i.imgur.com/Dlsm9XP.png"/>
-  </channel>
   <channel id="183207521594fc65b3f956">
     <display-name>DENIZ POSTASI TV .c</display-name>
     <icon src="https://i.imgur.com/Mm8hdfx.png"/>
-  </channel>
-  <channel id="23018905930073141351c">
-    <display-name>DENIZLI DEHA TV .b</display-name>
   </channel>
   <channel id="40223592760f0af9f37d41">
     <display-name>DHA .c</display-name>
@@ -1161,22 +1126,17 @@
   <channel id="1155291490dfd6964261e6">
     <display-name>DREAM SAVAS .b</display-name>
   </channel>
-  <channel id="DreamTurk.tr@SD">
-    <display-name>Dream Tv</display-name>
-    <icon src="https://i.imgur.com/vJ8VaZi.png"/>
-  </channel>
   <channel id="41988499024059e546ac2f">
     <display-name>DREAM WESTERN .b</display-name>
   </channel>
   <channel id="2838364281c66447dda010">
     <display-name>DURSUN AL ERZINCANLI .b</display-name>
   </channel>
+  <channel id="127844757686ca7d664ae5">
+    <display-name>DIGI MAX .s</display-name>
+  </channel>
   <channel id="1104559360fc7735351211">
     <display-name>DIGI MAX 2 .s</display-name>
-  </channel>
-  <channel id="1072972009ade9e4b4a779">
-    <display-name>DIM TV .c</display-name>
-    <icon src="https://i.imgur.com/X4QFDhk.png"/>
   </channel>
   <channel id="2337350974aa27a20a6514">
     <display-name>DINAMIK AKSIYON .b</display-name>
@@ -1239,6 +1199,10 @@
   <channel id="3578544716a4cc42d03dcd">
     <display-name>DISNEY CHANNEL HD .b</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"/>
+  </channel>
+  <channel id="396367809728cc9e22209f">
+    <display-name>DISNEY JR .s</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"/>
   </channel>
   <channel id="4108765291d43a8a0a8088">
     <display-name>DISNEY JR HD .b</display-name>
@@ -1360,6 +1324,9 @@
   </channel>
   <channel id="24993696962ff7f5610706">
     <display-name>ENO VIZYON 14 .s</display-name>
+  </channel>
+  <channel id="284540603246df8257572c">
+    <display-name>ENO VIZYON 15 .s</display-name>
   </channel>
   <channel id="865520859bc8f99dfe7e6">
     <display-name>ENO VIZYON 2 .s</display-name>
@@ -1547,8 +1514,9 @@
     <display-name>FOX .s</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FOX_wordmark-red.svg/960px-FOX_wordmark-red.svg.png"/>
   </channel>
-  <channel id="113035273098bcceb3f35a">
-    <display-name>FILMBOX AKSIYON .s</display-name>
+  <channel id="31503810386e1be804a835">
+    <display-name>FOX CRIME HEVC .b</display-name>
+    <icon src="https://i.imgur.com/htrPojY.png"/>
   </channel>
   <channel id="2089556265d959858b1ebc">
     <display-name>FILMBOX COMEDY .s</display-name>
@@ -1884,6 +1852,9 @@
   <channel id="161664882db20229c6558">
     <display-name>KAYSERI KENT TV .b</display-name>
   </channel>
+  <channel id="82920494637269fca29fd">
+    <display-name>KAYSERI LIFE TV .b</display-name>
+  </channel>
   <channel id="2071472807593f1d194a5a">
     <display-name>KAYSERI OLAY T RK TV .b</display-name>
   </channel>
@@ -1915,6 +1886,10 @@
   <channel id="37593642738038d993fa1e">
     <display-name>KONYA KON TV .b</display-name>
   </channel>
+  <channel id="5783808618f2bafca5dba">
+    <display-name>KONYA OLAY TV .c</display-name>
+    <icon src="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg"/>
+  </channel>
   <channel id="277878129786cfb72a8e2e">
     <display-name>KOSTEBEKGILLER TV .b</display-name>
   </channel>
@@ -1931,6 +1906,9 @@
   </channel>
   <channel id="222080778325a1bcf07f54">
     <display-name>KRAL FM ARABESK .b</display-name>
+  </channel>
+  <channel id="416983899397e266de7f51">
+    <display-name>KRAL POP .s</display-name>
   </channel>
   <channel id="401243274930b2f0a2040b">
     <display-name>KRAL POP HD+ .b</display-name>
@@ -2158,6 +2136,9 @@
   <channel id="2591544773260cb2042fa3">
     <display-name>MGC TV .b</display-name>
   </channel>
+  <channel id="2862980701594d8f54db77">
+    <display-name>MONTAG &amp; FREITAG BULLI .b</display-name>
+  </channel>
   <channel id="123746094865495ec9eb64">
     <display-name>MOVIE SMART ACTION .s</display-name>
   </channel>
@@ -2183,9 +2164,6 @@
   <channel id="MovieSmartTurk.tr@SD">
     <display-name>MovieSmart Türk</display-name>
     <icon src="https://i.imgur.com/DWN9ulT.png"/>
-  </channel>
-  <channel id="41780715606f8ffc7fa3f">
-    <display-name>MTV LIVE .b</display-name>
   </channel>
   <channel id="2140655971f1ad35201549">
     <display-name>MUFFETIS GADGET .b</display-name>
@@ -2244,9 +2222,6 @@
   </channel>
   <channel id="1104536008dc2d6d255ea4">
     <display-name>NR1 .s</display-name>
-  </channel>
-  <channel id="3548270931d42334c67c35">
-    <display-name>NR1 TURK HD .b</display-name>
   </channel>
   <channel id="123731096406a8cd66fdf9">
     <display-name>NTV HABER .s</display-name>
@@ -2312,6 +2287,10 @@
   <channel id="420347514452cefbd5e034">
     <display-name>ON 4 TV .s</display-name>
   </channel>
+  <channel id="889661020f5c59638da26">
+    <display-name>ON 6 .c</display-name>
+    <icon src="https://i.imgur.com/k7rS2gC.png"/>
+  </channel>
   <channel id="760981668a4f92b6e73db">
     <display-name>ORDU BUYUKSEHIR BELEDIYESI (OBB) .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=760981668.png"/>
@@ -2319,11 +2298,11 @@
   <channel id="2879086761a7691b067170">
     <display-name>OSCAR COLLERDE .b</display-name>
   </channel>
-  <channel id="17362928703b87a6c8217">
-    <display-name>OUTDOOR .b</display-name>
-  </channel>
   <channel id="42208430696fbda8155f99">
     <display-name>PAK PIRPIR TV .b</display-name>
+  </channel>
+  <channel id="42015485361f438f2db763">
+    <display-name>PAL STATION YABANCI M ZIK .b</display-name>
   </channel>
   <channel id="16478865713b5e4dfa0797">
     <display-name>PAMUKKALE .s</display-name>
@@ -2400,9 +2379,6 @@
   </channel>
   <channel id="129320848377c2dbe97032">
     <display-name>PROTURK GERILIM .c</display-name>
-  </channel>
-  <channel id="12454754741085c372bdf7">
-    <display-name>PROTURK KEMAL SUNAL .c</display-name>
   </channel>
   <channel id="119424713164337b55eaf8">
     <display-name>PROTURK KORKU .c</display-name>
@@ -2491,10 +2467,6 @@
   <channel id="460410710474124d4550a">
     <display-name>S PER FM T RK E POP .b</display-name>
   </channel>
-  <channel id="3269372326de5ff1a4d9d7">
-    <display-name>S SPORT+3 MAC SAATI .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3269372326.png"/>
-  </channel>
   <channel id="1507829436cb5aa4fb5b34">
     <display-name>S SPORT+4 MAC SAATI .b</display-name>
     <icon src="https://logo.huhu.to/logo?c=1507829436.png"/>
@@ -2533,10 +2505,6 @@
   <channel id="41600224142533e27b97d9">
     <display-name>S-SPORTS 1 HD .s</display-name>
   </channel>
-  <channel id="3202905239f7c8981cff1">
-    <display-name>S-SPORTS 1 SD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=320290523.png"/>
-  </channel>
   <channel id="20381615174598b818f74c">
     <display-name>S-SPORTS 2 HD .s</display-name>
   </channel>
@@ -2564,6 +2532,18 @@
   </channel>
   <channel id="2428350451b677cd5404b6">
     <display-name>SALON 13 HD .b</display-name>
+  </channel>
+  <channel id="25915983146f2f8e1e61c9">
+    <display-name>SALON 14 HD .b</display-name>
+  </channel>
+  <channel id="1456645748ff34de7d4e2d">
+    <display-name>SALON 15 HD .b</display-name>
+  </channel>
+  <channel id="36300148716d4630336614">
+    <display-name>SALON 16 HD .b</display-name>
+  </channel>
+  <channel id="351772937233d26096292">
+    <display-name>SALON 17 HD .b</display-name>
   </channel>
   <channel id="3453465509feff2ce320bf">
     <display-name>SALON 18 HD .b</display-name>
@@ -2606,12 +2586,6 @@
   </channel>
   <channel id="26072799868f66d346f7b8">
     <display-name>SALON 9 HD .b</display-name>
-  </channel>
-  <channel id="3962972352ea44b8b75128">
-    <display-name>SARAN SPORT 1 .s</display-name>
-  </channel>
-  <channel id="287875534435a082281e3f">
-    <display-name>SARAN SPORT 2 .s</display-name>
   </channel>
   <channel id="237609064654251acc3bd9">
     <display-name>SAT 7 TURK .b</display-name>
@@ -2766,6 +2740,9 @@
     <display-name>SİNEMA 1001</display-name>
     <icon src="https://i.imgur.com/OOMEELj.png"/>
   </channel>
+  <channel id="129312789771362713c30c">
+    <display-name>SINEMA AKSIYON 1 .s</display-name>
+  </channel>
   <channel id="SİNEMA.AKSİYON.2.HD.tr">
     <display-name>SİNEMA AKSİYON 2 HD</display-name>
     <icon src="https://i.imgur.com/oy8Nq1r.png"/>
@@ -2808,9 +2785,6 @@
   <channel id="237327525e72f36a04e37">
     <display-name>SINEVIZYON TURK 1 .s</display-name>
   </channel>
-  <channel id="13493455810611836e96c5">
-    <display-name>SINEVIZYON TURK 10 .s</display-name>
-  </channel>
   <channel id="1233464949183c7280e3a4">
     <display-name>SINEVIZYON TURK 2 .s</display-name>
   </channel>
@@ -2819,15 +2793,6 @@
   </channel>
   <channel id="315447928559cf5bc5d2cd">
     <display-name>SINEVIZYON TURK 6 .s</display-name>
-  </channel>
-  <channel id="21709212216ea5f185ca61">
-    <display-name>SINEVIZYON TURK 7 .s</display-name>
-  </channel>
-  <channel id="53819092d8af1f450658">
-    <display-name>SINEVIZYON TURK 8 .s</display-name>
-  </channel>
-  <channel id="10457659887777aa426858">
-    <display-name>SINEVIZYON TURK 9 .s</display-name>
   </channel>
   <channel id="1556019396cbe671ed73f4">
     <display-name>SIRINLER TV (BACKUP) .b</display-name>
@@ -2866,35 +2831,19 @@
     <display-name>TABII SPOR 1 UHD .b</display-name>
     <icon src="https://logo.huhu.to/logo?c=3107708522.png"/>
   </channel>
-  <channel id="24901653728e4a187da4c4">
-    <display-name>TABII SPOR 2 HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2490165372.png"/>
-  </channel>
-  <channel id="21594692318c346548c2be">
-    <display-name>TABII SPOR 2 UHD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2159469231.png"/>
-  </channel>
-  <channel id="2546857708611b47e42ecf">
-    <display-name>TABII SPOR 3 UHD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=2546857708.png"/>
+  <channel id="1489430754b4fd6e6dc327">
+    <display-name>TABII SPOR 3 HD .b</display-name>
+    <icon src="https://logo.huhu.to/logo?c=1489430754.png"/>
   </channel>
   <channel id="2307885365b7f1828e97ba">
     <display-name>TABII SPOR 4 .c</display-name>
   </channel>
-  <channel id="13759861713a771b4b4726">
-    <display-name>TABII SPOR 4 HD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=1375986171.png"/>
-  </channel>
-  <channel id="408817539739fafefc9d3b">
-    <display-name>TABII SPOR 4 UHD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=4088175397.png"/>
-  </channel>
   <channel id="3035603077ef0df0e5da67">
     <display-name>TABII SPOR 5 .c</display-name>
   </channel>
-  <channel id="383933219867eefb660622">
-    <display-name>TABII SPOR 5 UHD .b</display-name>
-    <icon src="https://logo.huhu.to/logo?c=3839332198.png"/>
+  <channel id="26619334135baa08b0bc1a">
+    <display-name>TABII SPOR 5 HD .b</display-name>
+    <icon src="https://logo.huhu.to/logo?c=2661933413.png"/>
   </channel>
   <channel id="40820967253b1d74e19a7f">
     <display-name>TABII SPOR 6 .c</display-name>
@@ -2918,6 +2867,10 @@
   <channel id="TarihTV.tr@SD">
     <display-name>Tarih Tv</display-name>
     <icon src="https://i.imgur.com/HbIGZUt.png"/>
+  </channel>
+  <channel id="TARIM.TV.tr">
+    <display-name>TARIM TV</display-name>
+    <icon src="https://i.imgur.com/q30sFms.png"/>
   </channel>
   <channel id="3333865510ce3775d7abc0">
     <display-name>TATLISES TV .c</display-name>
@@ -3045,9 +2998,17 @@
   <channel id="17020398633aafc0a6bc">
     <display-name>TRT EBA ORTAOKUL .s</display-name>
   </channel>
+  <channel id="228765803362ec29207df8">
+    <display-name>TRT EBA ILKOKUL .s</display-name>
+    <icon src="https://i.imgur.com/CRBfZi4.png"/>
+  </channel>
   <channel id="TRTKurdi.tr@SD">
     <display-name>TRT Kurdi</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/960px-TRT_Kurd%C3%AE_logo.svg.png"/>
+  </channel>
+  <channel id="TRTMuzik.tr@SD">
+    <display-name>TRT Müzik</display-name>
+    <icon src="https://i.imgur.com/JgUzRH8.png"/>
   </channel>
   <channel id="5500451029f0e83b65cf8">
     <display-name>TRT OCUK HD .b</display-name>
@@ -3062,6 +3023,9 @@
   </channel>
   <channel id="21895121eeea9f4b76d9">
     <display-name>TRT2 RAW .b</display-name>
+  </channel>
+  <channel id="9421802182c74dba9e1e6">
+    <display-name>TUNCELI DERSIM 62 TV .b</display-name>
   </channel>
   <channel id="4073129368ac841af4a4cd">
     <display-name>TV 1 .c</display-name>
@@ -3086,6 +3050,10 @@
   <channel id="TV5.tr@SD">
     <display-name>TV 5</display-name>
     <icon src="https://i.imgur.com/ENvv42b.png"/>
+  </channel>
+  <channel id="108017205852b77c50bdce">
+    <display-name>TV 52 .b</display-name>
+    <icon src="https://i.imgur.com/k4R5CzO.png"/>
   </channel>
   <channel id="405074878169aaa15f6633">
     <display-name>TV 52 .c</display-name>
@@ -3128,6 +3096,12 @@
     <display-name>TV5</display-name>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/logo/202405/20240523/47/0749024511575eb88428_op.png"/>
   </channel>
+  <channel id="3524690612e75743431c37">
+    <display-name>TVDEN TV .b</display-name>
+  </channel>
+  <channel id="2916629658495062daeb5f">
+    <display-name>TVO TV .b</display-name>
+  </channel>
   <channel id="3711">
     <display-name>TYT Türk</display-name>
     <icon src="https://tytturk.com/upload/tyt-logo.png"/>
@@ -3148,10 +3122,6 @@
     <display-name>TIVI TÜRK .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=702157954.png"/>
   </channel>
-  <channel id="TİVİBU.SPOR.tr">
-    <display-name>TİVİBU SPOR</display-name>
-    <icon src="https://i.imgur.com/qvrKQY3.png"/>
-  </channel>
   <channel id="TİVİBU.SPOR.1.tr">
     <display-name>TİVİBU SPOR 1</display-name>
     <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/poster/20250801839141.png"/>
@@ -3170,6 +3140,10 @@
   </channel>
   <channel id="163038510f87c95f99d11">
     <display-name>TIVIBU SPOR 5 HD .b</display-name>
+  </channel>
+  <channel id="TİVİBU.SPOR.tr">
+    <display-name>TİVİBU SPOR</display-name>
+    <icon src="https://i.imgur.com/qvrKQY3.png"/>
   </channel>
   <channel id="289665874444b8f4f2d451">
     <display-name>TIVIBUSPOR 1 FHD .b</display-name>
@@ -3312,15 +3286,15 @@
   <channel id="245742586a1ae349871a9">
     <display-name>YESILCAM 3 .s</display-name>
   </channel>
-  <channel id="36035801315c2c657f7f29">
-    <display-name>YOL TV .b</display-name>
-  </channel>
   <channel id="1377055653aae1eccd061c">
     <display-name>YOL TV .c</display-name>
     <icon src="https://logo.huhu.to/logo?c=1377055653.png"/>
   </channel>
   <channel id="10711660543c82502a97f7">
     <display-name>YOL TV .s</display-name>
+  </channel>
+  <channel id="607077155292bdb1bc79a">
+    <display-name>YOL TV SD .b</display-name>
   </channel>
   <channel id="32452978184d58e060917f">
     <display-name>YUNUS EMRE .b</display-name>
@@ -3383,23 +3357,23 @@
   <channel id="666189323a5c95459735b">
     <display-name>IZMIR TV 35 .b</display-name>
   </channel>
-  <programme start="20260806230000 +0000" stop="20260806233000 +0000" channel="24TV.tr@SD">
-    <title>Mercek</title>
-  </programme>
   <programme start="20260806233000 +0000" stop="20260807010000 +0000" channel="24TV.tr@SD">
     <title>Bu Ülke</title>
   </programme>
-  <programme start="20260806225200 +0000" stop="20260806231500 +0000" channel="42853502477bb17264f322">
-    <title>Receitas Fáceis e Rápidas Com Jamie Oliver</title>
+  <programme start="20260807010000 +0000" stop="20260807011500 +0000" channel="24TV.tr@SD">
+    <title>Temsil Heyeti</title>
   </programme>
-  <programme start="20260806231500 +0000" stop="20260806233800 +0000" channel="42853502477bb17264f322">
-    <title>Descomplicar Com Jamie Oliver</title>
+  <programme start="20260806233800 +0000" stop="20260807000100 +0000" channel="42853502477bb17264f322">
+    <title>ComTradição</title>
   </programme>
-  <programme start="20260806230000 +0000" stop="20260806233000 +0000" channel="38229012391e140a7f75ba">
-    <title>Mercek</title>
+  <programme start="20260807000100 +0000" stop="20260807002100 +0000" channel="42853502477bb17264f322">
+    <title>Prato do Dia</title>
   </programme>
   <programme start="20260806233000 +0000" stop="20260807011500 +0000" channel="38229012391e140a7f75ba">
     <title>Bu Ülke</title>
+  </programme>
+  <programme start="20260807011500 +0000" stop="20260807014500 +0000" channel="38229012391e140a7f75ba">
+    <title>Neler Oluyor Hayatta</title>
   </programme>
   <programme start="20260806224500 +0000" stop="20260807001500 +0000" channel="360.tr@SD">
     <title>Yüz Lira ile Evlenilmez</title>
@@ -3803,11 +3777,11 @@
     <category lang="tr">Haber</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260802/89/0105226645245eb8f42a.jpg" />
   </programme>
-  <programme start="20260806204000 +0000" stop="20260806234000 +0000" channel="ATV.am@SD">
-    <title>Dizi</title>
+  <programme start="20260806234000 +0000" stop="20260807023000 +0000" channel="ATV.am@SD">
+    <title>Aldatmak</title>
   </programme>
-  <programme start="20260806204000 +0000" stop="20260806234000 +0000" channel="ATV.am@SD">
-    <title>Dizi</title>
+  <programme start="20260806234000 +0000" stop="20260807023000 +0000" channel="ATV.am@SD">
+    <title>Aldatmak</title>
   </programme>
   <programme start="20260805211000 +0000" stop="20260805214000 +0000" channel="BloombergHT.tr@SD">
     <title lang="tr">Leaders With Lacqua</title><desc lang="tr">Tekrar</desc>
@@ -16867,161 +16841,6 @@
   <programme start="20260806230000 +0000" stop="20260807000500 +0000" channel="TRT1.tr@SD">
     <title>Seksenler</title>
   </programme>
-  <programme start="20260806010000 +0000" stop="20260806030000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Arsenal - Real Betis</title>
-    <desc lang="tr">Arsenal ve Real Betis takımları hazırlık maçında karşı karşıya geliyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260803/80/2204212465235eb7f426.jpg" />
-  </programme>
-  <programme start="20260806030000 +0000" stop="20260806033000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Trendyol Süper Lig Öne Çıkan Maçlar</title>
-    <desc lang="tr">TRENDYOL SÜPER LİGİNDE ÖNE ÇIKAN MAÇLAR EKRANLARINIZA GELİYOR.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260803/15/2204212465315eb7f426.jpg" />
-  </programme>
-  <programme start="20260806033000 +0000" stop="20260806035800 +0000" channel="TRT.3.tr">
-    <title lang="tr">UEFA Konferans Ligi Öne Çıkan Maçlar</title>
-    <desc lang="tr">UEFA Konferans Ligi Öne Çıkan Maçlar.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260803/73/2204212475395eb7f426.jpg" />
-  </programme>
-  <programme start="20260806035800 +0000" stop="20260806040000 +0000" channel="TRT.3.tr">
-    <title lang="tr">İstiklal Marşı</title>
-    <desc lang="tr">Milli Marşımızın okunması.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/55/2204195988015eb9542c.jpg" />
-  </programme>
-  <programme start="20260806040000 +0000" stop="20260806043000 +0000" channel="TRT.3.tr">
-    <title lang="tr">UEFA Avrupa Ligi En Güzel Goller</title>
-    <desc lang="tr">UEFA Avrupa Ligi'nde haftanın karşılaşmalarının gol görüntüleri ekranlarınıza geliyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/74/2204195988095eb9542c.jpg" />
-  </programme>
-  <programme start="20260806043000 +0000" stop="20260806050000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Trendyol Süper Lig En Güzel Goller</title>
-    <desc lang="tr">Trendyol Süper Lig'de bu sezonun en güzel golleri ekranlarınıza geliyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/44/2204195988175eb9542c.jpg" />
-  </programme>
-  <programme start="20260806050000 +0000" stop="20260806070000 +0000" channel="TRT.3.tr">
-    <title lang="tr">İlk Baskı</title>
-    <desc lang="tr">Güne 'ilk baskı' ile başlayın! Spor dünyasındaki tüm gelişmeleri önce 'ilk baskı'dan alın! Süper Lig, 1. Lig ve Avrupa liglerinden maç özetleri, dünden kalanlar, sıcak gelişmeler ve günün spor gündemi İlk Baskı'da.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/23/2204195998255eb9542c.jpg" />
-  </programme>
-  <programme start="20260806070000 +0000" stop="20260806071500 +0000" channel="TRT.3.tr">
-    <title lang="tr">İşitme Engelliler Spor Bülteni</title>
-    <desc lang="tr">İşitme Engelliler Spor Bülteni; gündeme dair gelişmelerden derlenen içeriği ile hafta içi her gün ekranlarınıza geliyor.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/84/2204195998335eb9542c.jpg" />
-  </programme>
-  <programme start="20260806071500 +0000" stop="20260806072500 +0000" channel="TRT.3.tr">
-    <title lang="tr">Sormazsam Olmaz</title>
-    <desc lang="tr">Sormazsam Olmaz / Selda Akgöz.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/20/2204195998415eb9542c.jpg" />
-  </programme>
-  <programme start="20260806072500 +0000" stop="20260806080000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Spor Bülteni</title>
-    <desc lang="tr">Spora dair flaş gelişmeler, son dakika haberleri ve canlı bağlantılar Spor Bülteni'nde.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/94/2204196008495eb9542c.jpg" />
-  </programme>
-  <programme start="20260806080000 +0000" stop="20260806093000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Spor Manşet</title>
-    <desc lang="tr">Spor dünyası güne bu programla merhaba diyor. Günün öne çıkan gazete manşetlerini, köşe yazılarını ve spor dünyasındaki diğer tüm gelişmeleri sunucu yorumlarıyla ekranlarınıza geliyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/64/2204196008575eb9542c.jpg" />
-  </programme>
-  <programme start="20260806093000 +0000" stop="20260806103000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Gün Ortası</title>
-    <desc lang="tr">Gün içinde spora dair Türkiye ve dünyada yaşanan gelişmelerden ilk siz haberdar olun.\nGünün flaş gelişmeleri, son dakika haberleri ve canlı bağlantılar Gün Ortası'nda.</desc>
-    <category lang="tr">Haber</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/18/2204196018655eb9542c.jpg" />
-  </programme>
-  <programme start="20260806103000 +0000" stop="20260806110000 +0000" channel="TRT.3.tr">
-    <title lang="tr">UEFA Avrupa Konferans Ligi En Güzel Goller</title>
-    <desc lang="tr">UEFA Avrupa Konferans Ligi'nin en güzel golleri ekranlarınızda!</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/99/2204196028735eb9542c.jpg" />
-  </programme>
-  <programme start="20260806110000 +0000" stop="20260806130000 +0000" channel="TRT.3.tr">
-    <title lang="tr">TBMM-TV</title>
-    <desc lang="tr">Türkiye Büyük Millet Meclisi'nde gerçekleştirilen oturumlar ve canlı bağlantılar ekrana geliyor.</desc>
-    <category lang="tr">Politika</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260731/20/2204156269495eb88428.jpg" />
-  </programme>
-  <programme start="20260806130000 +0000" stop="20260806143000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Gündem Futbol Transfer</title>
-    <desc lang="tr">Öne çıkan haberler, canlı bağlantılar, son dakika haberleri, gündemi sarsan analizler. Transfer dönemine ait bütün gelişmeler Gündem Futbol Transfer'de.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/78/2204196028815eb9542c.jpg" />
-  </programme>
-  <programme start="20260806143000 +0000" stop="20260806150000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Dünyadan Spor</title>
-    <desc lang="tr">Dünyanın dört bir yanında yaşanan spordaki gelişmeler ekranlarınıza geliyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/59/2204196028895eb9542c.jpg" />
-  </programme>
-  <programme start="20260806150000 +0000" stop="20260806153000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Spor Merkezi</title>
-    <desc lang="tr">Spor dünyasındaki gelişmeler, canlı bağlantılar, son dakika haberleri, özel röportajlar ve sosyal medya yansımaları Spor Merkezi ile ekranlarınıza geliyor.Spor Merkezi; en güncel haberleri sizlere aktarıyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/44/2204196038975eb9542c.jpg" />
-  </programme>
-  <programme start="20260806153000 +0000" stop="20260806180000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Maç Özel</title>
-    <desc lang="tr">Temsilcilerimizin Avrupa maçlarının heyecanı TRT ekranları ve TABİİ'de yaşanıyor. Maç özetleri, özel röportajlar, analizler ve yorumlar, Maç Özel programında izleyicilerle buluşuyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/13/2204196039055eb9542c.jpg" />
-  </programme>
-  <programme start="20260806180000 +0000" stop="20260806190000 +0000" channel="TRT.3.tr">
-    <title lang="tr">UEFA Avrupa Konferans Ligi En Güzel Goller</title>
-    <desc lang="tr">UEFA Avrupa Konferans Ligi'nin en güzel golleri ekranlarınızda!</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/3/2204196039135eb9542c.jpg" />
-  </programme>
-  <programme start="20260806190000 +0000" stop="20260806210000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Maç Özel</title>
-    <desc lang="tr">Temsilcilerimizin Avrupa maçlarının heyecanı TRT ekranları ve TABİİ'de yaşanıyor. Maç özetleri, özel röportajlar, analizler ve yorumlar, Maç Özel programında izleyicilerle buluşuyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/83/2204196049215eb9542c.jpg" />
-  </programme>
-  <programme start="20260806210000 +0000" stop="20260806220000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Spor Artı</title>
-    <desc lang="tr">Gündemdeki tüm gelişmeler, sosyal medyaya yansıyan olaylar ve çok konuşulanlar bu programda.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/33/2204196059295eb9542c.jpg" />
-  </programme>
-  <programme start="20260806220000 +0000" stop="20260807000000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Maç Özel</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/45/2204196059375eb9542c.jpg" />
-  </programme>
-  <programme start="20260807000000 +0000" stop="20260807020000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Chelsea - Juventus</title>
-    <desc lang="tr">Chelsea ve Juventus hazırlık maçında karşı karşıya geliyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/10/2204196069455eb9542c.jpg" />
-  </programme>
-  <programme start="20260807020000 +0000" stop="20260807030000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Arsenal - Real Betis</title>
-    <desc lang="tr">Arsenal ve Real Betis takımları hazırlık maçında karşı karşıya geliyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/93/2204196069535eb9542c.jpg" />
-  </programme>
-  <programme start="20260807030000 +0000" stop="20260807050000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Liverpool - Wrexham</title>
-    <desc lang="tr">Liverpool ve Wrexham takımları hazırlık maçında karşı karşıya geliyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/87/2204196069615eb9542c.jpg" />
-  </programme>
-  <programme start="20260807050000 +0000" stop="20260808070000 +0000" channel="TRT.3.tr">
-    <title lang="tr">Transfer Günlüğü</title>
-    <desc lang="tr">Transfer dönemine dair bütün detaylar bu program ile ekranlarınıza geliyor.</desc>
-    <category lang="tr">Spor</category>
-    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/59/2204196069695eb9542c.jpg" />
-  </programme>
   <programme start="20260806011500 +0000" stop="20260806014500 +0000" channel="TV.4.tr">
     <title lang="tr">Taşların Dili</title>
     <desc lang="tr">Taşların Dili programında, tarih boyunca ayakta kalan taş yapılar, kitabeler ve anıtlar üzerinden medeniyetlerin hikâyeleri anlatılıyor. Kültürel mirasın sessiz tanıkları olan eserler, izleyiciyi tarihî bir keşfe çıkarıyor.</desc>
@@ -18063,11 +17882,11 @@
     <category lang="tr">Magazin</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260803/71/1505384470785eb9542c.jpg" />
   </programme>
-  <programme start="20260806211500 +0000" stop="20260806233000 +0000" channel="TV8.tr@SD">
-    <title>Doktor Aksoy</title>
+  <programme start="20260806233000 +0000" stop="20260807013000 +0000" channel="TV8.tr@SD">
+    <title>Gazete Magazin</title>
   </programme>
-  <programme start="20260806211500 +0000" stop="20260806233000 +0000" channel="TV8.tr@SD">
-    <title>Doktor Aksoy</title>
+  <programme start="20260806233000 +0000" stop="20260807013000 +0000" channel="TV8.tr@SD">
+    <title>Gazete Magazin</title>
   </programme>
   <programme start="20260806010000 +0000" stop="20260806033000 +0000" channel="TV8,5.HD.tr">
     <title lang="tr">Buyur Bi'de Burdan Bak</title>
@@ -20094,11 +19913,11 @@
   <programme start="20260807200000 +0000" stop="20260807210000 +0000" channel="APara.tr@SD">
     <title lang="tr">İnsan Hali</title>
   </programme>
-  <programme start="20260806210000 +0000" stop="20260806233000 +0000" channel="ASpor.tr@SD">
-    <title>Son Sayfa</title>
-  </programme>
   <programme start="20260806233000 +0000" stop="20260807000000 +0000" channel="ASpor.tr@SD">
     <title>Arşiv Odası</title>
+  </programme>
+  <programme start="20260807000000 +0000" stop="20260807020000 +0000" channel="ASpor.tr@SD">
+    <title>Transfer Raporu</title>
   </programme>
   <programme start="20260806230000 +0000" stop="20260807000000 +0000" channel="163358782054d9002fa0b0">
     <title>Ce vor plantele</title>
@@ -20354,40 +20173,40 @@
       <value>0+</value>
     </rating>
   </programme>
-  <programme start="20260806224800 +0000" stop="20260806233400 +0000" channel="211016135533c46812e566">
-    <title>Die Klapperschlangen-Jäger</title>
-  </programme>
   <programme start="20260806233400 +0000" stop="20260807002000 +0000" channel="211016135533c46812e566">
     <title>Wildnis wider Willen</title>
   </programme>
-  <programme start="20260806224800 +0000" stop="20260806233400 +0000" channel="3913298991ebe0634b3649">
-    <title>Die Klapperschlangen-Jäger</title>
+  <programme start="20260807002000 +0000" stop="20260807010500 +0000" channel="211016135533c46812e566">
+    <title>Jeremy Wade: Geheimnisse der Tiefe</title>
   </programme>
   <programme start="20260806233400 +0000" stop="20260807002000 +0000" channel="3913298991ebe0634b3649">
     <title>Wildnis wider Willen</title>
   </programme>
-  <programme start="20260806222000 +0000" stop="20260806231500 +0000" channel="2103702130b5451883e2a7">
-    <title>Vincent Munier, éternel émerveillé</title>
+  <programme start="20260807002000 +0000" stop="20260807010500 +0000" channel="3913298991ebe0634b3649">
+    <title>Jeremy Wade: Geheimnisse der Tiefe</title>
   </programme>
   <programme start="20260806231500 +0000" stop="20260807001000 +0000" channel="2103702130b5451883e2a7">
     <title>Au nom des tortues</title>
   </programme>
-  <programme start="20260806220000 +0000" stop="20260807000000 +0000" channel="9314064096e814315889b">
-    <title>Canım Ailem</title>
+  <programme start="20260807001000 +0000" stop="20260807010500 +0000" channel="2103702130b5451883e2a7">
+    <title>Heureux comme un chat</title>
   </programme>
   <programme start="20260806220000 +0000" stop="20260807000000 +0000" channel="9314064096e814315889b">
     <title>Canım Ailem</title>
   </programme>
-  <programme start="20260806204000 +0000" stop="20260806234000 +0000" channel="9008513956c6b4eb4e05">
-    <title>Dizi</title>
+  <programme start="20260806220000 +0000" stop="20260807000000 +0000" channel="9314064096e814315889b">
+    <title>Canım Ailem</title>
   </programme>
-  <programme start="20260806204000 +0000" stop="20260806234000 +0000" channel="9008513956c6b4eb4e05">
-    <title>Dizi</title>
+  <programme start="20260806234000 +0000" stop="20260807023000 +0000" channel="9008513956c6b4eb4e05">
+    <title>Aldatmak</title>
   </programme>
-  <programme start="20260806231200 +0000" stop="20260806231600 +0000" channel="BabyTV.uk@France">
+  <programme start="20260806234000 +0000" stop="20260807023000 +0000" channel="9008513956c6b4eb4e05">
+    <title>Aldatmak</title>
+  </programme>
+  <programme start="20260806235000 +0000" stop="20260806235500 +0000" channel="BabyTV.uk@France">
     <title>Schließe deine Augen</title>
   </programme>
-  <programme start="20260806231600 +0000" stop="20260806231900 +0000" channel="BabyTV.uk@France">
+  <programme start="20260806235500 +0000" stop="20260806235800 +0000" channel="BabyTV.uk@France">
     <title>Schließe deine Augen</title>
   </programme>
   <programme start="20260805212000 +0000" stop="20260805222000 +0000" channel="58d29bb0eefad3db9c6062bc">
@@ -20594,16 +20413,16 @@
   <programme start="20260807050000 +0000" stop="20260807064500 +0000" channel="3694662475a36c53181838">
     <title>E.Erokspor - Çorum FK</title>
   </programme>
-  <programme start="20260806220000 +0000" stop="20260806234500 +0000" channel="179745960216563080394f">
-    <title>Handball : Coupe de France féminine</title>
-  </programme>
   <programme start="20260806234500 +0000" stop="20260807040000 +0000" channel="179745960216563080394f">
     <title>Ça se passe sur beIN SPORTS</title>
   </programme>
-  <programme start="20260806220000 +0000" stop="20260806234500 +0000" channel="2834514943d9fcc1df9594">
-    <title>Handball : Coupe de France féminine</title>
+  <programme start="20260807040000 +0000" stop="20260807060000 +0000" channel="179745960216563080394f">
+    <title>Ça se passe sur beIN SPORTS</title>
   </programme>
   <programme start="20260806234500 +0000" stop="20260807040000 +0000" channel="2834514943d9fcc1df9594">
+    <title>Ça se passe sur beIN SPORTS</title>
+  </programme>
+  <programme start="20260807040000 +0000" stop="20260807060000 +0000" channel="2834514943d9fcc1df9594">
     <title>Ça se passe sur beIN SPORTS</title>
   </programme>
   <programme start="20260806204500 +0000" stop="20260807044500 +0000" channel="17005958018c5d23b49ef0">
@@ -20708,17 +20527,11 @@
   <programme start="20260807000000 +0000" stop="20260807010000 +0000" channel="4017295127660d677c32f9">
     <title>No Data</title>
   </programme>
-  <programme start="20260806231000 +0000" stop="20260806232000 +0000" channel="29439742084c66e3a8bcec">
-    <title>Looney Tunes</title>
+  <programme start="20260806233000 +0000" stop="20260807000000 +0000" channel="29439742084c66e3a8bcec">
+    <title>The Scooby-Doo Show</title>
   </programme>
-  <programme start="20260806232000 +0000" stop="20260806233000 +0000" channel="29439742084c66e3a8bcec">
-    <title>Looney Tunes</title>
-  </programme>
-  <programme start="20260806231000 +0000" stop="20260806232000 +0000" channel="11743931b356e8661a4d">
-    <title>Looney Tunes</title>
-  </programme>
-  <programme start="20260806232000 +0000" stop="20260806233000 +0000" channel="11743931b356e8661a4d">
-    <title>Looney Tunes</title>
+  <programme start="20260807000000 +0000" stop="20260807003000 +0000" channel="29439742084c66e3a8bcec">
+    <title>The Scooby-Doo Show</title>
   </programme>
   <programme start="20260806200000 +0000" stop="20260807035500 +0000" channel="BRT1.cy@SD">
     <title>Hayata Dair</title>
@@ -23545,59 +23358,17 @@
   <programme start="20260807203500 +0000" stop="20260807213000 +0000" channel="67a3521bcfef0b3744abd66d">
     <title lang="tr">Ayrım</title><desc lang="tr">The Divide, en tepedeki %0,1&apos;in en alttaki %90 kadar servete sahip olduğu günümüz ABD ve İngiltere&apos;sinde daha iyi bir yaşam için çabalayan 7 kişinin hikayesini anlatıyor. Bu hikayeleri bir araya getirerek, hayatımızın neredeyse her alanının tek bir faktör tarafından nasıl kontrol edildiğini ortaya çıkarıyoruz: zengin ve fakir arasındaki uçurumun boyutu.</desc><category lang="tr">Belgesel</category><category lang="tr">Genel</category>
   </programme>
-  <programme start="20260806222500 +0000" stop="20260806232000 +0000" channel="26690245101fd09556fb3d">
-    <title>Cele mai letale animale din Africa</title>
-  </programme>
   <programme start="20260806232000 +0000" stop="20260807001500 +0000" channel="26690245101fd09556fb3d">
     <title>Ucigaşi iscusiţi</title>
   </programme>
-  <programme start="20260806222500 +0000" stop="20260806232000 +0000" channel="36503860629402933193b7">
-    <title>Cele mai letale animale din Africa</title>
+  <programme start="20260807001500 +0000" stop="20260807011000 +0000" channel="26690245101fd09556fb3d">
+    <title>Atacuri rapide</title>
   </programme>
   <programme start="20260806232000 +0000" stop="20260807001500 +0000" channel="36503860629402933193b7">
     <title>Ucigaşi iscusiţi</title>
   </programme>
-  <programme start="20260805040000 +0000" stop="20260805070000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260805070000 +0000" stop="20260805100000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260805100000 +0000" stop="20260805120000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260805120000 +0000" stop="20260805160000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260805160000 +0000" stop="20260805190000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260805190000 +0000" stop="20260805200000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260805200000 +0000" stop="20260806040000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260806040000 +0000" stop="20260806070000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260806070000 +0000" stop="20260806100000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260806100000 +0000" stop="20260806120000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260806120000 +0000" stop="20260806160000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260806160000 +0000" stop="20260806190000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260806190000 +0000" stop="20260806200000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
-  </programme>
-  <programme start="20260806200000 +0000" stop="20260807040000 +0000" channel="DreamTurk.tr@SD">
-    <title lang="tr">Dream Hits</title>
+  <programme start="20260807001500 +0000" stop="20260807011000 +0000" channel="36503860629402933193b7">
+    <title>Atacuri rapide</title>
   </programme>
   <programme start="20260806230000 +0000" stop="20260807000000 +0000" channel="10132204470a3c3b52576d">
     <title>Mysteries of the Abandoned</title>
@@ -23773,22 +23544,22 @@
   <programme start="20260807200000 +0000" stop="20260807210000 +0000" channel="InvestigationDiscoveryEurope.us@SD">
     <title lang="tr">Playboy Cinayetleri</title><desc lang="tr">Playboy tavşan kızı Jackie Hendrickson, bir plastik cerrahın cazibesine karşı koyamaz. Ancak ateşli ilişkileri trajik bir olaylar zincirini tetikler.</desc>
   </programme>
-  <programme start="20260806224600 +0000" stop="20260806231400 +0000" channel="1161899432db055970dd1d">
-    <title>Immer wieder Jim</title>
-  </programme>
   <programme start="20260806231400 +0000" stop="20260807011400 +0000" channel="1161899432db055970dd1d">
     <title>Teleshopping</title>
   </programme>
-  <programme start="20260806224600 +0000" stop="20260806231400 +0000" channel="3578544716a4cc42d03dcd">
-    <title>Immer wieder Jim</title>
+  <programme start="20260807011400 +0000" stop="20260807034500 +0000" channel="1161899432db055970dd1d">
+    <title>Teleshopping</title>
   </programme>
   <programme start="20260806231400 +0000" stop="20260807011400 +0000" channel="3578544716a4cc42d03dcd">
     <title>Teleshopping</title>
   </programme>
-  <programme start="20260806230000 +0000" stop="20260806233000 +0000" channel="34228536805e87ad5629aa">
-    <title>Pokémon the Series: Indigo League</title>
+  <programme start="20260807011400 +0000" stop="20260807034500 +0000" channel="3578544716a4cc42d03dcd">
+    <title>Teleshopping</title>
   </programme>
   <programme start="20260806233000 +0000" stop="20260807000000 +0000" channel="34228536805e87ad5629aa">
+    <title>Pokémon the Series: Indigo League</title>
+  </programme>
+  <programme start="20260807000000 +0000" stop="20260807003000 +0000" channel="34228536805e87ad5629aa">
     <title>Pokémon the Series: Indigo League</title>
   </programme>
   <programme start="20260806230000 +0000" stop="20260807000000 +0000" channel="DiyanetTV.tr@SD">
@@ -23821,17 +23592,17 @@
   <programme start="20260807000000 +0000" stop="20260807010000 +0000" channel="1195429280e03f87d3589d">
     <title>No Data</title>
   </programme>
-  <programme start="20260806230000 +0000" stop="20260806233000 +0000" channel="2999246297c78de5c9a770">
-    <title>Sektörel Bakış</title>
-  </programme>
   <programme start="20260806233000 +0000" stop="20260807000000 +0000" channel="2999246297c78de5c9a770">
     <title>Yönetim Katı</title>
   </programme>
-  <programme start="20260806230000 +0000" stop="20260806233000 +0000" channel="Ekoturk.tr@SD">
-    <title>Sektörel Bakış</title>
+  <programme start="20260807000000 +0000" stop="20260807003000 +0000" channel="2999246297c78de5c9a770">
+    <title>Küresel Bakış</title>
   </programme>
   <programme start="20260806233000 +0000" stop="20260807000000 +0000" channel="Ekoturk.tr@SD">
     <title>Yönetim Katı</title>
+  </programme>
+  <programme start="20260807000000 +0000" stop="20260807003000 +0000" channel="Ekoturk.tr@SD">
+    <title>Küresel Bakış</title>
   </programme>
   <programme start="20260805215400 +0000" stop="20260805230000 +0000" channel="EuroD.tr@SD">
     <title lang="tr">Büyük Aşk</title><desc lang="tr">Gümüş boyalı sokak sanatçısı ve ona aşık olan yumuşak sesli hayvanat bahçesi görevlisi hakkında sıradışı bir romantik komedi.</desc><category lang="tr">Sinema</category><category lang="tr">Romantik</category>
@@ -23890,29 +23661,29 @@
   <programme start="20260806192300 +0000" stop="20260806222300 +0000" channel="EuroD.tr@SD">
     <title lang="tr">Çetin Ceviz 2</title><desc lang="tr">Herkes tarafından uğursuz olarak görülen Hatice sonunda aradığı aşkı bulmuş ve Tahsin ile evlenmiştir.Düğün geceleri Tahsin’in babasının vefat haberi ile yeni evli çiftimiz apar topar köyün yolunu tutar.Babasının mirasının açıklanması ise herkesin ikinci bir şok yaşamasına sebep olur çünkü babası tüm mirasını Tahsin’e bırakmıştır.Tahsin’in kardeşleri ve köylülerle açık olan arası bu haberden sonra iyice bozulur.Yalnız ortada kimsenin bilmediği bir gömü vardır ve kardeşler bu gömüyü bulmak için kolları sıvarlar.Tahsin ve Hatice ise tüm yaşadıklarından sonra kendilerine kalan mirası sürpriz bir şekilde değerlendirmeye karar verirler.</desc><category lang="tr">Sinema</category><category lang="tr">Macera-filmi</category>
   </programme>
-  <programme start="20260806170000 +0000" stop="20260806233000 +0000" channel="1827094680ef16ad2f8b38">
-    <title>Dizi</title>
+  <programme start="20260806233000 +0000" stop="20260807020000 +0000" channel="1827094680ef16ad2f8b38">
+    <title>Güzel Köylü</title>
   </programme>
-  <programme start="20260806170000 +0000" stop="20260806233000 +0000" channel="1827094680ef16ad2f8b38">
-    <title>Dizi</title>
+  <programme start="20260806233000 +0000" stop="20260807020000 +0000" channel="1827094680ef16ad2f8b38">
+    <title>Güzel Köylü</title>
   </programme>
-  <programme start="20260806170000 +0000" stop="20260806233000 +0000" channel="38145219358d998f180862">
-    <title>Dizi</title>
+  <programme start="20260806233000 +0000" stop="20260807020000 +0000" channel="38145219358d998f180862">
+    <title>Güzel Köylü</title>
   </programme>
-  <programme start="20260806170000 +0000" stop="20260806233000 +0000" channel="38145219358d998f180862">
-    <title>Dizi</title>
-  </programme>
-  <programme start="20260806230000 +0000" stop="20260806233000 +0000" channel="3793200644fd418f955402">
-    <title>Snooker-WM 2026</title>
+  <programme start="20260806233000 +0000" stop="20260807020000 +0000" channel="38145219358d998f180862">
+    <title>Güzel Köylü</title>
   </programme>
   <programme start="20260806233000 +0000" stop="20260807010000 +0000" channel="3793200644fd418f955402">
     <title>Sendepause</title>
   </programme>
-  <programme start="20260806220000 +0000" stop="20260806233000 +0000" channel="1821942247abefa6aae14b">
-    <title>Tour de France Frauen 2026</title>
+  <programme start="20260807010000 +0000" stop="20260807063000 +0000" channel="3793200644fd418f955402">
+    <title>Sendepause</title>
   </programme>
   <programme start="20260806233000 +0000" stop="20260807013000 +0000" channel="1821942247abefa6aae14b">
     <title>Snooker-WM 2026</title>
+  </programme>
+  <programme start="20260807013000 +0000" stop="20260807030000 +0000" channel="1821942247abefa6aae14b">
+    <title>Tour de France Frauen 2026</title>
   </programme>
   <programme start="20260805210000 +0000" stop="20260805213000 +0000" channel="FashionTVEurope.fr@SD">
     <title lang="tr">Fashion Magazines</title><desc lang="tr">FashionTV brings you the latest coverage during the world&apos;s biggest fashion weeks, highlighting the best shows, backstage moments, front row appearances of the biggest brands and designers worldwide. Fashion news and reviews. i see it first.Explore the current array of the top fashion magazines, the vehicles of our luxury dreams and the source of inspiration. Check in for the latest updates, cutest outlooks and fashion insights</desc><category lang="tr">Bos-vakit</category><category lang="tr">Genel</category>
@@ -28172,11 +27943,11 @@
   <programme start="20260807190000 +0000" stop="20260807210000 +0000" channel="HTSporTV.tr@SD">
     <title lang="tr">Gece Yarısı</title>
   </programme>
-  <programme start="20260806224300 +0000" stop="20260806232500 +0000" channel="420748756258a17d4693fc">
-    <title>History&apos;s Greatest Mysteries</title>
-  </programme>
   <programme start="20260806232500 +0000" stop="20260807000500 +0000" channel="420748756258a17d4693fc">
     <title>History&apos;s Deadliest mit Ving Rhames</title>
+  </programme>
+  <programme start="20260807000500 +0000" stop="20260807004500 +0000" channel="420748756258a17d4693fc">
+    <title>Wunder und Heiligtümer mit Dennis Quaid</title>
   </programme>
   <programme start="20260806020000 +0000" stop="20260806030000 +0000" channel="KADIRGA.TV.tr">
     <title lang="tr">Hatm-i Şerif</title>
@@ -29034,17 +28805,17 @@
     <category lang="tr">Haber</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260802/53/0105238167955eb8f42a.jpg" />
   </programme>
-  <programme start="20260806230000 +0000" stop="20260806233000 +0000" channel="2146960844b985fa67702d">
-    <title>Mercek</title>
+  <programme start="20260806233000 +0000" stop="20260807011500 +0000" channel="2146960844b985fa67702d">
+    <title>Bu Ülke</title>
   </programme>
-  <programme start="20260806230000 +0000" stop="20260806233000 +0000" channel="2146960844b985fa67702d">
-    <title>Mercek</title>
+  <programme start="20260806233000 +0000" stop="20260807011500 +0000" channel="2146960844b985fa67702d">
+    <title>Bu Ülke</title>
   </programme>
-  <programme start="20260806230000 +0000" stop="20260806233000 +0000" channel="4179564147cef11bb1db33">
-    <title>Mercek</title>
+  <programme start="20260806233000 +0000" stop="20260807011500 +0000" channel="4179564147cef11bb1db33">
+    <title>Bu Ülke</title>
   </programme>
-  <programme start="20260806230000 +0000" stop="20260806233000 +0000" channel="4179564147cef11bb1db33">
-    <title>Mercek</title>
+  <programme start="20260806233000 +0000" stop="20260807011500 +0000" channel="4179564147cef11bb1db33">
+    <title>Bu Ülke</title>
   </programme>
   <programme start="20260806043000 +0000" stop="20260806060000 +0000" channel="KANAL.26.tr">
     <title lang="tr">Çizgi Film</title>
@@ -31900,29 +31671,29 @@
   <programme start="20260807000000 +0000" stop="20260807010000 +0000" channel="LiderHaber.tr@SD">
     <title>No Data</title>
   </programme>
-  <programme start="20260806223000 +0000" stop="20260806233000 +0000" channel="3572490349f5368e3d7944">
-    <title>Vacsorakirály</title>
-  </programme>
   <programme start="20260806233000 +0000" stop="20260807002500 +0000" channel="3572490349f5368e3d7944">
     <title>Vacsorakirály</title>
   </programme>
-  <programme start="20260806223000 +0000" stop="20260806233300 +0000" channel="8162972206833140ccc15">
-    <title>Kongen befaler UK</title>
+  <programme start="20260807002500 +0000" stop="20260807005000 +0000" channel="3572490349f5368e3d7944">
+    <title>Keverd újra, Buday!</title>
   </programme>
   <programme start="20260806233300 +0000" stop="20260807000300 +0000" channel="8162972206833140ccc15">
     <title>The Big Bang Theory</title>
   </programme>
-  <programme start="20260806214000 +0000" stop="20260806233000 +0000" channel="3597292408836ecd197e13">
-    <title>Çıtkırıldım</title>
+  <programme start="20260807000300 +0000" stop="20260807003000 +0000" channel="8162972206833140ccc15">
+    <title>The Big Bang Theory</title>
   </programme>
   <programme start="20260806233000 +0000" stop="20260807010000 +0000" channel="3597292408836ecd197e13">
     <title>Yavrularım</title>
   </programme>
-  <programme start="20260806214000 +0000" stop="20260806233000 +0000" channel="353384054fb5f9b63f6c7">
-    <title>Çıtkırıldım</title>
+  <programme start="20260807010000 +0000" stop="20260807025000 +0000" channel="3597292408836ecd197e13">
+    <title>Vahşi Gelin</title>
   </programme>
   <programme start="20260806233000 +0000" stop="20260807010000 +0000" channel="353384054fb5f9b63f6c7">
     <title>Yavrularım</title>
+  </programme>
+  <programme start="20260807010000 +0000" stop="20260807025000 +0000" channel="353384054fb5f9b63f6c7">
+    <title>Vahşi Gelin</title>
   </programme>
   <programme start="20260805214000 +0000" stop="20260805233000 +0000" channel="MovieSmartClassic.tr@SD">
     <title lang="tr">Çıtkırıldım</title><desc lang="tr">Armatör Cemil Bey’in kızı Filiz, kolejde eğitim alır. Ailesi okula bağışta bulunduğu için yaptığı birçok taşkınlık mazur görülür. Bir gün okula Orhan adında yeni bir edebiyat öğretmeni atanır. Orhan, daha ilk günden Filiz’e davranışları yüzünden ikazda bulunur. Filiz ise Orhan’ın gözüne girebilmek için derslerine çalışmaya başlar. Bir süre sonra Filiz ve Orhan arasında bir aşk başlayacaktır.</desc>
@@ -32014,17 +31785,17 @@
   <programme start="20260807201000 +0000" stop="20260807231000 +0000" channel="MovieSmartClassic.tr@SD">
     <title lang="tr">Sabıkalı</title><desc lang="tr">İlkokul öğretmeni olan Aysel kendisine aşık olan Ayhan ile evlenmek üzeredir. Zengin bir insan olan Ayhan&apos;ın, birlikte yaşadığı serseri ruhlu ve kötü kalpli yeğeni Tunç, onların bu mutluluğunu kıskanmakta ve Ayhan&apos;a karşı öfke duymaktadır. Tunç, çiftin balayı için birlikte gittikleri Uludağ&apos;da Ayhan&apos;a tuzak kurar ve Aysel&apos;e tecavüz eder. Genç kadın intikamını almak isterken yanlışlıkla kocasını vurur ve hayatı bir anda cehenneme döner.</desc>
   </programme>
-  <programme start="20260806214000 +0000" stop="20260806233000 +0000" channel="MovieSmartTurk.tr@SD">
-    <title>Çıtkırıldım</title>
-  </programme>
   <programme start="20260806233000 +0000" stop="20260807010000 +0000" channel="MovieSmartTurk.tr@SD">
     <title>Yavrularım</title>
   </programme>
-  <programme start="20260806224000 +0000" stop="20260806232700 +0000" channel="1960546091bcaf052d3800">
-    <title>Defender a Europa</title>
+  <programme start="20260807010000 +0000" stop="20260807025000 +0000" channel="MovieSmartTurk.tr@SD">
+    <title>Vahşi Gelin</title>
   </programme>
   <programme start="20260806232700 +0000" stop="20260807001100 +0000" channel="1960546091bcaf052d3800">
     <title>Defender a Europa</title>
+  </programme>
+  <programme start="20260807001100 +0000" stop="20260807010000 +0000" channel="1960546091bcaf052d3800">
+    <title>Mega Fábricas</title>
   </programme>
   <programme start="20260806230000 +0000" stop="20260807000000 +0000" channel="332065496847e1d2ff5743">
     <title>Port Protection Alaska</title>
@@ -34876,11 +34647,11 @@
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/23/2126322291525eb9b42e.jpg" />
     <episode-num system="onscreen">S1 E4</episode-num>
   </programme>
-  <programme start="20260806230300 +0000" stop="20260806232700 +0000" channel="1384991998bbb9bc709eb1">
-    <title>PAW Patrol</title>
+  <programme start="20260806235000 +0000" stop="20260807001400 +0000" channel="1384991998bbb9bc709eb1">
+    <title>Deer Squad</title>
   </programme>
-  <programme start="20260806232700 +0000" stop="20260806235000 +0000" channel="1384991998bbb9bc709eb1">
-    <title>PAW Patrol</title>
+  <programme start="20260807001400 +0000" stop="20260807003500 +0000" channel="1384991998bbb9bc709eb1">
+    <title>Ben &amp; Holly&apos;s Little Kingdom</title>
   </programme>
   <programme start="20260806000800 +0000" stop="20260806001900 +0000" channel="NICKELODEON.tr">
     <title lang="tr">Patrick Star Show</title>
@@ -37543,11 +37314,17 @@
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/69/2136292426645eb7f426.jpg" />
     <episode-num system="onscreen">S4 E12</episode-num>
   </programme>
-  <programme start="20260806220200 +0000" stop="20260806233100 +0000" channel="3839151666edd74f1c6236">
-    <title>OUTDEH - Die Jugend von Jamaika</title>
+  <programme start="20260806235000 +0000" stop="20260806235500 +0000" channel="889661020f5c59638da26">
+    <title>Reklam</title>
   </programme>
-  <programme start="20260806233100 +0000" stop="20260806234900 +0000" channel="3839151666edd74f1c6236">
-    <title>SURF: What it Takes</title>
+  <programme start="20260806235500 +0000" stop="20260807004000 +0000" channel="889661020f5c59638da26">
+    <title>Belediye Programları</title>
+  </programme>
+  <programme start="20260806234900 +0000" stop="20260807001900 +0000" channel="3839151666edd74f1c6236">
+    <title>Stabhochspringer auf Rekordjagd</title>
+  </programme>
+  <programme start="20260807001900 +0000" stop="20260807004100 +0000" channel="3839151666edd74f1c6236">
+    <title>Red Bull Durchgespielt</title>
   </programme>
   <programme start="20260806000000 +0000" stop="20260806020000 +0000" channel="SEMERKAND.HD.tr">
     <title lang="tr">Çerçeve</title>
@@ -41933,23 +41710,167 @@
   <programme start="20260807201500 +0000" stop="20260807211000 +0000" channel="TarihTV.tr@SD">
     <title lang="tr">2. Dünya Savaşı&apos;nın Dönüm...</title><desc lang="tr">Bu belgesel serisi, II. Dünya Savaşı’nın başlangıcından sonuna kadar uzanan karmaşık ve yıkıcı süreci ele alıyor. İlk çatışmalardan atom bombasına kadar uzanan hikâye, Avrupa, Asya, Kuzey Afrika ve okyanuslardaki savaş cephelerini kapsıyor. Altı bölüm boyunca yapım, savaşın en önemli 50 dönüm noktasını kronolojik sırayla inceliyor.</desc><category lang="tr">Sinema</category><category lang="tr">Genel</category>
   </programme>
-  <programme start="20260806223000 +0000" stop="20260806234500 +0000" channel="4197507696203cc2aa6667">
-    <title>Arka Sokaklar</title>
+  <programme start="20260806030000 +0000" stop="20260806070000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260729/56/2305187488095eb8f42a.jpg" />
+  </programme>
+  <programme start="20260806070000 +0000" stop="20260806110000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260729/71/2305187488175eb8f42a.jpg" />
+  </programme>
+  <programme start="20260806110000 +0000" stop="20260806150000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260729/33/2305187488255eb8f42a.jpg" />
+  </programme>
+  <programme start="20260806150000 +0000" stop="20260806190000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260729/45/2305187488335eb8f42a.jpg" />
+  </programme>
+  <programme start="20260806190000 +0000" stop="20260806230000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260729/64/2305187498415eb8f42a.jpg" />
+  </programme>
+  <programme start="20260806230000 +0000" stop="20260807030000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260729/95/2305187498495eb8f42a.jpg" />
+  </programme>
+  <programme start="20260807030000 +0000" stop="20260807070000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260730/6/2305182286115eb88428.jpg" />
+  </programme>
+  <programme start="20260807070000 +0000" stop="20260807110000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260730/20/2305182286195eb88428.jpg" />
+  </programme>
+  <programme start="20260807110000 +0000" stop="20260807150000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260730/38/2305182286275eb88428.jpg" />
+  </programme>
+  <programme start="20260807150000 +0000" stop="20260807190000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260730/16/2305182296355eb88428.jpg" />
+  </programme>
+  <programme start="20260807190000 +0000" stop="20260807230000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260730/14/2305182296435eb88428.jpg" />
+  </programme>
+  <programme start="20260807230000 +0000" stop="20260808030000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260730/29/2305182296515eb88428.jpg" />
+  </programme>
+  <programme start="20260808030000 +0000" stop="20260808070000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260731/37/2305213050895eb7f426.jpg" />
+  </programme>
+  <programme start="20260808070000 +0000" stop="20260808110000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260731/18/2305213050975eb7f426.jpg" />
+  </programme>
+  <programme start="20260808110000 +0000" stop="20260808150000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260731/48/2305213061055eb7f426.jpg" />
+  </programme>
+  <programme start="20260808150000 +0000" stop="20260808190000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260731/80/2305213061135eb7f426.jpg" />
+  </programme>
+  <programme start="20260808190000 +0000" stop="20260808230000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260731/66/2305213061215eb7f426.jpg" />
+  </programme>
+  <programme start="20260808230000 +0000" stop="20260809030000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202607/20260731/14/2305213061295eb7f426.jpg" />
+  </programme>
+  <programme start="20260809030000 +0000" stop="20260809070000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260802/84/0105212502775eb8f42a.jpg" />
+  </programme>
+  <programme start="20260809070000 +0000" stop="20260809110000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260802/90/0105212502855eb8f42a.jpg" />
+  </programme>
+  <programme start="20260809110000 +0000" stop="20260809150000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260802/53/0105212502935eb8f42a.jpg" />
+  </programme>
+  <programme start="20260809150000 +0000" stop="20260809190000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260802/88/0105212513015eb8f42a.jpg" />
+  </programme>
+  <programme start="20260809190000 +0000" stop="20260809230000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260802/15/0105212513095eb8f42a.jpg" />
+  </programme>
+  <programme start="20260809230000 +0000" stop="20260810030000 +0000" channel="TARIM.TV.tr">
+    <title lang="tr">Tarım</title>
+    <desc lang="tr">Tarım ve Çevre Programı, bitkisel ve hayvansal üretimden tarım teknolojilerine, su ve orman kaynaklarından çevresel gelişmelere kadar geniş bir yelpazeyi ele alır. Uzman konuklar ve canlı analizlerle izleyiciye güncel bilgiler sunar, üretici ve çevreyle ilgilenenler için güvenilir bir kaynaktır.</desc>
+    <category lang="tr">Diğer</category>
+    <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260802/71/0105212513175eb8f42a.jpg" />
   </programme>
   <programme start="20260806234500 +0000" stop="20260807003000 +0000" channel="4197507696203cc2aa6667">
     <title>Criminal Minds</title>
   </programme>
-  <programme start="20260806223000 +0000" stop="20260806234500 +0000" channel="42295295583463c26f2597">
-    <title>Arka Sokaklar</title>
+  <programme start="20260807003000 +0000" stop="20260807014500 +0000" channel="4197507696203cc2aa6667">
+    <title>Kanıt</title>
   </programme>
   <programme start="20260806234500 +0000" stop="20260807003000 +0000" channel="42295295583463c26f2597">
     <title>Criminal Minds</title>
   </programme>
-  <programme start="20260806223000 +0000" stop="20260806234500 +0000" channel="1333128393a9d21f4d5773">
-    <title>Arka Sokaklar</title>
+  <programme start="20260807003000 +0000" stop="20260807014500 +0000" channel="42295295583463c26f2597">
+    <title>Kanıt</title>
   </programme>
   <programme start="20260806234500 +0000" stop="20260807003000 +0000" channel="1333128393a9d21f4d5773">
     <title>Criminal Minds</title>
+  </programme>
+  <programme start="20260807003000 +0000" stop="20260807014500 +0000" channel="1333128393a9d21f4d5773">
+    <title>Kanıt</title>
   </programme>
   <programme start="20260806230000 +0000" stop="20260807000000 +0000" channel="TRT4K.tr@SD">
     <title>No Data</title>
@@ -41957,23 +41878,23 @@
   <programme start="20260807000000 +0000" stop="20260807010000 +0000" channel="TRT4K.tr@SD">
     <title>No Data</title>
   </programme>
-  <programme start="20260806230500 +0000" stop="20260806233000 +0000" channel="6857948301fe52b3221a3">
-    <title>Ege ile Gaga</title>
-  </programme>
   <programme start="20260806233000 +0000" stop="20260806235500 +0000" channel="6857948301fe52b3221a3">
     <title>Z Takımı</title>
   </programme>
-  <programme start="20260806230500 +0000" stop="20260806233000 +0000" channel="792228122ef3135bf6801">
-    <title>Ege ile Gaga</title>
+  <programme start="20260806235500 +0000" stop="20260807002000 +0000" channel="6857948301fe52b3221a3">
+    <title>Kehribar İle Boncuk</title>
   </programme>
   <programme start="20260806233000 +0000" stop="20260806235500 +0000" channel="792228122ef3135bf6801">
     <title>Z Takımı</title>
   </programme>
-  <programme start="20260806230500 +0000" stop="20260806233000 +0000" channel="3979837190d92f4a65c83b">
-    <title>Ege ile Gaga</title>
+  <programme start="20260806235500 +0000" stop="20260807002000 +0000" channel="792228122ef3135bf6801">
+    <title>Kehribar İle Boncuk</title>
   </programme>
   <programme start="20260806233000 +0000" stop="20260806235500 +0000" channel="3979837190d92f4a65c83b">
     <title>Z Takımı</title>
+  </programme>
+  <programme start="20260806235500 +0000" stop="20260807002000 +0000" channel="3979837190d92f4a65c83b">
+    <title>Kehribar İle Boncuk</title>
   </programme>
   <programme start="20260806000000 +0000" stop="20260806001000 +0000" channel="TRT.DIYANET.COCUK.tr">
     <title lang="tr">Şeker Hoca</title>
@@ -43462,11 +43383,11 @@
     <category lang="tr">Eğitim</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202608/20260804/70/2204517622215eb9542c.jpg" />
   </programme>
-  <programme start="20260806224500 +0000" stop="20260806231500 +0000" channel="TRTEBA.tr@SD">
-    <title>Din Kültürü Ve Ahlak Bilgisi - 10</title>
+  <programme start="20260806234500 +0000" stop="20260807001500 +0000" channel="TRTEBA.tr@SD">
+    <title>Tarih - 11</title>
   </programme>
-  <programme start="20260806231500 +0000" stop="20260806234500 +0000" channel="TRTEBA.tr@SD">
-    <title>Felsefe - 10</title>
+  <programme start="20260807001500 +0000" stop="20260807004500 +0000" channel="TRTEBA.tr@SD">
+    <title>İngilizce - 11</title>
   </programme>
   <programme start="20260806231000 +0000" stop="20260807004000 +0000" channel="TRTKurdi.tr@SD">
     <title>Yunus Emre Aşkın Yolculuğu</title>
@@ -43474,11 +43395,17 @@
   <programme start="20260806231000 +0000" stop="20260807004000 +0000" channel="TRTKurdi.tr@SD">
     <title>Aşkın Yolculuğu Yunus Emre (Rêwîtıya Evînê)</title>
   </programme>
-  <programme start="20260806230500 +0000" stop="20260806233000 +0000" channel="5500451029f0e83b65cf8">
-    <title>Ege ile Gaga</title>
+  <programme start="20260806230000 +0000" stop="20260807000000 +0000" channel="TRTMuzik.tr@SD">
+    <title>Sazın Dilinden</title>
+  </programme>
+  <programme start="20260807000000 +0000" stop="20260807004500 +0000" channel="TRTMuzik.tr@SD">
+    <title>Ümit Yılmaz İle Doğaçlama</title>
   </programme>
   <programme start="20260806233000 +0000" stop="20260806235500 +0000" channel="5500451029f0e83b65cf8">
     <title>Z Takımı</title>
+  </programme>
+  <programme start="20260806235500 +0000" stop="20260807002000 +0000" channel="5500451029f0e83b65cf8">
+    <title>Kehribar İle Boncuk</title>
   </programme>
   <programme start="20260806203000 +0000" stop="20260807000000 +0000" channel="58d29bb0eefad3db9c6062cc">
     <title>Bigger Than Five</title>
@@ -43486,11 +43413,11 @@
   <programme start="20260807000000 +0000" stop="20260807003000 +0000" channel="58d29bb0eefad3db9c6062cc">
     <title>News</title>
   </programme>
-  <programme start="20260806220000 +0000" stop="20260806234500 +0000" channel="21895121eeea9f4b76d9">
-    <title>İnce Sarı Çizgi</title>
-  </programme>
   <programme start="20260806234500 +0000" stop="20260807003000 +0000" channel="21895121eeea9f4b76d9">
     <title>Sinema +</title>
+  </programme>
+  <programme start="20260807003000 +0000" stop="20260807010000 +0000" channel="21895121eeea9f4b76d9">
+    <title>Edebi Sofralar</title>
   </programme>
   <programme start="20260806230000 +0000" stop="20260807000000 +0000" channel="4073129368ac841af4a4cd">
     <title>No Data</title>
@@ -43498,17 +43425,17 @@
   <programme start="20260807000000 +0000" stop="20260807010000 +0000" channel="4073129368ac841af4a4cd">
     <title>No Data</title>
   </programme>
-  <programme start="20260806230000 +0000" stop="20260806235000 +0000" channel="TV5.tr@SD">
+  <programme start="20260806235200 +0000" stop="20260806235300 +0000" channel="TV5.tr@SD">
+    <title>Namaz Vakti</title>
+  </programme>
+  <programme start="20260806235300 +0000" stop="20260807004300 +0000" channel="TV5.tr@SD">
     <title>Düşünme Vakti</title>
-  </programme>
-  <programme start="20260806235000 +0000" stop="20260806235200 +0000" channel="TV5.tr@SD">
-    <title>Sponsor</title>
-  </programme>
-  <programme start="20260806222000 +0000" stop="20260806234000 +0000" channel="TV8.cr@SD">
-    <title>Quattro matrimoni</title>
   </programme>
   <programme start="20260806234000 +0000" stop="20260807010000 +0000" channel="TV8.cr@SD">
     <title>Quattro matrimoni</title>
+  </programme>
+  <programme start="20260807010000 +0000" stop="20260807023000 +0000" channel="TV8.cr@SD">
+    <title>Il passato dimenticato</title>
   </programme>
   <programme start="20260806221500 +0000" stop="20260807005000 +0000" channel="TV85.tr@SD">
     <title>Bir Demet Tiyatro</title>
@@ -46518,438 +46445,6 @@
   <programme start="20260807020000 +0000" stop="20260807034500 +0000" channel="Tivi6.tr@SD">
     <title>Hatim</title>
   </programme>
-  <programme start="20260806003000 +0300" stop="20260806021500 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">O.J.: Made in America</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806021500 +0300" stop="20260806060000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806060000 +0300" stop="20260806094500 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806094500 +0300" stop="20260806134000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806134000 +0300" stop="20260806150000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">George Best: All By Himself</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806150000 +0300" stop="20260806170000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Her Gün Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806170000 +0300" stop="20260806173000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Dünyadan Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806173000 +0300" stop="20260806180000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Football Nation</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806180000 +0300" stop="20260806190000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Ana Haber</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806190000 +0300" stop="20260806200000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Transfer Market</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806200000 +0300" stop="20260806210000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">AlulaTour</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806210000 +0300" stop="20260806220000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Unmatched</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260806220000 +0300" stop="20260807000000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Her Gece Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807000000 +0300" stop="20260807014500 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">O.J.: Made in America</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807014500 +0300" stop="20260807060000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807060000 +0300" stop="20260807094500 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807094500 +0300" stop="20260807133000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807133000 +0300" stop="20260807140000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Football Nation</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807140000 +0300" stop="20260807150000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Ribaund Özel</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807150000 +0300" stop="20260807170000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Her Gün Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807170000 +0300" stop="20260807173000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Dünyadan Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807173000 +0300" stop="20260807180000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Football Nation</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807180000 +0300" stop="20260807190000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Ana Haber</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807190000 +0300" stop="20260807200000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Ribaund Özel</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807200000 +0300" stop="20260807220000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Transfer Market</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260807220000 +0300" stop="20260808000000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Her Gece Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808000000 +0300" stop="20260808013000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">O.J.: Made in America</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808013000 +0300" stop="20260808053000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808053000 +0300" stop="20260808090000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808090000 +0300" stop="20260808110000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türkiye Modern Pentatlon</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808110000 +0300" stop="20260808123000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Malta-Türkiye</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808123000 +0300" stop="20260808130000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Football Nation</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808130000 +0300" stop="20260808140000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Macaristan Bisiklet Turu</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808140000 +0300" stop="20260808150000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">The Price of Pennsylvania</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808150000 +0300" stop="20260808170000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Hafta Sonu Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808170000 +0300" stop="20260808173000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Dünyadan Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808173000 +0300" stop="20260808180000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Football Nation</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808180000 +0300" stop="20260808190000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Ana Haber</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808190000 +0300" stop="20260808200000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Paris Maratonu</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808200000 +0300" stop="20260808220000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Transfer Market</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260808220000 +0300" stop="20260809000000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Her Gece Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809000000 +0300" stop="20260809014500 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">O.J.: Made in America</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809014500 +0300" stop="20260809053000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809053000 +0300" stop="20260809090000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809090000 +0300" stop="20260809124500 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Türk Telekom - eSüper Lig</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809124500 +0300" stop="20260809143000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Fantastic Lies</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809143000 +0300" stop="20260809150000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Spartan Ultra Championship</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809150000 +0300" stop="20260809170000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Hafta Sonu Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809170000 +0300" stop="20260809173000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Dünyadan Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809173000 +0300" stop="20260809180000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Football Nation</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809180000 +0300" stop="20260809190000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Ana Haber</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809190000 +0300" stop="20260809200000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Women Tour Down Under</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809200000 +0300" stop="20260809220000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Transfer Market</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
-  <programme start="20260809220000 +0300" stop="20260810000000 +0300" channel="TİVİBU.SPOR.tr">
-    <title lang="tr">Her Gece Spor</title>
-    <category lang="tr">Spor</category>
-    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
-    <rating system="TR">
-      <value>0+</value>
-    </rating>
-  </programme>
   <programme start="20260806001000 +0300" stop="20260806014000 +0300" channel="TİVİBU.SPOR.1.tr">
     <title lang="tr">Malta-Türkiye</title>
     <category lang="tr">Spor</category>
@@ -47810,6 +47305,438 @@
     <title lang="tr">Tivibu Spor Tanıtım</title>
     <category lang="tr">Spor</category>
     <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606027885.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806003000 +0300" stop="20260806021500 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">O.J.: Made in America</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806021500 +0300" stop="20260806060000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806060000 +0300" stop="20260806094500 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806094500 +0300" stop="20260806134000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806134000 +0300" stop="20260806150000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">George Best: All By Himself</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806150000 +0300" stop="20260806170000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Her Gün Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806170000 +0300" stop="20260806173000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Dünyadan Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806173000 +0300" stop="20260806180000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Football Nation</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806180000 +0300" stop="20260806190000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Ana Haber</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806190000 +0300" stop="20260806200000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Transfer Market</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806200000 +0300" stop="20260806210000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">AlulaTour</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806210000 +0300" stop="20260806220000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Unmatched</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260806220000 +0300" stop="20260807000000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Her Gece Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807000000 +0300" stop="20260807014500 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">O.J.: Made in America</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807014500 +0300" stop="20260807060000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807060000 +0300" stop="20260807094500 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807094500 +0300" stop="20260807133000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807133000 +0300" stop="20260807140000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Football Nation</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807140000 +0300" stop="20260807150000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Ribaund Özel</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807150000 +0300" stop="20260807170000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Her Gün Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807170000 +0300" stop="20260807173000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Dünyadan Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807173000 +0300" stop="20260807180000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Football Nation</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807180000 +0300" stop="20260807190000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Ana Haber</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807190000 +0300" stop="20260807200000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Ribaund Özel</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807200000 +0300" stop="20260807220000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Transfer Market</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260807220000 +0300" stop="20260808000000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Her Gece Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808000000 +0300" stop="20260808013000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">O.J.: Made in America</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808013000 +0300" stop="20260808053000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808053000 +0300" stop="20260808090000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808090000 +0300" stop="20260808110000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türkiye Modern Pentatlon</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808110000 +0300" stop="20260808123000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Malta-Türkiye</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808123000 +0300" stop="20260808130000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Football Nation</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808130000 +0300" stop="20260808140000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Macaristan Bisiklet Turu</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808140000 +0300" stop="20260808150000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">The Price of Pennsylvania</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808150000 +0300" stop="20260808170000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Hafta Sonu Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808170000 +0300" stop="20260808173000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Dünyadan Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808173000 +0300" stop="20260808180000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Football Nation</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808180000 +0300" stop="20260808190000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Ana Haber</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808190000 +0300" stop="20260808200000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Paris Maratonu</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808200000 +0300" stop="20260808220000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Transfer Market</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260808220000 +0300" stop="20260809000000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Her Gece Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809000000 +0300" stop="20260809014500 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">O.J.: Made in America</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809014500 +0300" stop="20260809053000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809053000 +0300" stop="20260809090000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809090000 +0300" stop="20260809124500 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Türk Telekom - eSüper Lig</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809124500 +0300" stop="20260809143000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Fantastic Lies</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809143000 +0300" stop="20260809150000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Spartan Ultra Championship</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809150000 +0300" stop="20260809170000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Hafta Sonu Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809170000 +0300" stop="20260809173000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Dünyadan Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809173000 +0300" stop="20260809180000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Football Nation</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809180000 +0300" stop="20260809190000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Ana Haber</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809190000 +0300" stop="20260809200000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Women Tour Down Under</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809200000 +0300" stop="20260809220000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Transfer Market</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
+    <rating system="TR">
+      <value>0+</value>
+    </rating>
+  </programme>
+  <programme start="20260809220000 +0300" stop="20260810000000 +0300" channel="TİVİBU.SPOR.tr">
+    <title lang="tr">Her Gece Spor</title>
+    <category lang="tr">Spor</category>
+    <icon src="https://itv224186.tmp.tivibu.com.tr:6430/images/prevueposter/20230606026966.jpg" />
     <rating system="TR">
       <value>0+</value>
     </rating>
