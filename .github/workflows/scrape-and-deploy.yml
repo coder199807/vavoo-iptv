@@ -19,12 +19,22 @@ jobs:
           python oha.py
           python huhu.py
           python kool.py
+      - name: Prepare Vavoo file from build.yml output
+        run: |
+          if [ -f iptv.m3u ]; then
+            cp iptv.m3u vavoo.m3u
+          else
+            echo "iptv.m3u not found, maybe build.yml didn't run yet. Creating empty vavoo.m3u"
+            echo "#EXTM3U" > vavoo.m3u
+          fi
       - name: Collect playlist files
         run: |
           mkdir -p playlisten
           cp scrapers/*.m3u playlisten/ 2>/dev/null || true
           cp vavoo.m3u playlisten/ 2>/dev/null || true
           cp 7347h6.m3u playlisten/ 2>/dev/null || true
+          echo "Gefundene Dateien:"
+          ls -la playlisten/
       - name: Upload to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
