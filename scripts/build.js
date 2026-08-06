@@ -297,11 +297,7 @@ console.log("==================================");
 }
 function toStreamUrl(item) {
   const id = item.ids?.id;
-
-  if (!id) {
-    return item.url;
-  }
-
+  if (!id) return "";
   return `https://young-dew-a7a9.pandatiger.workers.dev/?id=${encodeURIComponent(id)}`;
 }
 
