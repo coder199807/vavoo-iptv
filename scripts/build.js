@@ -296,12 +296,8 @@ console.log("==================================");
   return item;
 }
 function toStreamUrl(item) {
-  const id = item.ids?.id;
-
-  if (!id) {
-    return item.url;
-  }
-
+  return item.url;
+}
   return `https://young-dew-a7a9.pandatiger.workers.dev/?id=${encodeURIComponent(id)}`;
 }
 
@@ -788,9 +784,11 @@ for (let i = 0; i < items.length; i += CONCURRENCY) {
   );
 
   const m3u = toM3U(items, vavooToEpgId, logoResolver);
-  const first10 = items.slice(0, 10).map((item, i) => {
-  return `${i + 1}. ${item.name}\n${item.url}`;
-}).join("\n\n");
+const first10 = items
+  .slice(0, 10)
+  .map((item, i) => `${i + 1}. ${item.name}\n${item.url}`)
+  .join("\n\n");
+
 await fs.writeFile("debug.txt", first10, "utf8");
   console.log(`Wrote ${M3U_FILE} (${m3u.length} bytes, ${items.length} channels)`);
 
