@@ -1,4 +1,4 @@
-name: Update Vavoo M3U (alle 30 Min)
+name: Update Vavoo M3U
 on:
   schedule:
     - cron: '*/30 * * * *'
@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm ci
+      - run: npm install
       - run: npm run build
       - name: Upload to Cloudflare Pages
         env:
