@@ -792,8 +792,7 @@ for (let i = 0; i < items.length; i += CONCURRENCY) {
   const first10 = items.slice(0, 10).map((item, i) => {
   return `${i + 1}. ${item.name}\n${item.url}`;
 }).join("\n\n");
-await fs.writeFile("debug.txt", first10, "utf8");
-  await fs.writeFile(M3U_FILE, m3u, "utf8");
+await fs.writeFile("dist/debug.txt", first10, "utf8");  await fs.writeFile(M3U_FILE, m3u, "utf8");
   console.log(`Wrote ${M3U_FILE} (${m3u.length} bytes, ${items.length} channels)`);
 
   const epg = toXMLTV(
