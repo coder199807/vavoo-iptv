@@ -241,9 +241,68 @@ function sanitizeName(name) {
     .trim();
 }
 
+const RESOLVE_URL = "https://vavoo.to/mediahubmx-resolve.json";
+
+async function resolveStream(item) {
+  if (!item?.url) return item;
+
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const response = await fetch(RESOLVE_URL, {
+        method: "POST",
+        headers: HEADERS,
+        body: JSON.stringify({
+          language: "de",
+          region: "DE",
+          url: item.url
+        }),
+        signal: AbortSignal.timeout(20000)
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      const json = await response.json();
+      if (process.env.DEBUG_RESOLVE === "1") {
+  console.log(
+    JSON.stringify(
+      {
+        channel: item.name,
+        response: json
+      },
+      null,
+      2
+    )
+  );
+}
+      if (
+        Array.isArray(json) &&
+        json.length > 0 &&
+        json[0]?.url
+      ) {
+        item.url = json[0].url;
+        return item;
+      }
+
+      throw new Error("Keine Stream-URL erhalten");
+
+    } catch (err) {
+      console.warn(
+        `[Resolve ${attempt}/3] ${item.name}: ${err.message}`
+      );
+
+      if (attempt < 3) {
+        await new Promise(r => setTimeout(r, attempt * 1000));
+      }
+    }
+  }
+
+  console.warn(`Resolve endgültig fehlgeschlagen: ${item.name}`);
+
+  return item;
+}
 function toStreamUrl(item) {
-  const id = item?.ids?.id;
-  if (PROXY_BASE && id) return `${PROXY_BASE}/play/${id}`;
   return item.url;
 }
 
@@ -583,6 +642,23 @@ async function main() {
   }
 
   const items = await fetchAll();
+  console.log("Resolving stream URLs...");
+
+const CONCURRENCY = 10;
+
+for (let i = 0; i < items.length; i += CONCURRENCY) {
+  const batch = items.slice(i, i + CONCURRENCY);
+
+  await Promise.all(
+    batch.map(async (item) => {
+      await resolveStream(item);
+    })
+  );
+
+  console.log(
+    `Resolved ${Math.min(i + CONCURRENCY, items.length)}/${items.length}`
+  );
+}
   console.log(`Total items: ${items.length}`);
 
   // Deterministic order for clean git diffs
