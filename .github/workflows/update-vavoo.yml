@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: '22'
       - run: npm ci
-      - run: npm run build   # erzeugt iptv.m3u
+      - run: npm run build
       - name: Upload to Cloudflare Pages
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
@@ -21,5 +21,6 @@ jobs:
           npm install -g wrangler
           mkdir -p dist
           cp iptv.m3u dist/
+          if [ -f 7347h6.m3u ]; then cp 7347h6.m3u dist/; fi
           cd dist
           npx wrangler pages deploy . --project-name=a55688dd.7347h6 --commit-dirty=true
