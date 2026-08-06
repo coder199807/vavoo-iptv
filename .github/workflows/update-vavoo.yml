@@ -23,5 +23,4 @@ jobs:
           cp iptv.m3u dist/
           if [ -f 7347h6.m3u ]; then cp 7347h6.m3u dist/; fi
           cd dist
-          npx wrangler pages deploy . --project-name=7347h6
- --commit-dirty=true
+          npx wrangler pages deploy . --project-name=7347h6 --commit-dirty=true
